@@ -451,6 +451,7 @@ body {
 .heading_bold {
     color: #893fee;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .products_items_data_left {
@@ -781,14 +782,14 @@ img.footer_logo {
                                   # Contact Page
                                   --------------------------------------------------------------*/
 #contact{
-  padding: 50px 0px;
+  padding: 170px 0px;
 }
-#contct_header{
+/* #contct_header{
   width: 100%;
   height: 108px;
   min-height: 11vh;
   background-color: #020305;
-}
+} */
 .section-title{
   text-align: center;
 }
@@ -1209,6 +1210,7 @@ border: 1px solid #893fee;
   height: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  padding-top: 70px;
 }
 .sdk_head_para{
   color: #FFF;
@@ -1230,12 +1232,12 @@ border: 1px solid #893fee;
   font-weight: bold;
 }
 .sdk_main_bold {
-  color: #53A4DB
+  color: #893fee;
 }
 .sdk_main_img {
   width: 100%;
   position: relative;
-  bottom: -38px;
+  bottom: -35px;
 }
 #buttons_sdk {
   background-color: #282e36;
@@ -1251,10 +1253,7 @@ border: 1px solid #893fee;
   text-align: center;
 }
 .play_store, .apple_store, .linux{
-  background: #758dad; 
-  background: -moz-linear-gradient(top,  #758dad 0%, #000000 100%);
-  background: -webkit-linear-gradient(top,  #758dad 0%,#000000 100%); 
-  background: linear-gradient(to bottom,  #758dad 0%,#000000 100%); 
+  background: linear-gradient(to bottom,  #19192a 0%,#000000 100%); 
   border-radius: 20px;
   width: 100%;
   height: 220px;
@@ -1404,7 +1403,7 @@ border: 1px solid #893fee;
 .bc_head{
   font-weight: bold;
 }
-span.blockchain_heading {
+.blockchain_heading {
   color: #893fee;
   font-weight: bold;
 }
@@ -1428,19 +1427,17 @@ img.rt_blockchain_img {
 #our_services{
   background-color: #0a1019;
   color: #FFF;
+  padding: 70px 0px 150px 0px;
 }
 .block_para{
   color: #FFF;
-}
-.our_services_data{
-  padding: 50px 0px;
 }
 .services_item_1, .services_item_2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   text-align: center;
-  padding: 50px 0px;
+  padding: 30px  0px;
 }
 .box_container {
   background: #27292c;
@@ -1471,9 +1468,20 @@ img.rt_blockchain_img {
   margin: 0 auto;
   border-radius: 0px 0px 15px 15px;
 }
-
 .box_data {
   padding: 20px;
+}
+.services_head {
+  font-size: 28px;
+  font-weight: bold;
+}
+.services_bold {
+  font-size: 28px;
+  color: #893fee;
+  font-weight: bold;
+}
+.services_img {
+  padding: 30px 0px;
 }
 
 /* bitcoin  */
@@ -1499,7 +1507,6 @@ img.rt_blockchain_img {
 .bitcoin_img {
   position: relative;
   top: -73px;
-  float: inline-end;
   width: 100%;
   max-width: 350px;
 }
@@ -1508,13 +1515,19 @@ img.rt_blockchain_img {
 .deposits {
   background: #0a1019;
   color: #fff;
-}
-.deposits_data{
   padding: 50px 0px;
 }
-.dept_item_1, .dept_item_2{
-  padding: 30px 0px;
+
+.deposits_data {
+  position: relative;
+  top: 20%;
 }
+
+.liquidity_data {
+  position: relative;
+  top: 30%;
+}
+
 .deposit_items {
   display: flex;
   padding-top: 30px;
@@ -1524,6 +1537,136 @@ img.rt_blockchain_img {
   width: 100%;
   max-width: 350px;
 }
+.deposits_head {
+  font-size: 46px;
+}
+.deposits_para {
+  font-size: 18px;
+}
+
+                                                         /* Matarix ADO Page  */
+#metarix_ado{
+  background-image: url(../img/metarix_ado/metarix_ado_main_bg.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+.metarix_ado_data {
+  color: #FFF;
+  padding: 200px 0px 150px 0px;
+  width: 50%;
+}
+.metarix_bitcoins {
+  background: #0a1019;
+  color: #fff;
+  padding: 100px 0px 400px 0px;
+  position: relative;
+}
+.metarix_bitcoins_data {
+  position: relative;
+  top: 10%;
+}
+.ado_img {
+  width: 100%;
+  height: 550px;
+}
+.metarix_ado_img{
+  width: 100%;
+  height: 550px;
+  position: relative;
+  top: -30%;
+}
+.metarix_ado_text {
+  font-size: 27px;
+}
+.metarix_ado_heading {
+  font-size: 53px;
+  font-weight: bold;
+  position: relative;
+  z-index: 99;
+}
+.metarix_ado_heading::after{
+  position: absolute;
+  left: 0;
+  content: '';
+  height: 15px;
+  width: 56%;
+  background: #893fee;
+  right: 0;
+  bottom: 10px;
+  z-index: -9;
+}
+.metarix_ado_para {
+  font-size: 18px;
+}
+.metarix_ado_head {
+  font-size: 38px;
+}
+.meta_ado_items {
+  width: 70%;
+  padding-top: 20px;
+}
+.metarix_bitcoins_bgg {
+  display: flex;
+  background: #27292c;
+  margin: 150px 0px;
+  color: #FFF;
+  border-radius: 30px;
+  padding: 50px;
+  height: 500px;
+}
+
+#our_advertising{
+  background-image: url(../img/metarix_ado/our_advirsting_bgg.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.our_advertising_data{
+  position: relative;
+  margin-top: -376px;
+}
+.ado_features-box{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  padding: 90px 0px 70px 0px;
+}
+.ado_zoom{
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: #27292c;    
+  z-index: 1;
+  position: relative;
+  box-shadow: 0px 2px 2px 2px #00000070;
+}
+
+.ado_button {
+  padding-top: 60px;
+}
+.ado_btn{
+  padding: 15px 70px 15px 70px;
+  border-radius: 50px;
+  color: #893fee;
+  transition: 0.4s;
+  animation-delay: 0.8s;
+  border: 1px solid #893fee;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+.ado_btn:hover{
+  background-color: #893fee;
+  border: 1px solid #893fee;
+  color: #fff;
+
+}
+
+
 
                                             /* responsive website  */
 

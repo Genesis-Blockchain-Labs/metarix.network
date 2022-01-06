@@ -11,7 +11,7 @@
                 <a class="footer_tags" href="metarix_blockchain.php">Metarix Blockchain</a>
                 <a class="footer_tags" href="metarix_sdk.php">Metarix SDK</a>
                 <a class="footer_tags" href="coming_soon.php">Metarix Market Place</a>
-                <a class="footer_tags" href="coming_soon.php">Metarix DAO </a>
+                <a class="footer_tags" href="metarix_DAO.php">Metarix DAO </a>
             </div>
           </div>
           <div class="col-xl-3">

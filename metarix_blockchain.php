@@ -1,10 +1,6 @@
 <?php include("includes/headerInner.php"); ?>
   <!-- ======= Hero Section ======= -->
-  <section id="contct_header" class="d-flex align-items-center">
-    <div class="container" data-aos="fade-up">
-      <div class="row"></div>
-    </div>
-  </section><!-- End Hero -->
+  
 
  <!-- blochain_main_page -->
  <section class="blockchain_main" id="blockchain_main" >
@@ -36,9 +32,9 @@
        <div class="services_item_1">
          <div class="box_container">
            <div class="box_data">
-             <img src="img/metarix_blockchain/b_services_1.png" alt="">
-             <h4>Cost-Effective </h4>
-             <h6>Transactions</h6>
+             <img class="services_img" src="img/metarix_blockchain/b_services_1.png" alt="">
+             <h4 class="services_head">Cost-Effective </h4>
+             <h6 class="services_bold">Transactions</h6>
              <div class="box_para">
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
              </div>
@@ -47,9 +43,9 @@
 
          <div class="box_container">
            <div class="box_data">
-             <img src="img/metarix_blockchain/b_services_2.png" alt="">
-             <h4>High Transactional </h4>
-             <h6>Throughput</h6>
+             <img class="services_img" src="img/metarix_blockchain/b_services_2.png" alt="">
+             <h4 class="services_head">High Transactional </h4>
+             <h6 class="services_bold">Throughput</h6>
              <div class="box_para">
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
              </div>
@@ -58,9 +54,9 @@
 
          <div class="box_container">
            <div class="box_data">
-             <img src="img/metarix_blockchain/b_services_1.png" alt="">
-             <h4>Enhanced Trust</h4>
-             <h6>and Transparency</h6>
+             <img class="services_img" src="img/metarix_blockchain/b_services_1.png" alt="">
+             <h4 class="services_head">Enhanced Trust</h4>
+             <h6 class="services_bold">and Transparency</h6>
              <div class="box_para">
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
              </div>
@@ -71,9 +67,9 @@
        <div class="services_item_2">
          <div class="box_container">
            <div class="box_data">
-             <img src="img/metarix_blockchain/b_services_1.png" alt="">
-             <h4>Cost-Effective </h4>
-             <h6>Transactions</h6>
+             <img class="services_img" src="img/metarix_blockchain/b_services_1.png" alt="">
+             <h4 class="services_head">Cost-Effective </h4>
+             <h6 class="services_bold">Transactions</h6>
              <div class="box_para">
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
              </div>
@@ -82,9 +78,9 @@
 
          <div class="box_container">
            <div class="box_data">
-             <img src="img/metarix_blockchain/b_services_2.png" alt="">
-             <h4>High Transactional </h4>
-             <h6>Throughput</h6>
+             <img class="services_img" src="img/metarix_blockchain/b_services_2.png" alt="">
+             <h4 class="services_head">High Transactional </h4>
+             <h6 class="services_bold">Throughput</h6>
              <div class="box_para">
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
              </div>
@@ -93,9 +89,9 @@
 
          <div class="box_container">
            <div class="box_data">
-             <img src="img/metarix_blockchain/b_services_1.png" alt="">
-             <h4>Enhanced Trust</h4>
-             <h6>and Transparency</h6>
+             <img class="services_img" src="img/metarix_blockchain/b_services_1.png" alt="">
+             <h4 class="services_head">Enhanced Trust</h4>
+             <h6 class="services_bold">and Transparency</h6>
              <div class="box_para">
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
              </div>
@@ -117,7 +113,7 @@
             <p class="bitcoin_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 text-end">
           <img class="bitcoin_img" src="img/metarix_blockchain/bitcoin.png" alt="">
         </div>
 
@@ -130,45 +126,45 @@
    <!-- deposit section started  -->
 
    <section class="deposits">
-     <div class="container deposits_data">
-       <div class="row dept_item_1">
-         <div class="col-md-4">
+     <div class="container">
+
+       <div class="row">
+          <div class="col-md-4">
            <img class="deposits_img" src="img/metarix_blockchain/deposit.png" alt="">
-         </div>
-         <div class="col-md-8">
-           <h2>Deposit and <span>earn</span></h2>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud.</p>
-            <div class="deposit_items">
-              <div class="crypto">
-                <h2> <span>16.5%</span> </h2>
-                <p>P.A. on Cryptos</p>
-              </div>
+          </div>
 
-              <div class="crypto">
-                <h2> <span>24%</span> </h2>
-                <p>P.A. on Stablecoins</p>
-              </div>
+          <div class="col-md-8">
+            <div class="deposits_data">
+              <h2 class="deposits_head">Deposit and <span class="blockchain_heading">earn</span></h2>
+              <p class="deposits_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud.</p>
+              <div class="deposit_items">
+                  <div class="crypto">
+                    <h2> <span class="blockchain_heading">16.5%</span> </h2>
+                    <p class="deposits_para">P.A. on Cryptos</p>
+                  </div>
 
+                  <div class="crypto">
+                    <h2> <span class="blockchain_heading">24%</span> </h2>
+                    <p class="deposits_para">P.A. on Stablecoins</p>
+                  </div>
+              </div>
             </div>
          </div>
        </div>
 
-       <div class="row dept_item_2">
-         <div class="col-md-8">
-           <h2>Low fees and deep <span>liquidity</span></h2>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud.</p>
-         </div>
-         <div class="col-md-4">
-         <img class="deposits_img" src="img/metarix_blockchain/liqudity.png" alt="">
-         </div>
+       <div class="row">
+          <div class="col-md-8">
+              <div class="liquidity_data">
+                <h2 class="deposits_head">Low fees and deep <span class="blockchain_heading">liquidity</span></h2>
+                <p class="deposits_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud.</p>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <img class="deposits_img" src="img/metarix_blockchain/liqudity.png" alt="">
+          </div>
        </div>
-
      </div>
-
    </section>
-
-
-
 
 
 
