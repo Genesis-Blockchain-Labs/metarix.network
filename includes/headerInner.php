@@ -47,7 +47,7 @@
         <ul>
             <li class="nav-link scrollto active dropdown"><a href="#Products"><span>Products</span> <i class="fa fa-chevron-down"></i></a>
                 <ul>
-                    <li><a href="#" >Market Place</a></li>
+                    <li><a href="market_place.php" >Market Place</a></li>
                     <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="fa fa-chevron-right"></i></a>
                         <ul>
                         <li><a href="#">Deep Drop Down 1</a></li>

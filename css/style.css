@@ -1045,7 +1045,7 @@ border: 1px solid #893fee;
 .stacky_head {
   text-align: center;
   color: #D9DBDE;
-  padding: 60px 0px;
+  padding: 120px 0px;
 }
 .stacky-head-text {
   color: #D9DBDE;
@@ -1083,10 +1083,7 @@ border: 1px solid #893fee;
   margin: auto;
 }
 .all_stakers, .total_staked,.apy{
-  background: #1e3859; 
-  background: -moz-linear-gradient(top,  #1e3859 0%, #000000 100%); 
-  background: -webkit-linear-gradient(top,  #1e3859 0%,#000000 100%); 
-  background: linear-gradient(to bottom,  #1e3859 0%,#000000 100%); 
+  background: linear-gradient(to bottom,  #19192a 0%,#000000 100%); 
   border-radius: 20px;
   width: 100%;
   height: 170px;
@@ -1121,10 +1118,7 @@ border: 1px solid #893fee;
   padding-top: 100px;
 }
 .current_balance{
-  background: #1e3859; 
-  background: -moz-linear-gradient(top,  #1e3859 0%, #000000 100%); 
-  background: -webkit-linear-gradient(top,  #1e3859 0%,#000000 100%); 
-  background: linear-gradient(to bottom,  #1e3859 0%,#000000 100%); 
+  background: linear-gradient(to bottom,  #19192a 0%,#000000 100%); 
   border-radius: 20px;
   width: 100%;
   height: 170px;
@@ -1136,10 +1130,7 @@ border: 1px solid #893fee;
   border-radius: 20px;
   color: #D9DBDE;
   align-items: center;
-  background: #1e3859; 
-  background: -moz-linear-gradient(top,  #1e3859 0%, #000000 100%); 
-  background: -webkit-linear-gradient(top,  #1e3859 0%,#000000 100%); 
-  background: linear-gradient(to bottom,  #1e3859 0%,#000000 100%); 
+  background: linear-gradient(to bottom,  #19192a 0%,#000000 100%); 
 }
 .stacky-btn{
   padding: 12px 50px 12px 50px;
@@ -1172,7 +1163,7 @@ border: 1px solid #893fee;
   background-position: left;
   background-repeat: no-repeat;
   padding-left: 35px;
-  background-size: 14px;
+  background-size: 24px;
   font-size: 21px;
 }
 .check-data-head {
@@ -1199,7 +1190,7 @@ border: 1px solid #893fee;
   content: '';
   height: 3px;
   width: 100px;
-  background: #e66e29;
+  background: #893fee;
   right: 0;
 }   
 
@@ -1392,6 +1383,7 @@ border: 1px solid #893fee;
   height: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  padding-top: 70px;
 
 }
 .blockchain_main_data {
@@ -1666,7 +1658,172 @@ img.rt_blockchain_img {
 
 }
 
+/* Metarix Market place Page  */
+#market_place{
+  background-image: url(../img/marketplace/place_bgg.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 70px;
 
+}
+.market_place_data{
+  color: #fff;
+  padding: 135px 0px 320px 0px;
+}
+.market_head {
+  font-weight: bold;
+  font-size: 48px;
+}
+.market_para{
+  padding-top: 20px;
+  font-size: 19px;
+}
+
+/* soon section  */
+#content {
+  background: #0a1019;
+  padding: 50px 0px 50px 0px;
+}
+.market_imageselect .market_imagebox {
+  position: relative
+}
+
+.market_imageselect .market_imagebox figure {
+  position: relative;
+  overflow: hidden
+}
+#main {
+  position: relative;
+  top: -140px;
+}
+.market_imageselect .market_imagebox figcaption {
+  background: #000;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding: 12px;
+  -webkit-transform: translateY(140%);
+  -moz-transform: translateY(140%);
+  -ms-transform: translateY(140%);
+  -o-transform: translateY(140%);
+  transform: translateY(140%);
+  -moz-transition: -moz-transform 0.5s ease;
+  -o-transition: -o-transform 0.5s ease;
+  -webkit-transition: -webkit-transform 0.5s ease;
+  -ms-transition: -ms-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  border-radius: 0px 0px 30px 30px;
+}
+
+.market_imageselect .market_imagebox .caption-title {
+  font-size: 18px;
+  text-align: center;
+  color: #fff
+}
+.market_img{
+  width: 100%;
+  height: 250px;
+  border-radius: 30px;
+}
+
+.market_imageselect .market_imagebox .price {
+  color: #fdb714
+}
+
+.market_imageselect .market_imagebox:hover figcaption {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0)
+}
+
+.price {
+  color: #f0715f;
+  font-size: 1.6667em;
+  text-transform: uppercase;
+  float: right;
+  text-align: right;
+  line-height: 1;
+  display: block
+}
+.soom_pic {
+  text-align: center;
+  margin-top: 180px;
+}
+
+                                  /* Asset_Store Page  */
+.main_site{
+  padding-top: 55px;
+
+}
+#asset_store{
+  background-image: url(../img/Asset_Store/Asset_Store_main_bggg.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 70px;
+}
+.assest_store_data {
+  color: #fff;
+  padding: 120px 0px;
+}
+.asset_head {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+}
+.asset_para {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 15px;
+  font-size: 22px;
+}
+#store_cart{
+  background-color: #0a1019;
+
+}
+.add_cart {
+  color: #fff;
+  background: linear-gradient(to bottom,  #19192a 0%,#000000 100%);
+  padding: 20px;
+  border-radius: 30px;
+}
+.cart-data {
+  display: flex;
+  justify-content: space-between;
+}
+.cart_items {
+  display: flex;
+  flex-direction: column;
+}
+.cart-para {
+  padding: 20px 0px;
+}
+.assest_store_button {
+  text-align: center;
+}
+.assest_store_btn{
+  padding: 15px 50px 15px 50px;
+  border-radius: 50px;
+  color: #893fee;
+  transition: 0.4s;
+  animation-delay: 0.8s;
+  border: 1px solid #893fee;
+  font-size: 18px;
+
+}
+.assest_store_btn:hover{
+  background-color: #893fee;
+  border: 1px solid #893fee;
+  color: #fff;
+
+}
 
                                             /* responsive website  */
 
@@ -1682,6 +1839,28 @@ img.rt_blockchain_img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+     /* blockchain page  */
+  .services_head {
+    font-size: 27px; 
+  }  
+  .bitcoin_img {
+    max-width: 290px;
+  } 
+  .bitcoin_text {
+    font-size: 41px;
+  }
+  .bitcoin_para {
+    font-size: 24px;
+    padding-top: 10px;
+  }
+  .deposit_data_2 {
+    padding: 100px 0px;
+  }
+
+
+
+
+
 }
 
 @media (max-width: 991px){

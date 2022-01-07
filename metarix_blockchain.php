@@ -128,7 +128,7 @@
    <section class="deposits">
      <div class="container">
 
-       <div class="row">
+       <div class="row deposit_data_1">
           <div class="col-md-4">
            <img class="deposits_img" src="img/metarix_blockchain/deposit.png" alt="">
           </div>
@@ -152,7 +152,7 @@
          </div>
        </div>
 
-       <div class="row">
+       <div class="row deposit_data_2">
           <div class="col-md-8">
               <div class="liquidity_data">
                 <h2 class="deposits_head">Low fees and deep <span class="blockchain_heading">liquidity</span></h2>
