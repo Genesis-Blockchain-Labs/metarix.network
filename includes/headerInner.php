@@ -58,6 +58,7 @@
                         </ul>
                     </li> -->
                     <li><a href="metarix_sdk.php" >Metarix SDK</a></li>
+                    <li><a href="asset_store.php" >Asset Store</a></li>
                     <!-- <li><a href="#">Drop Down 3</a></li>
                     <li><a href="#">Drop Down 4</a></li> -->
                 </ul>
