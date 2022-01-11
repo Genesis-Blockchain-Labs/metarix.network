@@ -320,15 +320,15 @@
         <div class="row">
             <div class="partner_trusted">
                 <div class="quailty_assest">
-                    <img src="img/Asset_Store/quality_assets.png" alt="">
+                    <img class="community_img" src="img/Asset_Store/quality_assets.png" alt="">
                 </div>
 
                 <div class="trusted">
-                    <img src="img/Asset_Store/trusted.png" alt="">
+                    <img  class="community_img" src="img/Asset_Store/trusted.png" alt="">
                 </div>
 
                 <div class="comunity_support">
-                    <img src="img/Asset_Store/communit_support.png" alt="">
+                    <img class="community_img" src="img/Asset_Store/communit_support.png" alt="">
                 </div>
 
             </div>

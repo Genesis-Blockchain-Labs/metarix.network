@@ -57,7 +57,7 @@
 
             <div class="row">
               <div class="soom_pic">
-                <img src="img/marketplace/soon.png" alt="">
+                <img class="coming_soon_img" src="img/marketplace/soon.png" alt="">
               </div>
             </div>
 

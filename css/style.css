@@ -1658,7 +1658,7 @@ img.rt_blockchain_img {
 
 }
 
-/* Metarix Market place Page  */
+                                                /* Metarix Market place Page  */
 #market_place{
   background-image: url(../img/marketplace/place_bgg.png);
   width: 100%;
@@ -1754,6 +1754,9 @@ img.rt_blockchain_img {
   text-align: center;
   margin-top: 180px;
 }
+.coming_soon_img{
+  width: 100%;
+}
 
                                   /* Asset_Store Page  */
 .main_site{
@@ -1847,6 +1850,7 @@ img.rt_blockchain_img {
 #pills-tab\ papular_button {
   display: flex;
   gap: 50px;
+  padding: 0px 20px;
 }
 #pills-home-tab, #pills-profile-tab, #pills-contact-tab, #pills-contact-tab {
   padding: 5px 35px 5px 35px;
@@ -1949,6 +1953,9 @@ img.rt_blockchain_img {
   justify-content: space-between;
   padding: 100px 0px;
 }
+.community_img{
+  width: 100%;
+}
 
 
 
@@ -1988,11 +1995,6 @@ img.rt_blockchain_img {
   .deposit_data_2 {
     padding: 100px 0px;
   }
-
-
-
-
-
 }
 
 @media (max-width: 991px){
@@ -2102,6 +2104,94 @@ img.rt_blockchain_img {
     padding: 4px 50px 4px 50px;
   }
 
+   /* blockchain page  */
+   .services_item_1, .services_item_2 {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 61px;
+  }
+  .bitcoin_text {
+    font-size: 40px;
+  }
+  .bitcoin_para {
+    font-size: 21px;
+  }
+  .bitcoin_img {
+    max-width: 260px;
+  }
+  .deposit_data_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .deposit_data_2 {
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 40px;
+    align-items: center;
+  }
+  .deposits_head {
+    font-size: 33px;
+  }
+  .deposits_para {
+    font-size: 16px;
+  }
+
+  /* metarix DAO page  */
+  .metarix_ado_para {
+    font-size: 16px;
+  }
+  .ado_btn {
+    padding: 13px 50px 13px 50px;
+  }
+  .metarix_ado_heading {
+    font-size: 50px;
+  }
+  .metarix_ado_text {
+    font-size: 24px;
+  }
+  .metarix_bitcoins_data {
+    top: 5%;
+  }
+  .metarix_ado_head {
+    font-size: 34px;
+  }
+  .metarix_ado_para {
+    font-size: 15px;
+  }
+  .ado_features-box {
+    grid-template-columns: 1fr 1fr;
+  }
+ /* Assest Store Page   */
+  .cart-text {
+  font-size: 8px;
+  }
+  .cart-bold_text {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .cart_img {
+    text-align: end;
+  }
+  .cart-imgs {
+    width: 70%;
+  }
+  .cart-para {
+    font-size: 13px;
+  }
+  .assest_store_btn {
+    padding: 12px 25px 12px 25px;
+    font-size: 14px;
+  }
+  #pills-home {
+    grid-template-columns: 1fr 1fr;
+  }
+  .partner_trusted {
+    justify-content: center;
+    padding: 100px;
+  }
+
 }
 
 @media (max-width: 810px){
@@ -2167,6 +2257,73 @@ img.rt_blockchain_img {
   .soon_btn {
     padding: 12px 50px 12px 50px;
   }
+  /* blockchain page  */
+  .blockchain_head {
+    top: 0%;
+  }
+  .block_para {
+    font-size: 13px;
+  }
+  .services_item_1, .services_item_2 {
+    grid-template-columns: 1fr;
+  }
+  .bitcoins_data {
+    top: 80%;
+  }
+  .bitcoin_text {
+    font-size: 27px;
+  }
+  .bitcoin_para {
+    font-size: 15px;
+    width: 50%;
+  }
+  .bitcoin_img {
+    top: -158px;
+  }
+  .bitcoin_img {
+    max-width: 200px;
+  }
+  /* metarix DAO page  */
+  .metarix_bitcoins_data {
+    top: 4%;
+  }
+  .meta_ado_items {
+    width: 100%;
+  }
+  .metarix_bitcoins_bgg {
+    flex-direction: column;
+    gap: 166px;
+  }
+  .metarix_ado_img {
+    width: 77%;
+    height: 200px;
+    top: -79%;
+    left: 45px;
+  }
+  .ado_features-box {
+    grid-template-columns: 1fr;
+  }
+  /* asset store page  */
+  .asset_head {
+    font-size: 47px;
+  }
+  .asset_para {
+    width: 100%;
+    font-size: 18px;
+  }
+  .cart-text {
+    font-size: 14px;
+  }
+  .cart-bold_text {
+    font-size: 18px;
+  }
+  .cart-imgs {
+    width: 90%;
+  }
+  .cart-para {
+    font-size: 19px;
+  }
+
 }
 
 
@@ -2215,6 +2372,34 @@ img.rt_blockchain_img {
   .community_btn {
     font-size: 15px;
   }
+  /* blockchain page  */
+  .blockchain_main_data {
+    padding: 50px 50px;
+  }
+  .our_services_data {
+    padding: 0px 50px;
+  }
+  .deposits {
+    padding: 50px;
+  }
+
+  /* metarix ADO page  */
+  .metarix_ado_data {
+    padding: 200px 0px 150px 50px;
+    width: 100%;
+  }
+  .ado_features-box {
+    grid-template-columns: 1fr;
+    padding: 0px 50px;
+  }
+  .sdk_head_para {
+    font-size: 15px;
+    padding-bottom: 20px;
+  }
+/* assest store page  */
+  #pills-home {
+  grid-template-columns: 1fr;
+  }
 
 }
 
@@ -2262,6 +2447,20 @@ img.rt_blockchain_img {
     padding: 10px 20px 10px 20px;
   }
 
+  .bitcoin_text {
+    font-size: 21px;
+  }
+  /* metarix ADO page  */
+  .metarix_ado_img {
+    width: 59%;
+    height: 141px;
+    top: -114%;
+    left: 45px;
+  }
+  .metarix_ado_img {
+    display: none;
+  }
+
 }
 
 @media (max-width: 375px){
@@ -2285,6 +2484,20 @@ img.rt_blockchain_img {
   /* metarix sdk  */
   .features-box {
     grid-template-columns: 1fr;
+  }
+
+  /* blockchain page  */
+  .bitcoins_data {
+    top: 150%;
+  }
+  .bitcoin_para {
+    width: 90%;
+  }
+  .bitcoin_img {
+    top: -163px;
+  }
+  .bitcoin_img {
+    max-width: 183px;
   }
 
 }
