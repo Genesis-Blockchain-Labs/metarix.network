@@ -1,4 +1,4 @@
-<?php include("includes/headerInner.php"); ?>
+<?php include("includes/header.php"); ?>
   <!-- ======= Hero Section ======= -->
 
   <!-- metarix ado main -->

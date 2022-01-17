@@ -1,4 +1,4 @@
-<?php include("includes/headerInner.php"); ?>
+<?php include("includes/header.php"); ?>
     <!-- ======= Hero Section ======= -->
    
 <!-- market place started  -->

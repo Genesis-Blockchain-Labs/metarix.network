@@ -1,4 +1,4 @@
-<?php include("includes/headerInner.php"); ?>
+<?php include("includes/header.php"); ?>
   <!-- ======= Hero Section ======= -->
   <section id="contct_header" class="d-flex align-items-center">
     <div class="container" data-aos="fade-up">

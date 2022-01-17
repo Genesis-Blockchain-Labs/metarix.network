@@ -18,7 +18,7 @@ $email->addContent("text/plain", $_POST['message']);
 $email->addContent(
     "text/html", $_POST['message']
 );
-$sendgrid = new \SendGrid('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');
+$sendgrid = new \SendGrid($sendgridKey);
 try {
     $response = $sendgrid->send($email);
     print $response->statusCode() . "\n";
