@@ -1953,119 +1953,134 @@ img.rt_blockchain_img {
 }
 
 
-/* Metarix Market place Page  */
+                                       /* Metarix Market place Page  */
 
 #market_place {
-    background-image: url(../img/marketplace/place_bgg.png);
+    background-image: url(../img/marketplace/nft-main_bg.jpg);
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding-top: 70px;
+    margin-top: 90px;
 }
 
 .market_place_data {
     color: #fff;
-    padding: 135px 0px 320px 0px;
+    padding: 90px 0px;
+    width: 70%;
 }
 
 .market_head {
     font-weight: bold;
-    font-size: 48px;
+    font-size: 28px;  
 }
 
 .market_para {
     padding-top: 20px;
-    font-size: 19px;
+    font-size: 22px;
+    font-weight: 200;
 }
-
-
-/* soon section  */
-
-#content {
-    background: #0a1019;
-    padding: 50px 0px 50px 0px;
+.nft_right_img {
+    padding: 90px 0px;
 }
-
-.market_imageselect .market_imagebox {
-    position: relative
-}
-
-.market_imageselect .market_imagebox figure {
-    position: relative;
-    overflow: hidden
-}
-
-#main {
-    position: relative;
-    top: -140px;
-}
-
-.market_imageselect .market_imagebox figcaption {
-    background: #000;
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    padding: 12px;
-    -webkit-transform: translateY(140%);
-    -moz-transform: translateY(140%);
-    -ms-transform: translateY(140%);
-    -o-transform: translateY(140%);
-    transform: translateY(140%);
-    -moz-transition: -moz-transform 0.5s ease;
-    -o-transition: -o-transform 0.5s ease;
-    -webkit-transition: -webkit-transform 0.5s ease;
-    -ms-transition: -ms-transform 0.5s ease;
-    transition: transform 0.5s ease;
-    border-radius: 0px 0px 30px 30px;
-}
-
-.market_imageselect .market_imagebox .caption-title {
-    font-size: 18px;
-    text-align: center;
-    color: #fff
-}
-
-.market_img {
+.nft_right_img img {
     width: 100%;
-    height: 250px;
-    border-radius: 30px;
+    max-width: 450px;
+    position: relative;  
 }
 
-.market_imageselect .market_imagebox .price {
-    color: #fdb714
+.nft_button {
+    padding-top: 40px;
 }
 
-.market_imageselect .market_imagebox:hover figcaption {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0)
+a.nft_btn {
+    background: #893fee;
+    color: #fff;
+    padding: 10px 60px 10px 60px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+a.nft_btn:hover{
+    background: #fff;
+    color: #893fee;
+    padding: 10px 60px 10px 60px;
+    border-radius: 20px;
+    font-weight: bold;
 }
 
-.price {
-    color: #f0715f;
-    font-size: 1.6667em;
-    text-transform: uppercase;
-    float: right;
-    text-align: right;
-    line-height: 1;
-    display: block
+/* top collections over  */
+.top_collections_over{
+    background-color: #0a1019;
 }
-
-.soom_pic {
+.top_heading {
     text-align: center;
-    margin-top: 180px;
+    color: #fff;
+    padding: 50px 0px 0px 0px;
+}
+.top_head {
+    font-weight: bold;
+}
+.top_para {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    margin-bottom: 20px;
 }
 
-.coming_soon_img {
-    width: 100%;
+.nft_tabs{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-bottom: none;
+    margin-bottom: 50px;
+}
+.nft_tabs .active{
+    background: #893fee;
+    color: #fff;
+    padding: 7px 21px 7px 21px;
+    border-radius: 18px;
+    border: none;
+}
+.nft_nav_link{
+    background: transparent;
+    color: #fff;
+    padding: 7px 21px 7px 21px;
+    border-radius: 18px;
+    border: 1px solid #fff;
+}
+.nft_nav_link:hover{
+    background: #fff;
+    color: #893fee;
+    padding: 7px 21px 7px 21px;
+    border-radius: 18px;
+    border: none;
+}
+.nft_content{
+    color: #fff;
+}
+.top_tabs_data1, .top_tabs_data2, .top_tabs_data3 {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.azuki, .capsule, .lives-asuna, .normal_zipcy, .clonex {
+    display: flex;
+    gap: 10px;
+}
+.nft_tabs_img {
+    max-height: 80%;
+}
+
+/* live Auctions  */
+.live_auctions{
+    background-color: #151f2f;
 }
 
 
-/* Asset_Store Page  */
+
+
+                                         /* Asset_Store Page  */
 
 .main_site {
     padding-top: 55px;

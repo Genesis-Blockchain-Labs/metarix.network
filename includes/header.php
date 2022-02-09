@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Metarix - Index</title>
   <meta content="" name="description">
@@ -22,11 +22,9 @@
 
   <!-- Bootstrap Files -->
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   
-
-  <!-- data_aoes_link -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   
   <!-- Template Main CSS File -->
   <link rel="stylesheet" href="css/style.css" >
