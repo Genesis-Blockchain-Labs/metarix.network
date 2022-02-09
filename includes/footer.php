@@ -12,7 +12,7 @@
                 <a class="footer_tags" href="metarix_sdk.php">Metarix SDK</a>
                 <a class="footer_tags" href="market_place.php">Metarix Market Place</a>
                 <a class="footer_tags" href="metarix_DAO.php">Metarix DAO </a>
-                <a class="footer_tags" href="asset_store.php">Asset Store</a>
+                <!-- <a class="footer_tags" href="asset_store.php">Asset Store</a> -->
             </div>
           </div>
           <div class="col-xl-3">

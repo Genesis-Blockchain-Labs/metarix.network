@@ -13,7 +13,7 @@ unset($_SESSION['message']);
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
+      <div class="container" >
 
         <div class="heading">
           <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_black_logo.png" alt=""> CONTACT <span class="heading_bold">US </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>

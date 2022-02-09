@@ -9,7 +9,7 @@
   <title>Metarix - Index</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
+  
   <!-- Favicons -->
   <link href="img/metrix_fav_icon.png" rel="icon">
   <link href="img/metrix_fav_icon.png" rel="apple-touch-icon">
@@ -60,8 +60,9 @@
                         </ul>
                     </li> -->
                     <li><a href="metarix_sdk.php" >Metarix SDK</a></li>
-                    <li><a href="asset_store.php" >Asset Store</a></li>
-                    <li><a href="virtual_store.php" >Virtual Store</a></li>
+                    <!-- <li><a href="asset_store.php" >Asset Store</a></li> -->
+                    <li><a href="metarix_blockchain.php" >Metarix Blockchain</a></li>
+                    <li><a href="virtual_store.php" >Virtual Map</a></li>
                     <li><a href="update.php" >update</a></li>
                     <!-- <li><a href="#">Drop Down 3</a></li>
                     <li><a href="#">Drop Down 4</a></li> -->
