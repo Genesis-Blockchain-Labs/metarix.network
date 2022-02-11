@@ -376,36 +376,693 @@
                                     by injected humour, or randomised words which don't look even slightly believable</p>
             </div>
         <div class="row">
-            <div class="auctions_data">
-                <div class="card">
-                    <div class="card_body">
-                        <img src="img/marketplace/nft_main_banner.png" alt="">
-                    </div>
-                </div>
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" >
+                <div class="member">
+                    <div class="member-img">
+                        <img class="nft_live-img" src="img/marketplace/car.png" class="img-fluid" alt="">
+                        
+                        <div class="social">
+                            <div class="new_bid">
+                                <div class="bit_items">
+                                    <img src="img/marketplace/new-bid.png" alt="">
+                                    <h6 class="bit_text">New Bid</h6>
+                                </div>
+                            </div>
+                            <div class="time">
+                                <h6>15</h6>
+                                <p>Days</p>
+                            </div>
+                            <div class="time">
+                                <h6>8</h6>
+                                <p>Hours</p>
+                            </div>
+                            <div class="time">
+                                <h6>15</h6>
+                                <p>Min.</p>
+                            </div>
+                            <div class="time">
+                                <h6>52</h6>
+                                <p>sec.</p>
+                            </div>
+                        </div>
+                    </div><!--closed social  -->
+                    <div class="member-info">
+                        <div class="stock">
+                            <div class="stock_items">
+                                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                <p class="stock_text">3 stock available</p>
+                            </div>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div><!--closed stock  -->
+                        <div class="fancy_car">
+                            <div class="fancy_car_data">
+                               <img class="thump_img" src="img/marketplace/car_thump.png" alt="">
+                               <div class="fancy_car_items1">
+                                    <h6 class="bold_text1">Fancy car</h6>
+                                    <p class="stock_text1">@fancy_nft</p>
+                                </div>
+                            </div>
+                             <div class="fancy_car_items2">
+                                <p class="stock_text2">current Bid</p>
+                                <h6 class="bold_text2">0.784 ETH</h6>   
+                            </div>
+                        </div>
 
-
-
-
-
-
+                        <div class="nft_live_button">
+                            <a class="live_autonis_btn" href="nft_market-details.php">Place Bid</a>
+                        </div>  
+                    </div><!--closed memberinfo  -->
+                </div> <!--closed member  -->
             </div>
 
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" >
+                <div class="member">
+                <div class="member-img">
+                    <img class="nft_live-img" src="img/marketplace/panda.png" class="img-fluid" alt="">
+                    <div class="social">
+                        <div class="new_bid">
+                            <div class="bit_items">
+                                <img src="img/marketplace/new-bid.png" alt="">
+                                <h6 class="bit_text">New Bid</h6>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <h6>15</h6>
+                            <p>Days</p>
+                        </div>
+                        <div class="time">
+                            <h6>8</h6>
+                            <p>Hours</p>
+                        </div>
+                        <div class="time">
+                            <h6>15</h6>
+                            <p>Min.</p>
+                        </div>
+                        <div class="time">
+                            <h6>52</h6>
+                            <p>sec.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-info">
+                        <div class="stock">
+                            <div class="stock_items">
+                                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                <p class="stock_text">3 stock available</p>
+                            </div>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div><!--closed stock  -->
+                        <div class="fancy_car">
+                            <div class="fancy_car_data">
+                               <img class="thump_img" src="img/marketplace/panda_thump.png" alt="">
+                               <div class="fancy_car_items1">
+                                    <h6 class="bold_text1">Fancy car</h6>
+                                    <p class="stock_text1">@fancy_nft</p>
+                                </div>
+                            </div>
+                             <div class="fancy_car_items2">
+                                <p class="stock_text2">current Bid</p>
+                                <h6 class="bold_text2">0.784 ETH</h6>   
+                            </div>
+                        </div>
 
-        </div>
+                        <div class="nft_live_button">
+                            <a class="live_autonis_btn" href="#">Place Bid</a>
+                        </div>  
+                    </div><!--closed memberinfo  -->
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" >
+                <div class="member">
+                <div class="member-img">
+                    <img class="nft_live-img" src="img/marketplace/ghost.png" class="img-fluid" alt="">
+                    <div class="social">
+                        <div class="new_bid">
+                            <div class="bit_items">
+                                <img src="img/marketplace/new-bid.png" alt="">
+                                <h6 class="bit_text">New Bid</h6>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <h6>15</h6>
+                            <p>Days</p>
+                        </div>
+                        <div class="time">
+                            <h6>8</h6>
+                            <p>Hours</p>
+                        </div>
+                        <div class="time">
+                            <h6>15</h6>
+                            <p>Min.</p>
+                        </div>
+                        <div class="time">
+                            <h6>52</h6>
+                            <p>sec.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-info">
+                        <div class="stock">
+                            <div class="stock_items">
+                                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                <p class="stock_text">3 stock available</p>
+                            </div>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div><!--closed stock  -->
+                        <div class="fancy_car">
+                            <div class="fancy_car_data">
+                               <img class="thump_img" src="img/marketplace/car_thump.png" alt="">
+                               <div class="fancy_car_items1">
+                                    <h6 class="bold_text1">Fancy car</h6>
+                                    <p class="stock_text1">@fancy_nft</p>
+                                </div>
+                            </div>
+                             <div class="fancy_car_items2">
+                                <p class="stock_text2">current Bid</p>
+                                <h6 class="bold_text2">0.784 ETH</h6>   
+                            </div>
+                        </div>
+
+                        <div class="nft_live_button">
+                            <a class="live_autonis_btn" href="#">Place Bid</a>
+                        </div>  
+                    </div><!--closed memberinfo  -->
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" >
+                <div class="member">
+                <div class="member-img">
+                    <img class="nft_live-img" src="img/marketplace/car.png" class="img-fluid" alt="">
+                    <div class="social">
+                        <div class="new_bid">
+                            <div class="bit_items">
+                                <img src="img/marketplace/new-bid.png" alt="">
+                                <h6 class="bit_text">New Bid</h6>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <h6>15</h6>
+                            <p>Days</p>
+                        </div>
+                        <div class="time">
+                            <h6>8</h6>
+                            <p>Hours</p>
+                        </div>
+                        <div class="time">
+                            <h6>15</h6>
+                            <p>Min.</p>
+                        </div>
+                        <div class="time">
+                            <h6>52</h6>
+                            <p>sec.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-info">
+                        <div class="stock">
+                            <div class="stock_items">
+                                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                <p class="stock_text">3 stock available</p>
+                            </div>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div><!--closed stock  -->
+                        <div class="fancy_car">
+                            <div class="fancy_car_data">
+                               <img class="thump_img" src="img/marketplace/panda_thump.png" alt="">
+                               <div class="fancy_car_items1">
+                                    <h6 class="bold_text1">Fancy car</h6>
+                                    <p class="stock_text1">@fancy_nft</p>
+                                </div>
+                            </div>
+                             <div class="fancy_car_items2">
+                                <p class="stock_text2">current Bid</p>
+                                <h6 class="bold_text2">0.784 ETH</h6>   
+                            </div>
+                        </div>
+
+                        <div class="nft_live_button">
+                            <a class="live_autonis_btn" href="#">Place Bid</a>
+                        </div>  
+                    </div><!--closed memberinfo  -->
+                </div>
+            </div>
+        </div><!--closed row  -->
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" >
+                <div class="member">
+                    <div class="member-img">
+                        <img class="nft_live-img" src="img/marketplace/car.png" class="img-fluid" alt="">
+                        
+                        <div class="social">
+                            <div class="new_bid">
+                                <div class="bit_items">
+                                    <img src="img/marketplace/new-bid.png" alt="">
+                                    <h6 class="bit_text">New Bid</h6>
+                                </div>
+                            </div>
+                            <div class="time">
+                                <h6>15</h6>
+                                <p>Days</p>
+                            </div>
+                            <div class="time">
+                                <h6>8</h6>
+                                <p>Hours</p>
+                            </div>
+                            <div class="time">
+                                <h6>15</h6>
+                                <p>Min.</p>
+                            </div>
+                            <div class="time">
+                                <h6>52</h6>
+                                <p>sec.</p>
+                            </div>
+                        </div>
+                    </div><!--closed social  -->
+                    <div class="member-info">
+                        <div class="stock">
+                            <div class="stock_items">
+                                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                <p class="stock_text">3 stock available</p>
+                            </div>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div><!--closed stock  -->
+                        <div class="fancy_car">
+                            <div class="fancy_car_data">
+                               <img class="thump_img" src="img/marketplace/car_thump.png" alt="">
+                               <div class="fancy_car_items1">
+                                    <h6 class="bold_text1">Fancy car</h6>
+                                    <p class="stock_text1">@fancy_nft</p>
+                                </div>
+                            </div>
+                             <div class="fancy_car_items2">
+                                <p class="stock_text2">current Bid</p>
+                                <h6 class="bold_text2">0.784 ETH</h6>   
+                            </div>
+                        </div>
+
+                        <div class="nft_live_button">
+                            <a class="live_autonis_btn" href="#">Place Bid</a>
+                        </div>  
+                    </div><!--closed memberinfo  -->
+                </div> <!--closed member  -->
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" >
+                <div class="member">
+                <div class="member-img">
+                    <img class="nft_live-img" src="img/marketplace/panda.png" class="img-fluid" alt="">
+                    <div class="social">
+                        <div class="new_bid">
+                            <div class="bit_items">
+                                <img src="img/marketplace/new-bid.png" alt="">
+                                <h6 class="bit_text">New Bid</h6>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <h6>15</h6>
+                            <p>Days</p>
+                        </div>
+                        <div class="time">
+                            <h6>8</h6>
+                            <p>Hours</p>
+                        </div>
+                        <div class="time">
+                            <h6>15</h6>
+                            <p>Min.</p>
+                        </div>
+                        <div class="time">
+                            <h6>52</h6>
+                            <p>sec.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-info">
+                        <div class="stock">
+                            <div class="stock_items">
+                                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                <p class="stock_text">3 stock available</p>
+                            </div>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div><!--closed stock  -->
+                        <div class="fancy_car">
+                            <div class="fancy_car_data">
+                               <img class="thump_img" src="img/marketplace/panda_thump.png" alt="">
+                               <div class="fancy_car_items1">
+                                    <h6 class="bold_text1">Fancy car</h6>
+                                    <p class="stock_text1">@fancy_nft</p>
+                                </div>
+                            </div>
+                             <div class="fancy_car_items2">
+                                <p class="stock_text2">current Bid</p>
+                                <h6 class="bold_text2">0.784 ETH</h6>   
+                            </div>
+                        </div>
+
+                        <div class="nft_live_button">
+                            <a class="live_autonis_btn" href="#">Place Bid</a>
+                        </div>  
+                    </div><!--closed memberinfo  -->
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" >
+                <div class="member">
+                <div class="member-img">
+                    <img class="nft_live-img" src="img/marketplace/ghost.png" class="img-fluid" alt="">
+                    <div class="social">
+                        <div class="new_bid">
+                            <div class="bit_items">
+                                <img src="img/marketplace/new-bid.png" alt="">
+                                <h6 class="bit_text">New Bid</h6>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <h6>15</h6>
+                            <p>Days</p>
+                        </div>
+                        <div class="time">
+                            <h6>8</h6>
+                            <p>Hours</p>
+                        </div>
+                        <div class="time">
+                            <h6>15</h6>
+                            <p>Min.</p>
+                        </div>
+                        <div class="time">
+                            <h6>52</h6>
+                            <p>sec.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-info">
+                        <div class="stock">
+                            <div class="stock_items">
+                                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                <p class="stock_text">3 stock available</p>
+                            </div>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div><!--closed stock  -->
+                        <div class="fancy_car">
+                            <div class="fancy_car_data">
+                               <img class="thump_img" src="img/marketplace/car_thump.png" alt="">
+                               <div class="fancy_car_items1">
+                                    <h6 class="bold_text1">Fancy car</h6>
+                                    <p class="stock_text1">@fancy_nft</p>
+                                </div>
+                            </div>
+                             <div class="fancy_car_items2">
+                                <p class="stock_text2">current Bid</p>
+                                <h6 class="bold_text2">0.784 ETH</h6>   
+                            </div>
+                        </div>
+
+                        <div class="nft_live_button">
+                            <a class="live_autonis_btn" href="#">Place Bid</a>
+                        </div>  
+                    </div><!--closed memberinfo  -->
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch" >
+                <div class="member">
+                <div class="member-img">
+                    <img class="nft_live-img" src="img/marketplace/car.png" class="img-fluid" alt="">
+                    <div class="social">
+                        <div class="new_bid">
+                            <div class="bit_items">
+                                <img src="img/marketplace/new-bid.png" alt="">
+                                <h6 class="bit_text">New Bid</h6>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <h6>15</h6>
+                            <p>Days</p>
+                        </div>
+                        <div class="time">
+                            <h6>8</h6>
+                            <p>Hours</p>
+                        </div>
+                        <div class="time">
+                            <h6>15</h6>
+                            <p>Min.</p>
+                        </div>
+                        <div class="time">
+                            <h6>52</h6>
+                            <p>sec.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="member-info">
+                        <div class="stock">
+                            <div class="stock_items">
+                                <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+                                <p class="stock_text">3 stock available</p>
+                            </div>
+                            <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+                        </div><!--closed stock  -->
+                        <div class="fancy_car">
+                            <div class="fancy_car_data">
+                               <img class="thump_img" src="img/marketplace/panda_thump.png" alt="">
+                               <div class="fancy_car_items1">
+                                    <h6 class="bold_text1">Fancy car</h6>
+                                    <p class="stock_text1">@fancy_nft</p>
+                                </div>
+                            </div>
+                             <div class="fancy_car_items2">
+                                <p class="stock_text2">current Bid</p>
+                                <h6 class="bold_text2">0.784 ETH</h6>   
+                            </div>
+                        </div>
+
+                        <div class="nft_live_button">
+                            <a class="live_autonis_btn" href="#">Place Bid</a>
+                        </div>  
+                    </div><!--closed memberinfo  -->
+                </div>
+            </div>
+        </div><!--closed row  -->
     </div>
-
 </section>
 
 
 
 
+<!-- nft sale satrted  -->
 
+<section class="nft_sales">
+    <div class="container">
+        <div class="row">
+            <div class="nft_sales_data">
+                <div class="nft-sales-drops">
+                    <h3 class="nft-sales_head">Today's Drops</h3>
+                        <div class="box sales_drops">
+                            <div class="box_items">
+                                <img src="img/marketplace/boy.png" alt="">
+                                <div class="left_side_data">
+                                    <div class="pixcel_cartoon">
+                                        <img class="pixel-img" src="img/marketplace/boy_thump.png" alt="">
+                                        <div class="pixel_items">
+                                            <h6 class="bold_text1" >Pixel cartoon</h6>
+                                            <p class="stock_text1">@designing_world</p>
+                                        </div>
+                                    </div>
+                                    <div class="left_soft_button">
+                                        <a class="soft_btn" href="#">0.99 ETH</a>
+                                    </div>
+                                    <div class="left_hard_button">
+                                        <a class="hard_btn" href="#">place Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div><!--closed box  -->
+                        <div class="box sales_drops">
+                            <div class="box_items">
+                                <img src="img/marketplace/boy.png" alt="">
+                                <div class="left_side_data">
+                                    <div class="pixcel_cartoon">
+                                        <img  class="pixel-img" src="img/marketplace/boy_thump.png" alt="">
+                                        <div class="pixel_items">
+                                            <h6 class="bold_text1">Pixel cartoon</h6>
+                                            <p class="stock_text1">@designing_world</p>
+                                        </div>
+                                    </div>
+                                    <div class="left_soft_button">
+                                        <a class="soft_btn" href="#">0.99 ETH</a>
+                                    </div>
+                                    <div class="left_hard_button">
+                                        <a class="hard_btn" href="#">place Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div><!--closed box  -->
 
+                        <div class="box sales_drops">
+                            <div class="box_items">
+                                <img src="img/marketplace/boy.png" alt="">
+                                <div class="left_side_data">
+                                    <div class="pixcel_cartoon">
+                                        <img  class="pixel-img" src="img/marketplace/boy_thump.png" alt="">
+                                        <div class="pixel_items">
+                                            <h6 class="bold_text1">Pixel cartoon</h6>
+                                            <p class="stock_text1">@designing_world</p>
+                                        </div>
+                                    </div>
+                                    <div class="left_soft_button">
+                                        <a class="soft_btn" href="#">0.99 ETH</a>
+                                    </div>
+                                    <div class="left_hard_button">
+                                        <a class="hard_btn" href="#">place Bid</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div><!--closed box  -->
+                </div><!--closed nft-sales-drops  -->
 
+                <div class="nft-sales-drops">
+                    <h3 class="nft-sales_head">Top Seller</h3>
+                        <div class="box sales_drops">
+                            <div class="box_items">
+                                <img src="img/marketplace/boy.png" alt="">
+                                <div class="left_side_data">
+                                    <div class="pixcel_cartoon">
+                                        <img class="pixel-img" src="img/marketplace/boy_thump.png" alt="">
+                                        <div class="pixel_items">
+                                            <h6 class="bold_text1" >Pixel cartoon</h6>
+                                            <p class="stock_text1">@designing_world</p>
+                                        </div>
+                                    </div>
+                                    <div class="left_soft_button">
+                                        <a class="soft_btn" href="#">0.99 ETH</a>
+                                    </div>
+                                    <div class="left_hard_button">
+                                        <a class="hard_btn1" href="#"><i class="fa fa-diamond" aria-hidden="true"></i> 3,057 items</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div><!--closed box  -->
+                        <div class="box sales_drops">
+                            <div class="box_items">
+                                <img src="img/marketplace/boy.png" alt="">
+                                <div class="left_side_data">
+                                    <div class="pixcel_cartoon">
+                                        <img  class="pixel-img" src="img/marketplace/boy_thump.png" alt="">
+                                        <div class="pixel_items">
+                                            <h6 class="bold_text1">Pixel cartoon</h6>
+                                            <p class="stock_text1">@designing_world</p>
+                                        </div>
+                                    </div>
+                                    <div class="left_soft_button">
+                                        <a class="soft_btn" href="#">0.99 ETH</a>
+                                    </div>
+                                    <div class="left_hard_button">
+                                         <a class="hard_btn1" href="#"><i class="fa fa-diamond" aria-hidden="true"></i> 3,057 items</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div><!--closed box  -->
 
+                        <div class="box sales_drops">
+                            <div class="box_items">
+                                <img src="img/marketplace/boy.png" alt="">
+                                <div class="left_side_data">
+                                    <div class="pixcel_cartoon">
+                                        <img  class="pixel-img" src="img/marketplace/boy_thump.png" alt="">
+                                        <div class="pixel_items">
+                                            <h6 class="bold_text1">Pixel cartoon</h6>
+                                            <p class="stock_text1">@designing_world</p>
+                                        </div>
+                                    </div>
+                                    <div class="left_soft_button">
+                                        <a class="soft_btn" href="#">0.99 ETH</a>
+                                    </div>
+                                    <div class="left_hard_button">
+                                          <a class="hard_btn1" href="#"><i class="fa fa-diamond" aria-hidden="true"></i> 3,057 items</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div><!--closed box  -->
+                </div><!--closed nft-sales-drops  -->
 
+                <div class="nft-sales-drops">
+                    <h3 class="nft-sales_head">Top Buyer</h3>
+                        <div class="box sales_drops">
+                            <div class="box_items">
+                                <img src="img/marketplace/boy.png" alt="">
+                                <div class="left_side_data">
+                                    <div class="pixcel_cartoon">
+                                        <img class="pixel-img" src="img/marketplace/boy_thump.png" alt="">
+                                        <div class="pixel_items">
+                                            <h6 class="bold_text1" >Pixel cartoon</h6>
+                                            <p class="stock_text1">@designing_world</p>
+                                        </div>
+                                    </div>
+                                    <div class="left_soft_button">
+                                        <a class="soft_btn" href="#">0.99 ETH</a>
+                                    </div>
+                                    <div class="left_hard_button">
+                                        <a class="hard_btn1" href="#"><i class="fa fa-usd" aria-hidden="true"></i> 197 items</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div><!--closed box  -->
+                        <div class="box sales_drops">
+                            <div class="box_items">
+                                <img src="img/marketplace/boy.png" alt="">
+                                <div class="left_side_data">
+                                    <div class="pixcel_cartoon">
+                                        <img  class="pixel-img" src="img/marketplace/boy_thump.png" alt="">
+                                        <div class="pixel_items">
+                                            <h6 class="bold_text1">Pixel cartoon</h6>
+                                            <p class="stock_text1">@designing_world</p>
+                                        </div>
+                                    </div>
+                                    <div class="left_soft_button">
+                                        <a class="soft_btn" href="#">0.99 ETH</a>
+                                    </div>
+                                    <div class="left_hard_button">
+                                         <a class="hard_btn1" href="#"><i class="fa fa-usd" aria-hidden="true"></i> 197 items</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div><!--closed box  -->
 
-
+                        <div class="box sales_drops">
+                            <div class="box_items">
+                                <img src="img/marketplace/boy.png" alt="">
+                                <div class="left_side_data">
+                                    <div class="pixcel_cartoon">
+                                        <img  class="pixel-img" src="img/marketplace/boy_thump.png" alt="">
+                                        <div class="pixel_items">
+                                            <h6 class="bold_text1">Pixel cartoon</h6>
+                                            <p class="stock_text1">@designing_world</p>
+                                        </div>
+                                    </div>
+                                    <div class="left_soft_button">
+                                        <a class="soft_btn" href="#">0.99 ETH</a>
+                                    </div>
+                                    <div class="left_hard_button">
+                                            <a class="hard_btn1" href="#"><i class="fa fa-usd" aria-hidden="true"></i> 197 items</a>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div><!--closed box  -->
+                </div><!--closed nft-sales-drops  -->           
+            </div><!--closed nft-sales-data -->
+        </div>
+    </div>
+</section>
 
 
 <!-- footer  -->
