@@ -2215,10 +2215,12 @@ a.nft_btn:hover{
 .live_autonis_btn {
     background: #893fee;
     color: #fff;
-    padding: 8px 70px;
+    padding: 7px 30px;
     border-radius: 15px;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: 16px;
 }
+
 .live_autonis_btn:hover {
     background:#fff ;
     color: #893fee;
@@ -2461,6 +2463,21 @@ a.nft_btn:hover{
     gap: 10px;
 }
 
+
+
+/* thode tym layi kam  */
+
+.marketplacedata {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 30px;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+
+
+
 /* more collection sections  */
 
 .morecollections{
@@ -2550,7 +2567,8 @@ a.nft_btn:hover{
     }
 }
 
-                                        
+                 
+
                                          
                                          /* Asset_Store Page  */
 
