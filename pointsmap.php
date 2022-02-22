@@ -42,45 +42,33 @@
                     <tr>
                       <?php for($i = 1; $i < $column; $i++){ 
                         if($k == 1){
-                          if($i < 97){
+                          if($i < 96){
                             $bgClass = "greenBG";
                            }else{
                              $bgClass = "whiteBG";
                           }
                         }else if($k == 2)
                          {
-                          if($i < 91){
+                          if($i < 92){
                             $bgClass = "greenBG";
                            }else{
                              $bgClass = "whiteBG";
                           }
-                        }else if($k == 3 || $k < 6)
+                        }else if($k == 3 || $k < 8)
                         {
-                         if($i < 91 - $k ){
+                         if($i < 93 - $k ){
                            $bgClass = "greenBG";
                           }else{
                             $bgClass = "whiteBG";
                          }
-                        }else if($k == 6 || $k == 7){
-                          if($i < 84 || ($i > 500 && $i < 518)){
+                        }else if($k == 8 || $k == 9)
+                        {
+                         if($i < 93 - $k ){
                            $bgClass = "greenBG";
                           }else{
                             $bgClass = "whiteBG";
-                           }
-                        }else if($k == 8 || $k < 19){
-                            if($i < 91 - $k || ($i > 494 - $k && $i < 518 + $k)){
-                             $bgClass = "greenBG";
-                            }else{
-                              $bgClass = "whiteBG";
-                             }
-                        }else if($k == 19 || $k < 26){
-                          if($i < 91 - $k){
-                            $bgClass = "greenBG";
-                          }else{
-                            $bgClass = "whiteBG";
-                            }
+                         }
                         }
-
                         ?>
                             <td  class="plot <?php echo $bgClass; ?>" id= "tiles<?php echo $k;?>r<?php echo $i?>c" data-value="<?php echo $k;?>,<?php echo $i ?>" title="<?php echo $k;?>,<?php echo $i ?>" <?php if($bgClass == 'greenBG'){ ?> onclick="myActive('<?php echo $k;?>r<?php echo $i ?>c')" <?php } ?>></td>                 
                       <?php } ?>

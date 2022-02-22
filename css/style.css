@@ -1699,6 +1699,7 @@ img.rt_blockchain_img {
     background: #000000;
     border-radius: 20px;
     position: relative;
+    border: 2px solid #893fee;
 }
 
 .box_container::after {
