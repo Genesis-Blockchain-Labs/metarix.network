@@ -61,7 +61,7 @@
   <section class="all_products" id="Products">
     <div class="container-fluid p-0">
         <div class="heading">
-            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_black_logo.png" alt=""> ALL <span class="heading_bold">ARTIFACTS </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> ALL <span class="heading_bold">ARTIFACTS </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
             <p class="heading_para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut laboure et dolore magna aliqua."</p>
           </div> 
         <div class="row m-0">
@@ -335,7 +335,7 @@
        
        <div class="container" >
         <div class="heading">
-            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_black_logo.png" alt=""> OUR <span class="heading_bold">ROADMAP </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> OUR <span class="heading_bold">ROADMAP </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
           </div>
         <div class="row roadmap-row">
             <div class="card roadmap-card">
@@ -477,7 +477,7 @@
     <section class="our_partners" id="Partners">
         <div class="container" >
             <div class="heading">
-                <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_black_logo.png" alt=""> OUR <span class="heading_bold">PARTNERS </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+                <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> OUR <span class="heading_bold">PARTNERS </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
               </div>
             <div class="row">
                 <!-- <div class="col-md-12"> -->

@@ -1,68 +1,121 @@
+<?php include("includes/header.php"); ?>
+  <style>
+ #content .plot{box-shadow: 0px 0px 1px 0px #fff;
+    width: 10%;
+    height: 10%;
+    cursor: pointer;}
+  #content .greenBG{ background-color: #95B553; }
+  #content .whiteBG{ background-color: #FFFFFF;}
+  #content .currentPlot{ background-color: #8A3FEE !important;}
+  .zoom-tool-bar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 31px;
+    padding: 3px 0;
+    background: #8A3FEE;
+    font-size: 13px;
+    z-index: 9999;
+    color: #fff;
+  }
+  .zoom-tool-bar i {
+    color: #77b3ff;
+    font-size: 16px;
+  }
+  #content{width:100%;padding-right:10px;}
+  </style>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	
-	<title>Grid coordinates - Leaflet</title>
 
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+    <div class="container-fluid">
+            <div class="row"> 
+                <div class="col-md-12">
+                  <div id="content">
+                  <table>
+                  <?php for($k = 1; $k < 100; $k++ ){ ?>
+                  <?php $column = 683; $bgClass = "greenBG";
+               
+               
+                  ?>
+                    <tr>
+                      <?php for($i = 1; $i < $column; $i++){ 
+                        if($k == 1){
+                          if($i < 97){
+                            $bgClass = "greenBG";
+                           }else{
+                             $bgClass = "whiteBG";
+                          }
+                        }else if($k == 2)
+                         {
+                          if($i < 91){
+                            $bgClass = "greenBG";
+                           }else{
+                             $bgClass = "whiteBG";
+                          }
+                        }else if($k == 3 || $k < 6)
+                        {
+                         if($i < 91 - $k ){
+                           $bgClass = "greenBG";
+                          }else{
+                            $bgClass = "whiteBG";
+                         }
+                        }else if($k == 6 || $k == 7){
+                          if($i < 84 || ($i > 500 && $i < 518)){
+                           $bgClass = "greenBG";
+                          }else{
+                            $bgClass = "whiteBG";
+                           }
+                        }else if($k == 8 || $k < 19){
+                            if($i < 91 - $k || ($i > 494 - $k && $i < 518 + $k)){
+                             $bgClass = "greenBG";
+                            }else{
+                              $bgClass = "whiteBG";
+                             }
+                        }else if($k == 19 || $k < 26){
+                          if($i < 91 - $k){
+                            $bgClass = "greenBG";
+                          }else{
+                            $bgClass = "whiteBG";
+                            }
+                        }
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+                        ?>
+                            <td  class="plot <?php echo $bgClass; ?>" id= "tiles<?php echo $k;?>r<?php echo $i?>c" data-value="<?php echo $k;?>,<?php echo $i ?>" title="<?php echo $k;?>,<?php echo $i ?>" <?php if($bgClass == 'greenBG'){ ?> onclick="myActive('<?php echo $k;?>r<?php echo $i ?>c')" <?php } ?>></td>                 
+                      <?php } ?>
+                      </tr>
+                    <?php } ?>
+                      </table>
+                  </div>  
+                </div>
+            </div> <!-- Row end -->
+        
+    </div>
+    <div class="zoom-tool-bar"></div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
 
-	<style>
-		html, body {
-			height: 100%;
-			margin: 0;
-		}
-		.leaflet-container {
-			height: 600px;
-			width: 100%;
-			max-width: 100%;
-			max-height: 100%;
-		}
-	</style>
-
-	
-</head>
-<body>
-
-<div id='map'></div>
-
-<script type="text/javascript">
-
-	var map = L.map('map', {
-		center: [0, 0],
-		zoom: 0
-	});
-
-	L.GridLayer.DebugCoords = L.GridLayer.extend({
-		createTile: function (coords, done) {
-			var tile = document.createElement('div');
-			tile.innerHTML = [coords.x, coords.y, coords.z].join(', ');
-			tile.style.outline = '1px solid red';
-
-			setTimeout(function () {
-				done(null, tile); // Syntax is 'done(error, tile)'
-			}, 500 + Math.random() * 1500);
-
-			return tile;
-		}
-	});
-	
-	L.gridLayer.debugCoords = function (opts) {
-		return new L.GridLayer.DebugCoords(opts);
-	};
-
-	var debugCoordsGrid = L.gridLayer.debugCoords();
-	map.addLayer(debugCoordsGrid);
-	
+<script src="js/content-zoom-slider.min.js"></script>
+<script>
+  function myActive(id)
+  {
+    $(document).ready(function(){
+      
+      $("#tiles"+id).toggleClass("currentPlot"); 
+        
+    });
+    
+  }
 </script>
 
-
-
-</body>
-</html>
+<script>
+  $("#content").contentZoomSlider({
+      toolContainer: ".zoom-tool-bar", // element where slider bar will show
+      setp: 50, // step size
+      min: 100, // min range
+      max: 800, // max range
+      zoom: 150, // default zoom size
+  });
+</script>

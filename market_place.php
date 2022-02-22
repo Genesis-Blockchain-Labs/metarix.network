@@ -367,7 +367,7 @@
 </section> -->
 
 <!-- live Auctions  -->
-
+<!-- 
 <section class="live_auctions">
     <div class="container">
              <div class="top_heading">
@@ -381,7 +381,7 @@
                     <div class="member-img">
                         <img class="nft_live-img" src="img/marketplace/car.png" class="img-fluid" alt="">
                         
-                        <!-- <div class="social">
+                        <div class="social">
                             <div class="new_bid">
                                 <div class="bit_items">
                                     <img src="img/marketplace/new-bid.png" alt="">
@@ -405,15 +405,15 @@
                                 <p>sec.</p>
                             </div>
                         </div>
-                    </div>closed social  -->
+                    </div>closed social 
                     <div class="member-info">
-                        <!-- <div class="stock">
+                        <div class="stock">
                             <div class="stock_items">
                                 <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
                                 <p class="stock_text">3 stock available</p>
                             </div>
                             <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        </div> closed stock  -->
+                        </div> closed stock 
                         <div class="fancy_car">
                             <div class="fancy_car_data">
                                <img class="thump_img" src="img/marketplace/car_thump.png" alt="">
@@ -431,8 +431,8 @@
                         <div class="nft_live_button">
                             <a class="live_autonis_btn" target="_blank" href="https://testnets.opensea.io/assets/0x1b82ad5fe6420ee7a98bae9835a34e705b8f10e7/88">Buy this NFT</a>
                         </div>  
-                    </div> <!-- closed memberinfo  -->
-                </div>  <!-- closed member  -->
+                    </div> closed memberinfo 
+                </div>  closed member 
                 </div>
             </div>
 
@@ -440,7 +440,7 @@
                 <div class="member">
                 <div class="member-img">
                     <img class="nft_live-img" src="img/marketplace/panda.png" class="img-fluid" alt="">
-                    <!-- <div class="social">
+                    <div class="social">
                         <div class="new_bid">
                             <div class="bit_items">
                                 <img src="img/marketplace/new-bid.png" alt="">
@@ -463,16 +463,16 @@
                             <h6>52</h6>
                             <p>sec.</p>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="member-info">
-                        <!-- <div class="stock">
+                        <div class="stock">
                             <div class="stock_items">
                                 <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
                                 <p class="stock_text">3 stock available</p>
                             </div>
                             <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        </div> closed stock  -->
+                        </div> closed stock 
                         <div class="fancy_car">
                             <div class="fancy_car_data">
                                <img class="thump_img" src="img/marketplace/panda_thump.png" alt="">
@@ -490,7 +490,7 @@
                         <div class="nft_live_button">
                             <a class="live_autonis_btn" href="#">Buy this NFT</a>
                         </div>  
-                    </div> <!-- closed memberinfo  -->
+                    </div> closed memberinfo 
                 </div>
             </div>
 
@@ -498,7 +498,7 @@
                 <div class="member">
                 <div class="member-img">
                     <img class="nft_live-img" src="img/marketplace/ghost.png" class="img-fluid" alt="">
-                    <!-- <div class="social">
+                    <div class="social">
                         <div class="new_bid">
                             <div class="bit_items">
                                 <img src="img/marketplace/new-bid.png" alt="">
@@ -521,16 +521,16 @@
                             <h6>52</h6>
                             <p>sec.</p>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="member-info">
-                        <!-- <div class="stock">
+                        <div class="stock">
                             <div class="stock_items">
                                 <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
                                 <p class="stock_text">3 stock available</p>
                             </div>
                             <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        </div> closed stock  -->
+                        </div> closed stock 
                         <div class="fancy_car">
                             <div class="fancy_car_data">
                                <img class="thump_img" src="img/marketplace/car_thump.png" alt="">
@@ -548,7 +548,7 @@
                         <div class="nft_live_button">
                             <a class="live_autonis_btn" href="#">Buy this NFT</a>
                         </div>  
-                    </div> <!-- closed memberinfo  -->
+                    </div> closed memberinfo 
                 </div>
             </div>
 
@@ -556,7 +556,7 @@
                 <div class="member">
                 <div class="member-img">
                     <img class="nft_live-img" src="img/marketplace/car.png" class="img-fluid" alt="">
-                    <!-- <div class="social">
+                    <div class="social">
                         <div class="new_bid">
                             <div class="bit_items">
                                 <img src="img/marketplace/new-bid.png" alt="">
@@ -579,16 +579,16 @@
                             <h6>52</h6>
                             <p>sec.</p>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="member-info">
-                        <!-- <div class="stock">
+                        <div class="stock">
                             <div class="stock_items">
                                 <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
                                 <p class="stock_text">3 stock available</p>
                             </div>
                             <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        </div> closed stock  -->
+                        </div> closed stock 
                         <div class="fancy_car">
                             <div class="fancy_car_data">
                                <img class="thump_img" src="img/marketplace/panda_thump.png" alt="">
@@ -606,11 +606,11 @@
                         <div class="nft_live_button">
                             <a class="live_autonis_btn" href="#">Buy this NFT</a>
                         </div>  
-                    </div> <!-- closed memberinfo  -->
+                    </div> closed memberinfo 
                 </div>
             </div>
 
-        </div> <!-- closed row -->
+        </div> closed row
 
         <div class="row">
             <div class=" col-md-3 d-flex align-items-stretch" >
@@ -618,7 +618,7 @@
                     <div class="member-img">
                         <img class="nft_live-img" src="img/marketplace/car.png" class="img-fluid" alt="">
                         
-                        <!-- <div class="social">
+                        <div class="social">
                             <div class="new_bid">
                                 <div class="bit_items">
                                     <img src="img/marketplace/new-bid.png" alt="">
@@ -641,16 +641,16 @@
                                 <h6>52</h6>
                                 <p>sec.</p>
                             </div>
-                        </div>closed social  -->
+                        </div>closed social 
                     </div> 
                     <div class="member-info">
-                        <!-- <div class="stock">
+                        <div class="stock">
                             <div class="stock_items">
                                 <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
                                 <p class="stock_text">3 stock available</p>
                             </div>
                             <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        </div> closed stock  -->
+                        </div> closed stock 
                         <div class="fancy_car">
                             <div class="fancy_car_data">
                                <img class="thump_img" src="img/marketplace/car_thump.png" alt="">
@@ -668,15 +668,15 @@
                         <div class="nft_live_button">
                             <a class="live_autonis_btn" href="#">Buy this NFT</a>
                         </div>  
-                    </div> <!-- closed memberinfo  -->
-                </div>  <!-- closed member  -->
+                    </div> closed memberinfo 
+                </div>  closed member 
             </div>
 
             <div class=" col-md-3 d-flex align-items-stretch" >
                 <div class="member">
                 <div class="member-img">
                     <img class="nft_live-img" src="img/marketplace/panda.png" class="img-fluid" alt="">
-                    <!-- <div class="social">
+                    <div class="social">
                         <div class="new_bid">
                             <div class="bit_items">
                                 <img src="img/marketplace/new-bid.png" alt="">
@@ -699,16 +699,16 @@
                             <h6>52</h6>
                             <p>sec.</p>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="member-info">
-                        <!-- <div class="stock">
+                        <div class="stock">
                             <div class="stock_items">
                                 <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
                                 <p class="stock_text">3 stock available</p>
                             </div>
                             <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        </div> closed stock  -->
+                        </div> closed stock 
                         <div class="fancy_car">
                             <div class="fancy_car_data">
                                <img class="thump_img" src="img/marketplace/panda_thump.png" alt="">
@@ -726,7 +726,7 @@
                         <div class="nft_live_button">
                             <a class="live_autonis_btn" href="#">Buy this NFT</a>
                         </div>  
-                    </div> <!-- closed memberinfo  -->
+                    </div> closed memberinfo 
                 </div>
             </div>
 
@@ -734,7 +734,7 @@
                 <div class="member">
                 <div class="member-img">
                     <img class="nft_live-img" src="img/marketplace/ghost.png" class="img-fluid" alt="">
-                    <!-- <div class="social">
+                    <div class="social">
                         <div class="new_bid">
                             <div class="bit_items">
                                 <img src="img/marketplace/new-bid.png" alt="">
@@ -757,16 +757,16 @@
                             <h6>52</h6>
                             <p>sec.</p>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="member-info">
-                        <!-- <div class="stock">
+                        <div class="stock">
                             <div class="stock_items">
                                 <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
                                 <p class="stock_text">3 stock available</p>
                             </div>
                             <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        </div> closed stock  -->
+                        </div> closed stock 
                         <div class="fancy_car">
                             <div class="fancy_car_data">
                                <img class="thump_img" src="img/marketplace/car_thump.png" alt="">
@@ -784,7 +784,7 @@
                         <div class="nft_live_button">
                             <a class="live_autonis_btn" href="#">Buy this NFT</a>
                         </div>  
-                    </div> <!-- closed memberinfo  -->
+                    </div> closed memberinfo 
                 </div>
             </div>
 
@@ -792,7 +792,7 @@
                 <div class="member">
                 <div class="member-img">
                     <img class="nft_live-img" src="img/marketplace/car.png" class="img-fluid" alt="">
-                    <!-- <div class="social">
+                    <div class="social">
                         <div class="new_bid">
                             <div class="bit_items">
                                 <img src="img/marketplace/new-bid.png" alt="">
@@ -815,16 +815,16 @@
                             <h6>52</h6>
                             <p>sec.</p>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="member-info">
-                        <!-- <div class="stock">
+                        <div class="stock">
                             <div class="stock_items">
                                 <a href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
                                 <p class="stock_text">3 stock available</p>
                             </div>
                             <a href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-                        </div> closed stock  -->
+                        </div> closed stock 
                         <div class="fancy_car">
                             <div class="fancy_car_data">
                                <img class="thump_img" src="img/marketplace/panda_thump.png" alt="">
@@ -842,13 +842,13 @@
                         <div class="nft_live_button">
                             <a class="live_autonis_btn" href="#">Buy this NFT</a>
                         </div>  
-                    </div> <!-- closed memberinfo  -->
+                    </div> closed memberinfo 
                 </div>
             </div>
-        </div><!-- closed row   -->
+        </div>closed row  
     </div>
 </section>
-
+ -->
 
 
 
@@ -1068,11 +1068,44 @@
 
 
 
+<section class="nft_links">
+    <div class="container-fluid p-0">
+        <div class="row">                        
+            <div class="col-md-6  mb-4">
+                <nft-card  contractAddress="0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb" tokenId="4738"> </nft-card>
+             </div>
+            <div class="col-md-6  mb-4">
+                <nft-card  contractAddress="0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb" tokenId="4738"> </nft-card>
+             </div>
+         </div>
+         <div class="row"> 
+            <div class="col-md-6 mb-4">
+                <nft-card  contractAddress="0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb" tokenId="4738"> </nft-card>
+            </div>
+            <div class="col-md-6  mb-4">
+                <nft-card  contractAddress="0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb" tokenId="4738"> </nft-card>
+            </div>
+        </div>
+        <div class="row"> 
+            <div class="col-md-6 mb-4">
+                <nft-card  contractAddress="0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb" tokenId="4738"> </nft-card>
+                <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
+            </div>
+            <div class="col-md-6 mb-4">
+                <nft-card  contractAddress="0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb" tokenId="4738"> </nft-card>
+                <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
+             </div>
+        </div>
+    </div>
+</section>
+
+
+
 
 
 <!-- footer  -->
 <?php include("includes/footer.php"); ?>
-<script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
 
+<!-- <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script> -->
 
 
