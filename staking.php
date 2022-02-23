@@ -14,7 +14,7 @@
 
       <div class="row">
         <div class="staking_data_1">
-            <div class="all_stakers ">
+            <div class="all_stakers border_radi_us ">
               <img class="stake_imgs" src="img/staking/all_staking.png" alt="">
                 <div class="data">
                   <h3 class="stacky-text-hed">All Stakers</h3>
@@ -22,7 +22,7 @@
                 </div> 
             </div>
 
-            <div class="total_staked">
+            <div class="total_staked border_radi_us">
               <img class="stake_imgs" src="img/staking/total_staked.png" alt="">
                 <div class="data">
                   <h3 class="stacky-text-hed">Total Staked</h3>
@@ -30,7 +30,7 @@
                 </div> 
             </div>
 
-            <div class="apy">
+            <div class="apy border_radi_us">
               <img class="stake_imgs" src="img/staking/apy.png" alt="">
                 <div class="data">
                   <h3 class="stacky-text-hed">APY</h3>
@@ -42,7 +42,7 @@
 
       <div class="row staking_data_2">
               <div class="col-md-4">
-                <div class="current_balance">
+                <div class="current_balance border_radi_us">
                   <img class="stake_imgs" src="img/staking/current_balance.png" alt="">
                     <div class="data">
                       <h3 class="stacky-text-hed">Current Balance</h3>
@@ -51,7 +51,7 @@
                 </div>
               </div>
 
-              <div class="col-md-8 rewards_data">
+              <div class="col-md-8 rewards_data border_radi_us">
                     <div class="staked">
                       <h3 class="stacky-text-hed">Staked</h3>
                       <h4 class="stacky-text">0.0000</h4>

@@ -8,7 +8,7 @@
          <div class="row">
              <div class="col-md-6 left_blockchain">
                  <div class="blockchain_head">
-                    <h1 class="bc_head" >Lorem Ipsum is <br> simply <span class="blockchain_heading" >dummy</span></h1>
+                    <h1 class="heading_text" >Lorem Ipsum is <br> simply <span class="blockchain_heading" >dummy</span></h1>
                     <p class="bc_para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
                  </div>  
              </div>
@@ -25,7 +25,7 @@
  <section class="our_services" id="our_services">
    <div class="container our_services_data">
         <div class="heading">
-              <h1 class="token_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> Our <span class="heading_bold"> SERVICES </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+              <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> Our  SERVICES <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
               <p class="block_para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut laboure et dolore magna aliqua."</p>
         </div>
      <div class="row">
@@ -135,7 +135,7 @@
 
           <div class="col-md-8">
             <div class="deposits_data">
-              <h2 class="deposits_head">Deposit and <span class="blockchain_heading">earn</span></h2>
+              <h2 class="heading_text">Deposit and earn</h2>
               <p class="deposits_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud.</p>
               <div class="deposit_items">
                   <div class="crypto">
@@ -155,7 +155,7 @@
        <div class="row deposit_data_2">
           <div class="col-md-8">
               <div class="liquidity_data">
-                <h2 class="deposits_head">Low fees and deep <span class="blockchain_heading">liquidity</span></h2>
+                <h2 class="heading_text">Low fees and deep liquidity</h2>
                 <p class="deposits_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud.</p>
               </div>
           </div>

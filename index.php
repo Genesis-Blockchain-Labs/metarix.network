@@ -61,7 +61,7 @@
   <section class="all_products" id="Products">
     <div class="container-fluid p-0">
         <div class="heading">
-            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> ALL <span class="heading_bold">ARTIFACTS </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> ALL ARTIFACTS <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
             <p class="heading_para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut laboure et dolore magna aliqua."</p>
           </div> 
         <div class="row m-0">
@@ -269,53 +269,65 @@
   <section class="token_sale" id="Token">
       <div class="container token_sale_data" >
         <div class="heading">
-            <h1 class="token_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> TOKEN <span class="heading_bold"> SALE </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> TOKEN  SALE <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
           </div>
           <div class="row token_sale items">
               <div class="col-xl-6 left_side_sale_data">
 
                  <div class="left_sale">
                      <div class="token-sale-items">
-                         <h4 class="sale_text">TOTAL <SPan class="sale_bold"> SUPPLY</SPan></h4>
-                         <H3>519,245,869</H3>
-                     </div>
-                     <div class="token-sale-items">
-                         <h4 class="sale_text">PUBLIC<SPan class="sale_bold"> SALE</SPan></h4>
-                         <H3>15% (LOCK)</H3>
-                     </div>
-                     <div class="token-sale-items">
-                         <h4 class="sale_text"><SPan class="sale_bold">ADVISORS</SPan></h4>
+                         <h4 class="sale_text"><SPan class="sale_bold"> Staking</SPan></h4>
                          <H3>6%</H3>
                      </div>
                      <div class="token-sale-items">
-                         <h4 class="sale_text">ESCROW & <SPan class="sale_bold"> RESERVE</SPan></h4>
-                         <H3>12% (LOCK)</H3>
+                         <h4 class="sale_text">Play To<SPan class="sale_bold"> Earn</SPan></h4>
+                         <H3>10%</H3>
                      </div>
                      <div class="token-sale-items">
-                         <h4 class="sale_text">DEVELOPMENT <SPan class="sale_bold"> TEAM</SPan></h4>
+                         <h4 class="sale_text"><SPan class="sale_bold">Marketing</SPan></h4>
+                         <H3>8%</H3>
+                     </div>
+                     <div class="token-sale-items">
+                         <h4 class="sale_text"> <SPan class="sale_bold"> Team</SPan></h4>
                          <H3>5%</H3>
+                     </div>
+                     <div class="token-sale-items">
+                         <h4 class="sale_text"> <SPan class="sale_bold"> Development</SPan></h4>
+                         <H3>4%</H3>
+                     </div>
+                     <div class="token-sale-items">
+                         <h4 class="sale_text"> <SPan class="sale_bold"> Founders</SPan></h4>
+                         <H3>5%</H3>
+                     </div>
+                     <div class="token-sale-items">
+                         <h4 class="sale_text">Exchange <SPan class="sale_bold">  Listing</SPan></h4>
+                         <H3>15%</H3>
                      </div>
                  </div>
 
                  <div class="right_sale">
                     <div class="token-sale-items">
-                        <h4 class="sale_text">PRIVATE <SPan class="sale_bold"> SALE</SPan></h4>
-                        <H3>5%</H3>
+                        <h4 class="sale_text">Token <SPan class="sale_bold"> SALE</SPan></h4>
+                        <H3>15%</H3>
                     </div>
                     <div class="token-sale-items">
-                        <h4 class="sale_text"><SPan class="sale_bold"> STAKING</SPan></h4>
-                        <H3>15.5%</H3>
+                        <h4 class="sale_text"><SPan class="sale_bold"> Advisors</SPan></h4>
+                        <H3>2%</H3>
                     </div>
                     <div class="token-sale-items">
                         <h4 class="sale_text">FOUNDERS AND<SPan class="sale_bold"> STAKEHOLDERS</SPan></h4>
                         <H3>5%</H3>
                     </div>
                     <div class="token-sale-items">
-                        <h4 class="sale_text">BSCPAD<SPan class="sale_bold"> IDO</SPan></h4>
-                        <H3>3%</H3>
+                        <h4 class="sale_text"><SPan class="sale_bold"> Launchpad</SPan></h4>
+                        <H3>10%</H3>
                     </div>
                     <div class="token-sale-items">
-                        <h4 class="sale_text"><SPan class="sale_bold"> MARKETING</SPan></h4>
+                        <h4 class="sale_text">Reward <SPan class="sale_bold">  Campaigns</SPan></h4>
+                        <H3>10%</H3>
+                    </div>
+                    <div class="token-sale-items">
+                        <h4 class="sale_text"><SPan class="sale_bold">  Reserve</SPan></h4>
                         <H3>10%</H3>
                     </div>
 
@@ -335,56 +347,80 @@
        
        <div class="container" >
         <div class="heading">
-            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> OUR <span class="heading_bold">ROADMAP </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> OUR ROADMAP <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
           </div>
         <div class="row roadmap-row">
-            <div class="card roadmap-card">
+            <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q3 - 2021 </h2>
+                    <h2>Q1 - 2021 </h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Launchpads</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Staking contract deployment</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Genesis Block Chain Labs (GBL Token)</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Ideation and Strategy</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for partnerships</p>
                 </div>
             </div>
-            <div class="card roadmap-card">
+            <div class="card roadmap-card border_radi_us">
                 <div class="card-title">
-                    <h2>Q1- 2022</h2>
+                    <h2>Q2- 2022</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Api integration stocks and crypto  </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Staking </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Genesis Wallet Launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Genesis Exchange Launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Listing of Genesis Token on first CEX</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>DD Tokenized Tsstocks</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Mutual Funds</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Regualar Stocks</p>
-                   
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token development, auditing, and deployment </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Website and whitepaper launchStaking </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Industry partnership </p>
                 </div>
             </div>
-            <div class="card roadmap-card">
+            <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q2 2022 </h2>
+                    <h2>Q3 2022 </h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Artificial Intelligence bots and Machine Learning</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Copy Trading</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Bitcoin ETF'S and altcoins for first time traders.</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Bot Trading</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>NFT Wallet sale and purchase</p>
-                    
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token listing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Marketing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>ICO Launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>IDO Launch</p>
                 </div>
             </div>
-            <div class="card roadmap-card">
+
+            <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q3 2022</h2>
+                    <h2>Q4 2022</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Genesis Card (Top up and spend fiat and earn rewards in crypto)</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Version2 of App</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>V2 of website </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Centralized exchange listing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual Land integration</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Game experience alpha release </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK alpha release </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Launch of Metarix layer-2 blockchain solution </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Strategic partnerships </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Starting staking of MTX token </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>VR experience alpha release </p>
+                </div>
+            </div>
+
+            <div class="card roadmap-card  border_radi_us">
+                <div class="card-title">
+                    <h2>Q5 2022</h2>
+                </div>
+                <div class="card-head">
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Conference</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>NFT marketplace launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Decentralized Exchange launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Play to earn game v1 launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual smartwatch launch </p>
+                </div>
+            </div>
+
+            <div class="card roadmap-card  border_radi_us">
+                <div class="card-title">
+                    <h2>Q6 2022</h2>
+                </div>
+                <div class="card-head">
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse alpha launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contract solutions for digital marketing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK v1 launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Multi-language support </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contracts for Game Developers with easy to deploy solutions </p>
                 </div>
             </div>
 
@@ -397,7 +433,7 @@
     <section class="management_team" id="Teams">
         <div class="container management_team_data" >
             <div class="heading">
-                <h1 class="token_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> MANAGEMENT <span class="heading_bold"> TEAM </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+                <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> MANAGEMENT  TEAM <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
               </div>
             <div class="row">
                 <div class="team_data_1">
@@ -477,7 +513,7 @@
     <section class="our_partners" id="Partners">
         <div class="container" >
             <div class="heading">
-                <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> OUR <span class="heading_bold">PARTNERS </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+                <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> OUR PARTNERS <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
               </div>
             <div class="row">
                 <!-- <div class="col-md-12"> -->

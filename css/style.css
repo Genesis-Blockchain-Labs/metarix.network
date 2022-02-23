@@ -190,7 +190,7 @@ ul li {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #893fee;
+    color: #bf2d8a;
 }
 
 .navbar .getstarted,
@@ -200,15 +200,14 @@ ul li {
     border-radius: 50px;
     color: #fff;
     font-size: 14px;
-    border: 2px solid #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
     font-weight: 600;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
     color: #fff;
-    background: #893fee;
-    border: 2px solid #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);
 }
 
 .navbar .dropdown ul {
@@ -217,12 +216,11 @@ ul li {
     left: 14px;
     top: calc(100% + 30px);
     margin: 0;
-    padding: 10px 0;
+    padding: 4px 0;
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%); 
     transition: 0.3s;
     border-radius: 4px;
 }
@@ -236,7 +234,8 @@ ul li {
     font-size: 14px;
     text-transform: none;
     font-weight: 500;
-    color: #0c3c53;
+    color: #fff;
+    background-color: #000;
 }
 
 .navbar .dropdown ul a i {
@@ -246,7 +245,7 @@ ul li {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-    color: #893fee;
+    color: #bf2d8a;
 }
 
 .navbar .dropdown:hover>ul {
@@ -426,7 +425,9 @@ ul li {
 }
 
 .banner_head {
-    color: #893fee;
+    background: -webkit-linear-gradient(#bf2d8a ,#124dbd );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 700;
 }
 
@@ -527,7 +528,12 @@ ul li {
 }
 
 .heading_text {
-    color: #fff;
+    background: -webkit-linear-gradient(right, #0756d2 0%, #c72c8a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
 }
 
 .heading_para {
@@ -538,11 +544,13 @@ ul li {
     width: 30px;
 }
 
-.heading_bold {
-    color: #893fee;
+/* .heading_bold {
+    background: -webkit-linear-gradient(#bf2d8a ,#124dbd );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 700;
     text-transform: uppercase;
-}
+} */
 
 .products_items_data_left {
     position: absolute;
@@ -663,29 +671,41 @@ ul li {
 .button_btn {
     padding: 12px 50px 12px 50px;
     border-radius: 50px;
-    color: #893fee;
+    color: #fff;
     transition: 0.4s;
     animation-delay: 0.8s;
-    border: 2px solid #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%); 
 }
 
 .button_btn:hover {
-    background-color: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);   
     color: #FFF;
     transition: 0.4s;
     animation-delay: 0.8s;
-    border: 1px solid #893fee;
 }
 
-.b_down {
-    border-bottom: 1px solid #dadada !important;
+/* .b_down {
+    border-width: 0px 0px 1px 0px ;
+    border-style: solid;
+    border-image: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%) 1;
+} */
+
+.b_down, .left_border {
+    border-width: 0px 1px 1px 0px; 
+    border-style: solid;
+    border-image: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%) 1;
+   
 }
 
-.left_border {
-    border-right: 1px solid #dadada !important;
+.box-container.b_down:nth-child(3){
+    border-width: 0 0 1px 0;
 }
-
-
+.box-container.left_border:nth-child(4){
+    border-width: 0 1px 0 0;
+}
+.box-container.left_border:nth-child(5){
+    border-width: 0 1px 0 0;
+}
 /* TOKEN SALE  */
 
 .token_sale {
@@ -718,7 +738,7 @@ ul li {
 }
 
 .sale_bold {
-    color: #893fee;
+    color: #bf2d8a;
     font-weight: normal;
 }
 
@@ -742,19 +762,60 @@ ul li {
 
 .roadmap-row {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
     position: relative;
     padding: 70px 0px;
 }
 
 .card.roadmap-card {
-    border: 0px;
-    background: transparent;
+    padding: 30px;
+    position: relative;
 }
-
+.card.roadmap-card::after{
+    content: " ";
+    position: absolute;
+    top: 50%;
+    height: 2px;
+    width: 30px;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);
+    right: -31px;
+    z-index: -1;
+}
+.card.roadmap-card:nth-child(3)::after {
+    content: " ";
+    position: absolute;
+    height: 31px;
+    width: 2px;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);
+    right: 0;
+    z-index: -1;
+    margin: 0 auto;
+    left: 0;
+    bottom: -31px;
+    top: inherit;
+}
+.card.roadmap-card:nth-child(6)::after {
+    display: none;
+}
+.border_radi_us {
+    background: #000000;
+    border-radius: 10px;
+    position: relative;
+}
+.border_radi_us:before {
+    content: "";
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    border-radius: 12px;
+}
 .card-title {
-    color: #893fee;
+    color: #bf2d8a;
     font-weight: bold;
 }
 
@@ -762,6 +823,9 @@ ul li {
     margin-right: 11px;
     font-size: 10px;
     margin-top: 7px;
+    background: -webkit-linear-gradient(#bf2d8a ,#124dbd );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .roadmap_text {
@@ -802,7 +866,9 @@ ul li {
 }
 
 .teams_text {
-    color: #893fee;
+    background: -webkit-linear-gradient(right, #0756d2 0%, #c72c8a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: bold;
     padding-top: 25px;
 }
@@ -849,7 +915,9 @@ ul li {
 }
 
 .ft_head_text {
-    color: #893fee;
+    background: -webkit-linear-gradient(#bf2d8a ,#124dbd );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: bold;
     padding-bottom: 20px;
     position: relative;
@@ -864,7 +932,7 @@ ul li {
     left: 0px;
     width: 46px;
     height: 3px;
-    background: #FFF;
+  background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);  
     position: absolute;
 }
 
@@ -878,7 +946,7 @@ img.footer_logo {
 }
 
 .footer_tags:hover {
-    color: #893fee;
+    color: #bf2d8a;
     font-weight: normal;
 }
 
@@ -902,15 +970,15 @@ img.footer_logo {
     margin: 5px 10px 5px 10px !important;
     padding: 15px;
     text-align: center;
-    color: #893fee;
+    color: #fff;
     text-decoration: none;
     border-radius: 50px !important;
     margin: 6px !important;
-    border: 2px solid #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%); 
 }
 
 .icon_links:hover {
-    background-color: #893fee !important;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%)  !important;
     color: #FFF;
 }
 
@@ -949,8 +1017,9 @@ img.footer_logo {
 }
 
 .contact .info {
-    border-top: 3px solid #893fee;
-    border-bottom: 3px solid #893fee;
+    border-width: 3px 0px 3px 0px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%) 1;
     padding: 30px 0px;
     width: 100%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
@@ -1009,21 +1078,22 @@ img.footer_logo {
 }
 
 .contact .info .social-links a:hover {
-    background: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);    
     color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-    background: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);    
     color: #fff;
 }
 
 .contact .php-email-form {
     width: 100%;
-    border-top: 3px solid #893fee;
-    border-bottom: 3px solid #893fee;
+    border-width: 3px 0px 3px 0px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%) 1;
     padding: 30px;
 }
 
@@ -1099,7 +1169,7 @@ img.footer_logo {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-    border-color: #893fee;
+    border-color: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%) !important;
 }
 
 .contact .php-email-form input {
@@ -1113,15 +1183,14 @@ img.footer_logo {
 .contact .php-email-form button[type=submit] {
     border: 0;
     padding: 12px 34px;
-    color: #893fee;
+    color: #fff;
     transition: 0.4s;
-    background: transparent;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%); 
     border-radius: 50px;
-    border: 2px solid #893fee;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-    background: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);    
     color: #FFF;
 }
 
@@ -1150,8 +1219,11 @@ img.footer_logo {
 
 .php-email-form .form-control {
     background: transparent;
-    padding: 18px 0;
-    border-bottom: 1px solid #707070;
+    color: #fff;
+    padding: 18px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%) 1;
 }
 
 .form-button {
@@ -1160,20 +1232,18 @@ img.footer_logo {
 }
 
 .form-btn {
-    background-color: #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
     padding: 12px 80px 12px 80px;
     border-radius: 50px;
     transition: 0.4s;
     animation-delay: 0.8s;
-    border: 2px solid #893fee;
 }
 
 .form-btn:hover {
-    background-color: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);    
     color: #FFF;
     transition: 0.4s;
     animation-delay: 0.8s;
-    border: 1px solid #893fee;
 }
 
 .contact_data {
@@ -1207,31 +1277,25 @@ img.footer_logo {
 }
 
 .soon_btn {
-    background-color: #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
     padding: 12px 80px 12px 80px;
     border-radius: 50px;
     transition: 0.4s;
     color: #FFF;
     animation-delay: 0.8s;
-    border: 1px solid #893fee;
+   
 }
 
 .soon_btn:hover {
-    background-color: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%); 
     color: #FFF;
-    border: 2px solid #893fee;
+ 
 }
 
 
 /* Stacky-Pages */
 
-.staking_pages {
-    background: url(../img/staking/staking_bg.jpg);
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
+
 
 .stacky_head {
     text-align: center;
@@ -1253,13 +1317,15 @@ img.footer_logo {
     content: '';
     height: 2px;
     width: 100px;
-    background: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);  
     right: 0;
     margin: 0 auto;
 }
 
 .text_bold {
-    color: #893fee;
+    background: -webkit-linear-gradient(#bf2d8a ,#124dbd );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
 
@@ -1280,15 +1346,7 @@ img.footer_logo {
     margin: auto;
 }
 
-.all_stakers,
-.total_staked,
-.apy {
-    background: linear-gradient(to bottom, #19192a 0%, #000000 100%);
-    border-radius: 20px;
-    width: 100%;
-    height: 170px;
-    color: #D9DBDE;
-}
+
 
 .rewards {
     position: relative;
@@ -1324,37 +1382,32 @@ img.footer_logo {
 }
 
 .current_balance {
-    background: linear-gradient(to bottom, #19192a 0%, #000000 100%);
-    border-radius: 20px;
     width: 100%;
     height: 170px;
-    color: #D9DBDE;
+    color: #fff;
 }
 
 .rewards_data {
     display: flex;
     justify-content: space-around;
-    border-radius: 20px;
-    color: #D9DBDE;
+    color: #fff;
     align-items: center;
-    background: linear-gradient(to bottom, #19192a 0%, #000000 100%);
 }
 
 .stacky-btn {
     padding: 12px 50px 12px 50px;
     border-radius: 50px;
     transition: 0.4s;
-    color: #893fee;
+    color: #fff;
     animation-delay: 0.8s;
-    border: 1px solid #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);   
 }
 
 .stacky-btn:hover {
-    background-color: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);    
     color: #FFF;
     transition: 0.4s;
     animation-delay: 0.8s;
-    border: 2px solid #893fee;
 }
 
 .checkpoints {
@@ -1392,7 +1445,9 @@ img.footer_logo {
 }
 
 .check-heading {
-    color: #D9DBDE;
+    background: -webkit-linear-gradient(#bf2d8a ,#124dbd );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: left;
     padding: 50px 0px 10px 0px;
     position: relative;
@@ -1406,7 +1461,7 @@ img.footer_logo {
     content: '';
     height: 3px;
     width: 100px;
-    background: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%); 
     right: 0;
 }
 
@@ -1441,12 +1496,12 @@ img.footer_logo {
 
 /* sdk  */
 
-.sdk_main_text {
-    font-weight: bold;
-}
+
 
 .sdk_main_bold {
-    color: #893fee;
+    background: -webkit-linear-gradient(#bf2d8a ,#124dbd );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .sdk_main_img {
@@ -1455,9 +1510,7 @@ img.footer_logo {
     bottom: -35px;
 }
 
-#buttons_sdk {
-    background-color: #000000;
-}
+
 
 .buttons_sdk_data {
     padding: 100px 0px;
@@ -1470,12 +1523,12 @@ img.footer_logo {
     padding-top: 100px;
     text-align: center;
 }
-
+.buttons_sdk_items .border_radi_us {
+    background: #080808;
+}
 .play_store,
 .apple_store,
 .linux {
-    background: linear-gradient(to bottom, #19192a 0%, #000000 100%);
-    border-radius: 20px;
     width: 100%;
     height: 220px;
     color: #D9DBDE;
@@ -1520,17 +1573,7 @@ img.footer_logo {
     padding: 60px 0px 70px 0px;
 }
 
-.zoom {
-    box-sizing: border-box;
-    border-radius: 20px;
-    background: rgb(30, 56, 89);
-    background: -moz-linear-gradient(top, rgba(30, 56, 89, 1) 0%, rgba(0, 0, 0, 1) 100%);
-    background: -webkit-linear-gradient(top, rgba(30, 56, 89, 1) 0%, rgba(0, 0, 0, 1) 100%);
-    background: linear-gradient(to bottom, rgba(30, 56, 89, 1) 0%, rgba(0, 0, 0, 1) 100%);
-    z-index: 1;
-    position: relative;
-    box-shadow: 0px 2px 2px 2px #00000070;
-}
+
 
 .zoom-img {
     z-index: 1;
@@ -1564,7 +1607,7 @@ img.footer_logo {
 
 .features_para {
     padding-top: 15px;
-    color: #FFFFFFA3;
+    color: #FFf;
 }
 
 .features_text {
@@ -1608,17 +1651,16 @@ img.footer_logo {
 .community_btn {
     padding: 5px 70px 5px 70px;
     border-radius: 50px;
-    color: #893fee;
+    color: #fff;
     transition: 0.4s;
     animation-delay: 0.8s;
-    border: 1px solid #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%); 
     font-size: 20px;
     font-weight: bold;
 }
 
 .community_btn:hover {
-    background-color: #893fee;
-    border: 1px solid #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%); 
     color: #fff;
 }
 
@@ -1652,7 +1694,9 @@ img.footer_logo {
 }
 
 .blockchain_heading {
-    color: #893fee;
+    background: -webkit-linear-gradient(#bf2d8a ,#124dbd );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
 
@@ -1699,7 +1743,9 @@ img.rt_blockchain_img {
     background: #000000;
     border-radius: 20px;
     position: relative;
-    border: 2px solid #893fee;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%) 1;
 }
 
 .box_container::after {
@@ -1708,7 +1754,7 @@ img.rt_blockchain_img {
     content: '';
     height: 15px;
     width: 80%;
-    background: #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
     right: 0;
     bottom: -15px;
     margin: 0 auto;
@@ -1721,7 +1767,7 @@ img.rt_blockchain_img {
     content: '';
     height: 15px;
     width: 70%;
-    background: #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
     right: 0;
     bottom: -31px;
     margin: 0 auto;
@@ -1739,7 +1785,9 @@ img.rt_blockchain_img {
 
 .services_bold {
     font-size: 28px;
-    color: #893fee;
+    background: -webkit-linear-gradient(#bf2d8a ,#124dbd );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
 
@@ -1751,7 +1799,7 @@ img.rt_blockchain_img {
 /* bitcoin  */
 
 .bitcoins {
-    background: linear-gradient(to right, #893fee 0%, #000000 100%);
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);     
 }
 
 .bitcoins_data {
@@ -1876,7 +1924,7 @@ img.rt_blockchain_img {
     content: '';
     height: 15px;
     width: 56%;
-    background: #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
     right: 0;
     bottom: 10px;
     z-index: -9;
@@ -1942,17 +1990,16 @@ img.rt_blockchain_img {
 .ado_btn {
     padding: 15px 70px 15px 70px;
     border-radius: 50px;
-    color: #893fee;
+    color: #fff;
     transition: 0.4s;
     animation-delay: 0.8s;
-    border: 1px solid #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);    
     font-size: 20px;
     font-weight: bold;
 }
 
 .ado_btn:hover {
-    background-color: #893fee;
-    border: 1px solid #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%); 
     color: #fff;
 }
 
@@ -1998,15 +2045,15 @@ img.rt_blockchain_img {
 }
 
 a.nft_btn {
-    background: #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);   
     color: #fff;
     padding: 10px 60px 10px 60px;
     border-radius: 20px;
     font-weight: bold;
 }
 a.nft_btn:hover{
-    background: #fff;
-    color: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%); 
+    color: #fff;
     padding: 10px 60px 10px 60px;
     border-radius: 20px;
     font-weight: bold;
@@ -2039,7 +2086,7 @@ a.nft_btn:hover{
     margin-bottom: 50px;
 }
 .nft_tabs .active{
-    background: #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);   
     color: #fff;
     padding: 7px 21px 7px 21px;
     border-radius: 18px;
@@ -2053,8 +2100,8 @@ a.nft_btn:hover{
     border: 1px solid #fff;
 }
 .nft_nav_link:hover{
-    background: #fff;
-    color: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);  
+    color: #fff;
     padding: 7px 21px 7px 21px;
     border-radius: 18px;
     border: none;
@@ -2217,7 +2264,7 @@ a.nft_btn:hover{
     text-align: center;
 }
 .live_autonis_btn {
-    background: #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);   
     color: #fff;
     padding: 7px 30px;
     border-radius: 15px;
@@ -2226,8 +2273,8 @@ a.nft_btn:hover{
 }
 
 .live_autonis_btn:hover {
-    background:#fff ;
-    color: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);  
+    color: #fff;
 }
 
 
@@ -2272,31 +2319,35 @@ a.nft_btn:hover{
     padding: 20px 0px;
 }
 .soft_btn {
-    border: 1px solid #fff;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);   
+    color: #fff;
     border-radius: 15px;
     padding: 7px 35px;
 }
 .soft_btn:hover {
-    border: 1px solid #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%); 
     color: #fff;
 }
 .left_hard_button {
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);   
+    color: #fff;
     padding-top: 10px;
     text-align: center;
 }
 .hard_btn {
-    background: #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);   
     color: #fff;
     border-radius: 15px;
     padding: 7px 35px;
 }
 .hard_btn:hover {
-    background: #fff;
-    color: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%); 
+    color: #fff;
 }
 
 .hard_btn1:hover{
-    color: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%); 
+    color: #fff;
 
 }
 
@@ -2525,14 +2576,14 @@ a.nft_btn:hover{
     padding: 20px 0px;
 }
 .collbs_btn {
-    background: #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);  
     color: #fff;
     border-radius: 15px;
     padding: 7px 35px;
 }
 .collbs_btn:hover {
-    background: #fff;
-    color: #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);
+    color: #fff;
 }
 
 .collectionhead{
@@ -2654,16 +2705,15 @@ a.nft_btn:hover{
 .assest_store_btn {
     padding: 14px 40px 14px 40px;
     border-radius: 50px;
-    color: #893fee;
+    color: #fff;
     transition: 0.4s;
     animation-delay: 0.8s;
-    border: 1px solid #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
     font-size: 18px;
 }
 
 .assest_store_btn:hover {
-    background-color: #893fee;
-    border: 1px solid #893fee;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);
     color: #fff;
 }
 
@@ -2700,33 +2750,30 @@ a.nft_btn:hover{
     color: #fff;
     transition: 0.4s;
     animation-delay: 0.8s;
-    border: 1px solid #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%); 
     /* background: linear-gradient(to bottom, #19192a 0%,#000000 100%) !important; */
 }
 
 #pills-home-tab .active {
-    background-color: #893fee !important;
-    border: 1px solid #893fee !important;
+    background-color: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%) !important;
     color: #fff;
 }
 
 #pills-home-tab .active:hover {
     background-color: transparent !important;
-    border: 1px solid #893fee !important;
     color: #fff;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #893fee;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%); 
 }
 
 #pills-profile-tab:hover,
 #pills-contact-tab:hover,
 #pills-contact-tab:hover {
-    background-color: #893fee !important;
-    border: 1px solid #893fee !important;
+    background-color: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%) !important;
     color: #fff;
 }
 
@@ -2766,15 +2813,15 @@ a.nft_btn:hover{
     color: #FFF;
     right: 15px;
     font-size: 20px;
-    background: #893fee85;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
     width: 30px;
     text-align: center;
     border-radius: 10px;
 }
 
 .saved:hover {
-    color: #893fee;
-    background: #fff;
+    color: #fff;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);
 }
 
 .card_details {

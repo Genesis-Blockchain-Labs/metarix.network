@@ -13,7 +13,7 @@
          <div class="row">
              <div class="col-md-6">
                  <div class="main-head">
-                     <h1 class="sdk_main_text">Metarix <span class="sdk_main_bold">SDK</span></h1>
+                     <h1 class="heading_text">Metarix <span class="sdk_main_bold">SDK</span></h1>
                      <p class="sdk_main_para">It is a long established fact that a reader will be 
                          distracted by the readable content of a page when
                           lokking at its layout</p>
@@ -35,12 +35,12 @@
  <section class="buttons_sdk" id="buttons_sdk">
      <div class="container buttons_sdk_data">
         <div class="heading">
-            <h1 class="token_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> LOREM IPSUM <span class="heading_bold"> DUMMY </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> LOREM IPSUM  DUMMY <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
             <p class="sdk_head_para">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ipsam laborum reprehenderit cupiditate porro in!"</p>
           </div>
           <div class="row">
             <div class="buttons_sdk_items">
-                <div class="play_store">
+                <div class="play_store border_radi_us">
                   <img class="button_sdk_img" src="img/metarixsdk/window.png" alt="">
                     <div class="sdk_data">
                       <h3 class="sdk_button_text">Windows 7</h3>
@@ -48,7 +48,7 @@
                     </div> 
                 </div>
     
-                <div class="apple_store">
+                <div class="apple_store border_radi_us">
                   <img class="button_sdk_img" src="img/metarixsdk/apple.png" alt="">
                     <div class="sdk_data">
                       <h3 class="sdk_button_text">Mavericks</h3>
@@ -56,7 +56,7 @@
                     </div> 
                 </div>
     
-                <div class="linux">
+                <div class="linux border_radi_us">
                   <img class="button_sdk_img" src="img/metarixsdk/lineux.png" alt="">
                     <div class="sdk_data">
                       <h3 class="sdk_button_text">Linux X64</h3>
@@ -74,13 +74,13 @@
  <section class="sdk_features" id="sdk_features">
     <div class="container sdk_features_data">
         <div class="heading">
-            <h1 class="token_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> SDK <span class="heading_bold"> FEATURES </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> SDK  FEATURES <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
             <p class="sdk_head_para">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ipsam laborum reprehenderit cupiditate porro in!"</p>
           </div>
         <div class="row">
             <div class="features-box">
 
-                <div class="zoom">
+                <div class="zoom border_radi_us">
                     <div class="zoom-img">
                     <img class="features_img" src="img/metarixsdk/feature_1.png" alt="">
                 </div>
@@ -91,7 +91,7 @@
                 </div>
             </div>
 
-                <div class="zoom">
+                <div class="zoom border_radi_us">
                     <div class="zoom-img">
                     <img class="features_img" src="img/metarixsdk/feature_2.png" alt="">
                 </div>
@@ -102,7 +102,7 @@
                 </div>
             </div>
 
-                <div class="zoom">
+                <div class="zoom border_radi_us">
                     <div class="zoom-img">
                     <img class="features_img" src="img/metarixsdk/feature_3.png" alt="">
                 </div>
@@ -129,7 +129,7 @@
             </div>
             <div class="col-md-8">
                 <div class="community_items">
-                    <h2 class="community_text">JOIN OUR <span class="heading_bold">COMMUNITY</span></h2>
+                    <h2 class="heading_text">JOIN OUR COMMUNITY</h2>
                     <p class="community_para">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ea voluptatum voluptatibus repellendus cumque ad?"</p>
                     <div class="commuinty_button">
                         <a class="community_btn" href="#">Join</a>
