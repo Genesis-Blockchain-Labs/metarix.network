@@ -41,7 +41,9 @@
           <div class="row">
             <div class="buttons_sdk_items">
                 <div class="play_store border_radi_us">
-                  <img class="button_sdk_img" src="img/metarixsdk/window.png" alt="">
+                    <div class="window_img border_radi_us round_radius">
+                         <i class="fa fa-windows button_sdk_img" aria-hidden="true"></i>
+                    </div>
                     <div class="sdk_data">
                       <h3 class="sdk_button_text">Windows 7</h3>
                       <h4 class="sdk_button_para">and Up</h4>    
@@ -49,7 +51,9 @@
                 </div>
     
                 <div class="apple_store border_radi_us">
-                  <img class="button_sdk_img" src="img/metarixsdk/apple.png" alt="">
+                     <div class="window_img border_radi_us round_radius">
+                         <i class="fa fa-windows button_sdk_img" aria-hidden="true"></i>
+                    </div>
                     <div class="sdk_data">
                       <h3 class="sdk_button_text">Mavericks</h3>
                       <h4 class="sdk_button_para">and Up</h4>    
@@ -57,7 +61,9 @@
                 </div>
     
                 <div class="linux border_radi_us">
-                  <img class="button_sdk_img" src="img/metarixsdk/lineux.png" alt="">
+                     <div class="window_img border_radi_us round_radius">
+                         <i class="fa fa-windows button_sdk_img" aria-hidden="true"></i>
+                    </div>
                     <div class="sdk_data">
                       <h3 class="sdk_button_text">Linux X64</h3>
                     </div> 

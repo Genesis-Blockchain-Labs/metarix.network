@@ -30,7 +30,7 @@
         </div>
      <div class="row">
        <div class="services_item_1">
-         <div class="box_container">
+         <div class="box_container border_radi_us">
            <div class="box_data">
              <img class="services_img" src="img/metarix_blockchain/b_services_1.png" alt="">
              <h4 class="services_head">Cost-Effective </h4>
@@ -41,7 +41,7 @@
            </div>
          </div>
 
-         <div class="box_container">
+         <div class="box_container border_radi_us">
            <div class="box_data">
              <img class="services_img" src="img/metarix_blockchain/b_services_2.png" alt="">
              <h4 class="services_head">High Transactional </h4>
@@ -52,7 +52,7 @@
            </div>
          </div>
 
-         <div class="box_container">
+         <div class="box_container border_radi_us">
            <div class="box_data">
              <img class="services_img" src="img/metarix_blockchain/b_services_1.png" alt="">
              <h4 class="services_head">Enhanced Trust</h4>
@@ -65,7 +65,7 @@
        </div>
        
        <div class="services_item_2">
-         <div class="box_container">
+         <div class="box_container border_radi_us">
            <div class="box_data">
              <img class="services_img" src="img/metarix_blockchain/b_services_1.png" alt="">
              <h4 class="services_head">Cost-Effective </h4>
@@ -76,7 +76,7 @@
            </div>
          </div>
 
-         <div class="box_container">
+         <div class="box_container border_radi_us">
            <div class="box_data">
              <img class="services_img" src="img/metarix_blockchain/b_services_2.png" alt="">
              <h4 class="services_head">High Transactional </h4>
@@ -87,7 +87,7 @@
            </div>
          </div>
 
-         <div class="box_container">
+         <div class="box_container border_radi_us">
            <div class="box_data">
              <img class="services_img" src="img/metarix_blockchain/b_services_1.png" alt="">
              <h4 class="services_head">Enhanced Trust</h4>
