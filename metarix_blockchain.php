@@ -8,13 +8,13 @@
          <div class="row">
              <div class="col-md-6 left_blockchain">
                  <div class="blockchain_head">
-                    <h1 class="heading_text" >Lorem Ipsum is <br> simply <span class="blockchain_heading" >dummy</span></h1>
+                    <h1 class="heading_text" >Discover The Metarix</h1>
                     <p class="bc_para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
                  </div>  
              </div>
 
              <div class="col-md-6 right_blockchain">
-                 <img class="rt_blockchain_img" src="img/metarix_blockchain/b_main_img.png" alt="">
+                 <img class="rt_blockchain_img" src="img/metarix_blockchain/update_b_main_img.png" alt="">
              </div>
          </div>
      </div>
