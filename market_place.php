@@ -10,14 +10,14 @@
                     <h1 class="market_head">Discover, Collect, And Sell Extraordinary <span class="blockchain_heading">NFTs</span></h1>
                     <p class="market_para">Non-Fungible Tokens (NFTs) are virtual tokens minted on the blockchain for digital scarcity, security, and authenticity. They are unique, indivisible, and non-interchangeable — allowing true digital ownership of in-game assets.</p>
 
-                    <div class="nft_button">
+                    <!-- <div class="nft_button">
                         <a class="nft_btn" href="#">Explore</a>
-                    </div>
+                    </div> -->
                   </div>
               </div>
             <div class="col-md-6">
                 <div class="nft_right_img">
-                    <img class="nft_dog_img" src="img/marketplace/update_nft_main_banner.png" alt="">
+                    <img class="nft_dog_img" src="img/metarix_blockchain/update_b_main_img.png" alt="">
                 </div>
             </div>
         </div>

@@ -8,7 +8,7 @@
          <div class="row">
              <div class="col-md-6 left_blockchain">
                  <div class="blockchain_head">
-                    <h1 class="heading_text" >Discover The Metarix</h1>
+                    <h1 class="heading_text" >Layer To Scalable Solution On The top Of Ethereum For Gaming NFT And Metaverse </h1>
                     <p class="bc_para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
                  </div>  
              </div>
@@ -25,7 +25,7 @@
  <section class="our_services" id="our_services">
    <div class="container our_services_data">
         <div class="heading">
-              <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> Our  SERVICES <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+              <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> Blockchain  SERVICES <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
               <p class="block_para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut laboure et dolore magna aliqua."</p>
         </div>
      <div class="row">

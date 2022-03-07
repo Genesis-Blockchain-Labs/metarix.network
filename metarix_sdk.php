@@ -22,7 +22,7 @@
              </div>
              <div class="col-md-6">
                  <div class="main-img">
-                     <img class="sdk_main_img" src="img/metarixsdk/metarix_main_img.png" alt="">
+                     <img class="sdk_main_img" src="img/metarixsdk/updatesdkk.png" alt="">
                  </div>
              </div>
          </div>
@@ -52,7 +52,7 @@
     
                 <div class="apple_store border_radi_us">
                      <div class="window_img border_radi_us round_radius">
-                         <i class="fa fa-windows button_sdk_img" aria-hidden="true"></i>
+                         <i class="fa fa-apple button_sdk_img" aria-hidden="true"></i>
                     </div>
                     <div class="sdk_data">
                       <h3 class="sdk_button_text">Mavericks</h3>
@@ -62,7 +62,7 @@
     
                 <div class="linux border_radi_us">
                      <div class="window_img border_radi_us round_radius">
-                         <i class="fa fa-windows button_sdk_img" aria-hidden="true"></i>
+                         <i class="fa fa-linux button_sdk_img" aria-hidden="true"></i>
                     </div>
                     <div class="sdk_data">
                       <h3 class="sdk_button_text">Linux X64</h3>
