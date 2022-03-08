@@ -498,7 +498,6 @@ ul li {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
-    text-transform: uppercase;
     display: inline-block;
 }
 
@@ -648,7 +647,7 @@ ul li {
 .box-head {
     text-align: center;
     line-height: 2;
-    padding: 75px 18px 30px 17px;
+    padding: 45px 18px 30px 17px;
 }
 
 .button {
@@ -850,7 +849,8 @@ ul li {
 .team_data_1,
 .team_data_2,
 .team_data_3 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
     justify-content: center;
     padding-top: 100px;
@@ -936,7 +936,7 @@ ul li {
 /* powered by  */
 
 #Powerdby{
-    background: #000000;
+    background: #0c0c0c;
     padding: 60px 0px;
 
 }
@@ -985,7 +985,12 @@ img.footer_logo {
 .footer_tags {
     font-size: 16px;
 }
-
+li.ftlightpaper {
+    list-style: none;
+}
+li.ftlightpaper a:hover {
+    color: #bf2d8a;
+}
 .footer_tags:hover {
     color: #bf2d8a;
     font-weight: normal;
@@ -1581,7 +1586,6 @@ img.footer_logo {
     border-radius: 50%;
     margin: 0 auto;
     position: relative;
-    top: -65px;
     display: table;
 }
 .button_sdk_img {
@@ -1590,13 +1594,33 @@ img.footer_logo {
     display: table-cell;
     vertical-align: middle;
 }
+.sdk_buttons{
+    text-align: center;
+    padding: 20px 0px;
+}
+.sdk_data h1 {
+    font-size: 22px;
+}
+.sdk_btn {
+    padding: 10px 22px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
+    font-weight: 600;
+}
+.sdk_btn:hover {
+    color: #fff;
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);
+}
+
 /* .button_sdk_img {
     position: relative;
     top: -80px;
 } */
 
 .sdk_data {
-    position: relative;
+    padding: 20px 0;
 }
 
 .sdk_button_text,
@@ -1634,12 +1658,12 @@ img.footer_logo {
     position: relative;
     overflow: hidden;
     transition: all 1.2s;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 12px 12px 0px 0px;
 }
 
 .features_img {
     width: 100%;
-    height: 210px;
+    height: 250px;
     z-index: 1;
     transition: all 500ms linear;
 }
@@ -1667,6 +1691,7 @@ img.footer_logo {
 .features_text {
     color: #FFF;
     font-weight: bold;
+    font-size: 22px;
 }
 
 
@@ -1736,7 +1761,7 @@ img.footer_logo {
     padding-top: 70px;
 }
 p.bc_para {
-    color: #000;
+    color: #fff;
 }
 
 .blockchain_main_data {
@@ -1757,9 +1782,12 @@ p.bc_para {
     -webkit-text-fill-color: transparent;
     font-weight: bold;
 }
-
+.right_blockchain {
+    text-align: end;
+}
 .rt_blockchain_img {
     max-width: 100%;
+    max-height: 450px;
 }
 
 .blockchain_head {
@@ -1874,6 +1902,7 @@ p.bc_para {
 
 .bitcoin_para {
     font-size: 27px;
+    font-weight: 200;
 }
 
 .bitcoin_img {
@@ -1939,7 +1968,7 @@ p.bc_para {
 }
 
 .metarix_bitcoins {
-    background: #0a1019;
+    background: #000000;
     color: #fff;
     padding: 100px 0px 400px 0px;
     position: relative;
@@ -2000,7 +2029,7 @@ p.bc_para {
 
 .metarix_bitcoins_bgg {
     display: flex;
-    background: #27292c;
+    background: #141414;
     margin: 150px 0px;
     color: #FFF;
     border-radius: 30px;
@@ -2032,7 +2061,7 @@ p.bc_para {
 .ado_zoom {
     box-sizing: border-box;
     border-radius: 20px;
-    background: #27292c;
+    background: #0c0c0c;
     z-index: 1;
     position: relative;
     box-shadow: 0px 2px 2px 2px #00000070;
@@ -2582,18 +2611,14 @@ a.nft_btn:hover{
 
 /* open sea links  */
 .nft_links{
-    padding: 30px 0px;
+    padding: 80px 0px;
     background: #0a0c10;
     overflow: hidden;
 }
-/*.nft_card_data {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0;
+.nft_soon {
+    padding: 180px 0px;
+    text-align: center;
 }
-*/
-
-
 
 
 

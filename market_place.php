@@ -1069,7 +1069,12 @@
 
 
 <section class="nft_links">
-    <div class="container-fluid p-0">
+    <div class="container">
+        <div class="nft_soon">
+            <img class="nft_soon_img" src="img/cooming_soon.png" alt="">
+        </div>
+    </div>
+    <!-- <div class="container-fluid p-0">
         <div class="row">                        
             <div class="col-md-6  mb-4">
                 <nft-card  contractAddress="0xb47e3cd837ddf8e4c57f05d70ab865de6e193bbb" tokenId="4738"> </nft-card>
@@ -1096,7 +1101,7 @@
                 <script src="https://unpkg.com/embeddable-nfts/dist/nft-card.min.js"></script>
              </div>
         </div>
-    </div>
+    </div> -->
 </section>
 
 
