@@ -4,64 +4,95 @@
 
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class=" d-flex align-items-center">
-
-    <!-- <div class="container-fluid  hero_data" data-aos="fade-up"> -->
-      <!-- <div class="row"> -->
-        <!-- <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1 class="hero_head_text">Lorem lpsum is Simply dummy text of the printing and typesetting <span class="banner_head">industry.</span></h1>
-          <h2>We are team of talented designers making websites with Bootstrap</h2>
-          <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
-          </div>
-        </div> -->
-      <!--Carousel Wrapper-->
+  <!-- <section id="hero" class=" d-flex align-items-center">
 <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
-    <!--Indicators-->
     <ol class="carousel-indicators">
       <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
-      <!-- <li data-target="#video-carousel-example2" data-slide-to="1"></li>
-      <li data-target="#video-carousel-example2" data-slide-to="2"></li> -->
     </ol>
-    <!--/.Indicators-->
-    <!--Slides-->
     <div class="carousel-inner" role="listbox">
-      <!-- First slide -->
       <div class="carousel-item active">
-        <!--Mask color-->
         <div class="view">
-          <!--Video source-->
           <video class="video-fluid" autoplay loop muted>
             <source src="https://mdbootstrap.com/img/video/Lines.mp4" type="video/mp4" />
           </video>
           <div class="mask rgba-indigo-light"></div>
         </div>
   
-        <!--Caption-->
         <div class="carousel-caption">
           <div class="animated fadeInDown">
             <h1 class="hero_head_text">Lorem lpsum is Simply dummy text of the <span class="banner_head">printing.</span></h1>
           </div>
         </div>
-        <!--Caption-->
       </div>
-      <!-- /.First slide -->
     </div>
   </div>
-  <!--Carousel Wrapper-->
-        <!-- <iframe class="hero_videos" src="https://www.youtube.com/embed/qhLExhpXX0E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-        
-      <!-- </div> -->
-    <!-- </div> -->
-  </section><!-- End Hero -->
+  
+  </section> -->
 
-  <!-- <div class="heading_overlay" >
-    <h1 class="hero_head_text">Lorem lpsum is Simply dummy text of the <span class="banner_head">printing.</span></h1>
-  </div> -->
+<section class="main_slider">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <video class="video-fluid" autoplay loop muted>
+                    <source src="img/main_slider/Gif_1.mp4" type="video/mp4" />
+                </video>
+                <div class="main_left_text">
+                    <h2 class="lft_text_white">Lorem ipsum is placeholder </h2>
+                    <p class="lft_para_white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <video class="video-fluid" autoplay loop muted>
+                    <source src="img/main_slider/Gif_2.mp4" type="video/mp4" />
+                </video>
+                <div class="main_right_text">
+                    <h2 class="right_text">Lorem ipsum is placeholder </h2>
+                    <p class="right_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <video class="video-fluid" autoplay loop muted>
+                    <source src="img/main_slider/Gif_3.mp4" type="video/mp4" />
+                </video>
+                <div class="main_left_text">
+                    <h2 class="lft_text_white">Lorem ipsum is placeholder </h2>
+                    <p class="lft_para_white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <video class="video-fluid" autoplay loop muted>
+                    <source src="img/main_slider/Gif_4.mp4" type="video/mp4" />
+                </video>
+                <div class="main_right_text">
+                    <h2 class="right_text">Lorem ipsum is placeholder </h2>
+                    <p class="right_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <video class="video-fluid" autoplay loop muted>
+                    <source src="img/main_slider/Gif_5.mp4" type="video/mp4" />
+                </video>
+                <div class="main_left_text">
+                    <h2 class="right_text">Lorem ipsum is placeholder </h2>
+                    <p class="right_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+</section>
+
+
 
   <!-- ALL ARTIFACTS  -->
-
   <section class="all_products" id="Products">
     <div class="container-fluid p-0">
         <div class="heading">
@@ -679,6 +710,51 @@
                             <h4 class="teams_text">Yashwanth Kasturi </h4>
                             <p class="teams_para">Product Lead</p>
                         </div>
+                        <div class="box team_member">
+                            <img class="teams_img fit_img" src="img/team/hardeep.png" alt="">
+                            <h4 class="teams_text">Hardeep Anot</h4>
+                            <p class="teams_para">3D Animator</p>
+                        </div>
+                        <div class="box team_member">
+                            <img class="teams_img" src="img/team/heera.png" alt="">
+                            <h4 class="teams_text">Heera</h4>
+                            <p class="teams_para">3D Modeler</p>
+                        </div>
+                        <div class="box team_member">
+                            <img class="teams_img fit_img" src="img/team/karan.png" alt="">
+                            <h4 class="teams_text">Karan</h4>
+                            <p class="teams_para">VFX Supervisor</p>
+                        </div>
+                        <div class="box team_member">
+                            <img class="teams_img" src="img/team/madurthappar.png" alt="">
+                            <h4 class="teams_text">Madur Thappar</h4>
+                            <p class="teams_para">Rigger</p>
+                        </div>
+                        <div class="box team_member">
+                            <img class="teams_img fit_img" src="img/team/vikas.png" alt="">
+                            <h4 class="teams_text">Vikas</h4>
+                            <p class="teams_para">Rigger</p>
+                        </div>
+                        <div class="box team_member">
+                            <img class="teams_img" src="img/team/saurav.png" alt="">
+                            <h4 class="teams_text">Sourav</h4>
+                            <p class="teams_para">Graphic Designer</p>
+                        </div>
+                        <div class="box team_member">
+                            <img class="teams_img fit_img" src="img/team/vanishika.png" alt="">
+                            <h4 class="teams_text">Vanishika</h4>
+                            <p class="teams_para">Unity Developer</p>
+                        </div>
+                        <div class="box team_member">
+                            <img class="teams_img" src="img/team/manish.png" alt="">
+                            <h4 class="teams_text">Manish</h4>
+                            <p class="teams_para">Unity Developer</p>
+                        </div>
+                        <div class="box team_member">
+                            <img class="teams_img" src="img/team/aditiadhau.png" alt="">
+                            <h4 class="teams_text">Aditi Adhau</h4>
+                            <p class="teams_para">Character Modelling and Texturing</p>
+                        </div>
                     </div>
                 </div>
 
@@ -715,13 +791,12 @@
 
 
     <!-- our partner   -->
-    <section class="our_partners" id="Partners">
+    <!-- <section class="our_partners" id="Partners">
         <div class="container" >
             <div class="heading">
                 <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> OUR PARTNERS <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
               </div>
             <div class="row">
-                <!-- <div class="col-md-12"> -->
                     <div class="partners-data">
                         <ul class="partner-list flex-wrap">
                             <li class="partner-logo"><img src="img/partners/a-xs.png" alt="partner"></li>
@@ -736,10 +811,9 @@
                             <li class="partner-logo"><img src="img/partners/d-sm.png" alt="partner"></li>
                         </ul>
                     </div>
-                <!-- </div> -->
             </div>
         </div>
-    </section>
+    </section> -->
 
 
     <!-- powered by   -->
@@ -770,4 +844,3 @@
 <?php include("includes/footer.php"); ?>
 
     
-   
