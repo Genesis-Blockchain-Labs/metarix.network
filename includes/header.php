@@ -61,7 +61,7 @@
                     <!-- <li><a href="asset_store.php" >Asset Store</a></li> -->
                     <li><a href="metarix_blockchain.php" >Metarix Blockchain</a></li>
                     <li><a href="virtual_store.php" >Virtual Map</a></li>
-                    <li><a href="update.php" >update</a></li>
+                    <!-- <li><a href="update.php" >update</a></li> -->
                     <!-- <li><a href="#">Drop Down 3</a></li>
                     <li><a href="#">Drop Down 4</a></li> -->
                 </ul>
@@ -89,7 +89,7 @@
           </li> -->
           <li><a class="nav-link scrollto" href="#">More</a></li>
           <li><a class="nav-link scrollto"  href="contact.php">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#">Whitepaper</a></li>
+          <li><a class="getstarted scrollto" target="_blank" href="img/whitepaper/Whitepaper .pdf">Whitepaper</a></li>
           <li><a class="getstarted scrollto"  href="staking.php">Staking</a></li>
         </ul>
         <i class="fa fa-list mobile-nav-toggle"></i>

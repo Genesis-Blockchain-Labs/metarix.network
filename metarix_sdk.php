@@ -16,7 +16,7 @@
                      <h1 class="heading_text">Metarix <span class="sdk_main_bold">SDK</span></h1>
                      <p class="sdk_main_para">It is a long established fact that a reader will be 
                          distracted by the readable content of a page when
-                          lokking at its layout</p>
+                          lokking at its layout. Creators can use the Metarix SDK and Assets store to unleash their creativity and make games, in-game material, characters, and more as blockchain developers without much skill, utilizing publicly available software tools and programmed codes</p>
                  </div>
                 
              </div>
@@ -40,32 +40,47 @@
           </div>
           <div class="row">
             <div class="buttons_sdk_items">
-                <div class="play_store border_radi_us">
+                <div class="play_store ">
                     <div class="window_img border_radi_us round_radius">
                          <i class="fa fa-windows button_sdk_img" aria-hidden="true"></i>
                     </div>
                     <div class="sdk_data">
-                      <h3 class="sdk_button_text">Windows 7</h3>
-                      <h4 class="sdk_button_para">and Up</h4>    
+                        <h1>Windows</h1>
+                        <div class="sdk_buttons">
+                             <a class="sdk_btn" href="#">Download</a>
+                        </div>
+                        <p>coming Soon</p>
+                      <!-- <h3 class="sdk_button_text">Windows 7</h3>
+                      <h4 class="sdk_button_para">and Up</h4>     -->
                     </div> 
                 </div>
     
-                <div class="apple_store border_radi_us">
+                <div class="apple_store ">
                      <div class="window_img border_radi_us round_radius">
                          <i class="fa fa-apple button_sdk_img" aria-hidden="true"></i>
                     </div>
                     <div class="sdk_data">
-                      <h3 class="sdk_button_text">Mavericks</h3>
-                      <h4 class="sdk_button_para">and Up</h4>    
+                        <h1>Apple</h1>
+                        <div class="sdk_buttons">
+                             <a class="sdk_btn" href="#">Download</a>
+                        </div>
+                        <p>coming Soon</p>
+                      <!-- <h3 class="sdk_button_text">Mavericks</h3>
+                      <h4 class="sdk_button_para">and Up</h4>     -->
                     </div> 
                 </div>
     
-                <div class="linux border_radi_us">
+                <div class="linux ">
                      <div class="window_img border_radi_us round_radius">
                          <i class="fa fa-linux button_sdk_img" aria-hidden="true"></i>
                     </div>
                     <div class="sdk_data">
-                      <h3 class="sdk_button_text">Linux X64</h3>
+                        <h1>Linux X64</h1>
+                        <div class="sdk_buttons">
+                             <a class="sdk_btn" href="#">Download</a>
+                        </div>
+                        <p>coming Soon</p>
+                      <!-- <h3 class="sdk_button_text">Linux X64</h3> -->
                     </div> 
                 </div>
             </div>
@@ -81,7 +96,7 @@
     <div class="container sdk_features_data">
         <div class="heading">
             <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> SDK  FEATURES <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
-            <p class="sdk_head_para">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ipsam laborum reprehenderit cupiditate porro in!"</p>
+            <p class="sdk_head_para">"Metarix SDK will also support several auxiliary functions and products to improve the platform's functionality."</p>
           </div>
         <div class="row">
             <div class="features-box">
@@ -92,8 +107,8 @@
                 </div>
                
                 <div class="zoom-text">
-                    <h2 class="features_text">Modeler</h2>
-                    <p class="features_para">There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words Which don't look even slightly believable.</p>
+                    <h2 class="features_text">Creating Your Master piece</h2>
+                    <p class="features_para">The creators will be able to develop and test their creations using the SDK, and when they are finished, they will be able to publish their material onto their piece of land for others to enjoy. This also gives creators the possibility to commercialize their ventures in the Metaverse.</p>
                 </div>
             </div>
 
@@ -103,8 +118,8 @@
                 </div>
                
                 <div class="zoom-text">
-                    <h2 class="features_text">Animator</h2>   
-                    <p class="features_para">There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words Which don't look even slightly believable0</p>
+                    <h2 class="features_text">LAYER 2 Solution</h2>   
+                    <p class="features_para">We believe layer 2 is the future of blockchain technology and can help accelerate the mass adoption of cryptocurrencies. Layer 2 solutions are helpful both in terms of scaling and fee structure. Our blockchain solutions will be secure and safe for the users and investors since they inherit the underlying security of the main chain, i.e., Ethereum. </p>
                 </div>
             </div>
 
@@ -114,8 +129,8 @@
                 </div>
                
                 <div class="zoom-text">
-                    <h2 class="features_text">Block Editor</h2>  
-                    <p class="features_para">There are many variations of passages of Lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words Which don't look even slightly believable.</p>
+                    <h2 class="features_text">Five Theme Parks - Alpha Version</h2>  
+                    <p class="features_para">We will launch the alpha version with five theme parks; users will have access to them and will be able to transact and store their digital assets. They will also engage with other asset creators, as well as sell and monetize their assets on the platform. Smart contracts will be used to handle everything on the site.</p>
                 </div>
             </div>
          </div>
@@ -136,7 +151,7 @@
             <div class="col-md-8">
                 <div class="community_items">
                     <h2 class="heading_text">JOIN OUR COMMUNITY</h2>
-                    <p class="community_para">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ea voluptatum voluptatibus repellendus cumque ad?"</p>
+                    <p class="community_para">"Metarix is a globally operational Metaverse platform to revolutionize the virtual world and provide an interesting and satisfying experience to a huge number of people. Our major purpose as a Metaverse platform is to deliver secure and sustainable solutions to all crypto and NFT fans, artists, and other diverse users. It will be a virtual environment with a wide range of entertainment opportunities, including gaming, art, science, music, culture, fashion, and shopping."</p>
                     <div class="commuinty_button">
                         <a class="community_btn" href="#">Join</a>
                     </div>

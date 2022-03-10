@@ -23,7 +23,7 @@
 
     <section>
 		<div class="map target">
-		    <img class="mp-bg" src="img/map.png" />
+		    <img class="mp-bg" src="img/Box_map2.jpg" />
 		    <a data-toggle="tooltip" data-placement="top" title="demo1" style="top:419px; right:264px; height:30px; width:30px" href="https://www.google.com/" title="Booth 73"></a>
 		    <a data-toggle="tooltip" data-placement="top" title="demo2" style="top:141px; right:506px; height:30px; width:30px" href="https://getbootstrap.com/" title="Booth 62"></a>
 		    <a data-toggle="tooltip" data-placement="top" title="demo3" style="top:150px; left:385px; height:30px; width:30px" href="https://www.w3schools.com/" title="Booth 64"></a>
@@ -39,10 +39,10 @@
 		     <a data-toggle="tooltip" data-placement="top" title="demo10" style="top:220px; left:790px; height:50px; width:50px" href="https://getbootstrap.com/" title="Booth 62"></a>
 		    <a data-toggle="tooltip" data-placement="top" title="demo11" style="top:300px; left:750px; height:45px; width:45px" href="https://www.w3schools.com/" title="Booth 64"></a>
 		</div>
-</section>
+	</section>
 
 
-</section>	
+</section>	  <!-- ======= map_data Section Closed ======= -->
 
 
 
