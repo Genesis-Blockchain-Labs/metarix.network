@@ -190,9 +190,6 @@
 
                 </div><!-- home tabs closed  -->
 
-
-            
-                <!-- <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">.cvyuvubfduvbfububvufbduvbfjudvbfd..</div> -->
             </div>
 
         </div> <!-- papular row  closed  -->
@@ -306,10 +303,6 @@
                     </div><!--on_sale closed  -->
 
                 </div><!-- home tabs closed  -->
-
-
-            
-                <!-- <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">.cvyuvubfduvbfububvufbduvbfjudvbfd..</div> -->
             </div>
 
         </div> <!-- staff picks row  closed  -->
@@ -342,19 +335,5 @@
 <!-- Community support ended  -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- footer  -->
 <?php include("includes/footer.php"); ?>

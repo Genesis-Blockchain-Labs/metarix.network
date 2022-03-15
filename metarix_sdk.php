@@ -13,10 +13,8 @@
          <div class="row">
              <div class="col-md-6">
                  <div class="main-head">
-                     <h1 class="heading_text">Metarix <span class="sdk_main_bold">SDK</span></h1>
-                     <p class="sdk_main_para">It is a long established fact that a reader will be 
-                         distracted by the readable content of a page when
-                          lokking at its layout. Creators can use the Metarix SDK and Assets store to unleash their creativity and make games, in-game material, characters, and more as blockchain developers without much skill, utilizing publicly available software tools and programmed codes</p>
+                     <h1 class="heading_text"> Metarix SDK  <span class="sdk_main_bold"></span></h1>
+                     <p class="sdk_main_para">It is a long established fact that a reader will be distracted by the readable content of a page when lokking at its layout. Creators can use the Metarix SDK and Assets store to unleash their creativity and make games, in-game material, characters, and more as blockchain developers without much skill, utilizing publicly available software tools and programmed codes</p>
                  </div>
                 
              </div>
@@ -35,8 +33,8 @@
  <section class="buttons_sdk" id="buttons_sdk">
      <div class="container buttons_sdk_data">
         <div class="heading">
-            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> LOREM IPSUM  DUMMY <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
-            <p class="sdk_head_para">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ipsam laborum reprehenderit cupiditate porro in!"</p>
+            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> Metarix SDK Downloads  <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+            <p class="sdk_head_para">"Download the latest Metarix SDK and start building the future of Metaverse"</p>
           </div>
           <div class="row">
             <div class="buttons_sdk_items">
@@ -50,8 +48,6 @@
                              <a class="sdk_btn" href="#">Download</a>
                         </div>
                         <p>coming Soon</p>
-                      <!-- <h3 class="sdk_button_text">Windows 7</h3>
-                      <h4 class="sdk_button_para">and Up</h4>     -->
                     </div> 
                 </div>
     
@@ -60,17 +56,15 @@
                          <i class="fa fa-apple button_sdk_img" aria-hidden="true"></i>
                     </div>
                     <div class="sdk_data">
-                        <h1>Apple</h1>
+                        <h1>MAC</h1>
                         <div class="sdk_buttons">
                              <a class="sdk_btn" href="#">Download</a>
                         </div>
                         <p>coming Soon</p>
-                      <!-- <h3 class="sdk_button_text">Mavericks</h3>
-                      <h4 class="sdk_button_para">and Up</h4>     -->
                     </div> 
                 </div>
     
-                <div class="linux ">
+                <!-- <div class="linux ">
                      <div class="window_img border_radi_us round_radius">
                          <i class="fa fa-linux button_sdk_img" aria-hidden="true"></i>
                     </div>
@@ -80,9 +74,8 @@
                              <a class="sdk_btn" href="#">Download</a>
                         </div>
                         <p>coming Soon</p>
-                      <!-- <h3 class="sdk_button_text">Linux X64</h3> -->
                     </div> 
-                </div>
+                </div> -->
             </div>
           </div>
      </div>
@@ -153,7 +146,14 @@
                     <h2 class="heading_text">JOIN OUR COMMUNITY</h2>
                     <p class="community_para">"Metarix is a globally operational Metaverse platform to revolutionize the virtual world and provide an interesting and satisfying experience to a huge number of people. Our major purpose as a Metaverse platform is to deliver secure and sustainable solutions to all crypto and NFT fans, artists, and other diverse users. It will be a virtual environment with a wide range of entertainment opportunities, including gaming, art, science, music, culture, fashion, and shopping."</p>
                     <div class="commuinty_button">
-                        <a class="community_btn" href="#">Join</a>
+                        <form class="form-inline" method="post">
+                            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+                            <div class="form-group"><button class="btn btn-primary" type="button">Subscribe </button></div>
+                        </form>
+                        <!-- <div id="search">
+                            <div> <input type="email" class="py-2 pl-2" placeholder="Email Address"> <button class="text-white py-2 px-3">Subscribe <span class="fa fa-long-arrow-right"></span></button> </div>
+                        </div> -->
+                        <!-- <a class="community_btn" href="#">Subscribe</a> -->
                     </div>
                 </div>
             </div>

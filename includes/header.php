@@ -30,6 +30,15 @@
   <link rel="stylesheet" href="css/style.css" >
 
 
+  <!-- slider  -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
+
+
+
+
+
+
   <!-- ========================================================  -->
 </head>
 
@@ -40,55 +49,28 @@
     <div class="container d-flex align-items-center">
 
       <h1 class="logo me-auto"><a href="index.php"><img src="img/metarix_update_2022.png" alt=""></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.php" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    
 
       <nav id="navbar" class="navbar">
         <ul>
-            <li class="nav-link scrollto active dropdown"><a href="#Products"><span>Products</span> <i class="fa fa-chevron-down"></i></a>
+            <li class="nav-link scrollto active dropdown"> <a href="#"> <span>Products</span> <i class="fa fa-chevron-down"></i></a>
                 <ul>
                     <li><a href="market_place.php" >NFT MarketPlace</a></li>
-                    <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="fa fa-chevron-right"></i></a>
-                        <ul>
-                        <li><a href="#">Deep Drop Down 1</a></li>
-                        <li><a href="#">Deep Drop Down 2</a></li>
-                        <li><a href="#">Deep Drop Down 3</a></li>
-                        <li><a href="#">Deep Drop Down 4</a></li>
-                        <li><a href="#">Deep Drop Down 5</a></li>
-                        </ul>
-                    </li> -->
+                   
                     <li><a href="metarix_sdk.php" >Metarix SDK</a></li>
-                    <!-- <li><a href="asset_store.php" >Asset Store</a></li> -->
+                   
                     <li><a href="metarix_blockchain.php" >Metarix Blockchain</a></li>
                     <li><a href="virtual_store.php" >Virtual Map</a></li>
-                    <!-- <li><a href="update.php" >update</a></li> -->
-                    <!-- <li><a href="#">Drop Down 3</a></li>
-                    <li><a href="#">Drop Down 4</a></li> -->
+                  
                 </ul>
             </li>
           <li><a class="nav-link scrollto" href="#Token">Token Sale</a></li>
           <li><a class="nav-link scrollto" href="#Roadmap">Roadmap</a></li>
           <li><a class="nav-link scrollto" href="#Teams">Team</a></li>
           <li><a class="nav-link scrollto" href="#Partners">Partners</a></li>
-          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
+         
           <li><a class="nav-link scrollto" href="#">More</a></li>
-          <li><a class="nav-link scrollto"  href="contact.php">Contact</a></li>
+          <li><a class="nav-link scrollto"  href="contact.php">Contact Us</a></li>
           <li><a class="getstarted scrollto" target="_blank" href="img/whitepaper/Whitepaper .pdf">Whitepaper</a></li>
           <li><a class="getstarted scrollto"  href="staking.php">Staking</a></li>
         </ul>
@@ -97,4 +79,5 @@
 
     </div>
   </header><!-- End Header -->
-  <div id="preloader"></div>
+  <!-- <div id="preloader"></div> -->
+

@@ -105,25 +105,5 @@
 <!-- sdk features section ended  -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
  <!-- footer  -->
 <?php include("includes/footer.php"); ?>

@@ -17,13 +17,14 @@ unset($_SESSION['message']);
 
         <div class="heading">
           <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> CONTACT <span class="heading_bold">US </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
-          <p class="heading_para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut laboure et dolore magna aliqua."</p>
+          <p class="heading_para">"Get in touch with us today!"</p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
+             <img class="cont_img" src="img/contactpagelogo.png" alt="">
+            <!-- <div class="info">
               <div class="address">
                 <i class="fa fa-map-marker"></i>
                 <h4>Location:</h4>
@@ -44,13 +45,13 @@ unset($_SESSION['message']);
 
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15233.847672240532!2d78.52739861917146!3d17.34149214213274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98834e519e89%3A0xa310cd2c89a4d912!2sKharmanghat%2C%20Telangana!5e0!3m2!1sen!2sin!4v1640602217294!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen="" loading="lazy"></iframe>
               
-            </div>
+            </div> -->
 
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
             <form action="form/contact.php" method="post" role="form" class="php-email-form">
-			  <?php if(isset($message)){ ?>
+			    <?php if(isset($message)){ ?>
 				<div class="alert alert-success" role="alert">
 					<?php echo $message; ?>
 				</div>

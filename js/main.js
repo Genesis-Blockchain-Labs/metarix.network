@@ -157,19 +157,21 @@
     /**
      * Preloader
      */
-    let preloader = select('#preloader');
-    if (preloader) {
-      window.addEventListener('load', () => {
-        preloader.remove()
-      });
-    }
+    
+    
+    // let preloader = select('#preloader');
+    // if (preloader) {
+    //   window.addEventListener('load', () => {
+    //     preloader.remove()
+    //   });
+    // }
   
     /**
      * Initiate  glightbox 
      */
-    const glightbox = GLightbox({
-      selector: '.glightbox'
-    });
+    // const glightbox = GLightbox({
+    //   selector: '.glightbox'
+    // });
   
     /**
      * Skills animation
@@ -221,26 +223,26 @@
     /**
      * Initiate portfolio lightbox 
      */
-    const portfolioLightbox = GLightbox({
-      selector: '.portfolio-lightbox'
-    });
+    // const portfolioLightbox = GLightbox({
+    //   selector: '.portfolio-lightbox'
+    // });
   
     /**
      * Portfolio details slider
      */
-    new Swiper('.portfolio-details-slider', {
-      speed: 400,
-      loop: true,
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true
-      }
-    });
+    // new Swiper('.portfolio-details-slider', {
+    //   speed: 400,
+    //   loop: true,
+    //   autoplay: {
+    //     delay: 5000,
+    //     disableOnInteraction: false
+    //   },
+    //   pagination: {
+    //     el: '.swiper-pagination',
+    //     type: 'bullets',
+    //     clickable: true
+    //   }
+    // });
   
     /**
      * Animation on scroll
@@ -257,99 +259,169 @@
   })()
 
 
-
-
-
-
-
-
-  // update page 
-
-  function hasTouch() {
-    return 'ontouchstart' in document.documentElement;
-}	
-
-var canvas = document.getElementsByTagName('canvas')[0];
-canvas.width = 800;
-canvas.height = 600;
-
-var gkhead = new Image;
-var event_start = hasTouch() ? 'touchstart' : 'mousedown',
-    event_move = hasTouch() ? 'touchmove' : 'mousemove',
-    event_end = hasTouch() ? 'touchend' : 'mouseup';
-
-window.onload = function(){		
   
-      var ctx = canvas.getContext('2d');
-      trackTransforms(ctx);
+
+
+	$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+
+
+// virtual store page 
+  
+  var zoom = 1;
+		
+  $('.zoom').on('click', function(){
+    zoom += 0.1;
+    $('.target').css('transform', 'scale(' + zoom + ')');
+  });
+  $('.zoom-init').on('click', function(){
+    zoom = 1;
+    $('.target').css('transform', 'scale(' + zoom + ')');
+  });
+  $('.zoom-out').on('click', function(){
+    zoom -= 0.1;
+    $('.target').css('transform', 'scale(' + zoom + ')');
+  });
+
+
+
+
+//   // canvas page 
+  
+//   function hasTouch() {
+//     return 'ontouchstart' in document.documentElement;
+// }	
+
+// var canvas = document.getElementsByClassName('imgsks')[0];
+// canvas.width = 1320;
+// canvas.height = 1000;
+
+// var gkhead = new Image;
+// var event_start = hasTouch() ? 'touchstart' : 'mousedown',
+//     event_move = hasTouch() ? 'touchmove' : 'mousemove',
+//     event_end = hasTouch() ? 'touchend' : 'mouseup';
+
+// window.onload = function(){		
+  
+//       var ctx = canvas.getContext('2d');
+//       trackTransforms(ctx);
     
-  function redraw(){
+//   function redraw(){
 
-        // Clear the entire canvas
-        var p1 = ctx.transformedPoint(0,0);
-        var p2 = ctx.transformedPoint(canvas.width,canvas.height);
-        ctx.clearRect(p1.x,p1.y,p2.x-p1.x,p2.y-p1.y);
+//         // Clear the entire canvas
+//         var p1 = ctx.transformedPoint(0,0);
+//         var p2 = ctx.transformedPoint(canvas.width,canvas.height);
+//         ctx.clearRect(p1.x,p1.y,p2.x-p1.x,p2.y-p1.y);
 
-        ctx.save();
-        ctx.setTransform(1,0,0,1,0,0);
-        ctx.clearRect(0,0,canvas.width,canvas.height);
-        ctx.restore();
+//         ctx.save();
+//         ctx.setTransform(1,0,0,1,0,0);
+//         ctx.clearRect(0,0,canvas.width,canvas.height);
+//         ctx.restore();
 
-        ctx.drawImage(gkhead,0,0);
+//         ctx.drawImage(gkhead,0,0);
 
-      }
-      redraw();
+//       }
+//       redraw();
 
-    var lastX=canvas.width/2, lastY=canvas.height/2;
+//     var lastX=canvas.width/2, lastY=canvas.height/2;
 
-    var dragStart,dragged;
+//     var dragStart,dragged;
 
-    canvas.addEventListener(event_start,function(evt){
-        document.body.style.mozUserSelect = document.body.style.webkitUserSelect = document.body.style.userSelect = 'none';
-        lastX = evt.offsetX || (evt.pageX - canvas.offsetLeft);
-        lastY = evt.offsetY || (evt.pageY - canvas.offsetTop);
-        dragStart = ctx.transformedPoint(lastX,lastY);
-        dragged = false;
-    },false);
+//     canvas.addEventListener(event_start,function(evt){
+//         document.body.style.mozUserSelect = document.body.style.webkitUserSelect = document.body.style.userSelect = 'none';
+//         lastX = evt.offsetX || (evt.pageX - canvas.offsetLeft);
+//         lastY = evt.offsetY || (evt.pageY - canvas.offsetTop);
+//         dragStart = ctx.transformedPoint(lastX,lastY);
+//         dragged = false;
+//     },false);
 
-    canvas.addEventListener(event_move,function(evt){
-        lastX = evt.offsetX || (evt.pageX - canvas.offsetLeft);
-        lastY = evt.offsetY || (evt.pageY - canvas.offsetTop);
-        dragged = true;
-        if (dragStart){
-          var pt = ctx.transformedPoint(lastX,lastY);
-          ctx.translate(pt.x-dragStart.x,pt.y-dragStart.y);
-          redraw();
-              }
-    },false);
+//     canvas.addEventListener(event_move,function(evt){
+//         lastX = evt.offsetX || (evt.pageX - canvas.offsetLeft);
+//         lastY = evt.offsetY || (evt.pageY - canvas.offsetTop);
+//         dragged = true;
+//         if (dragStart){
+//           var pt = ctx.transformedPoint(lastX,lastY);
+//           ctx.translate(pt.x-dragStart.x,pt.y-dragStart.y);
+//           redraw();
+//               }
+//     },false);
 
-    canvas.addEventListener(event_end,function(evt){
-        dragStart = null;
-        if (!dragged) zoom(evt.shiftKey ? -1 : 1 );
-    },false);
+//     canvas.addEventListener(event_end,function(evt){
+//         dragStart = null;
+//         if (!dragged) zoom(evt.shiftKey ? -1 : 1 );
+//     },false);
+
+//     var scaleFactor = 1.1;
+
+//     var zoom = function(clicks){
+//         var pt = ctx.transformedPoint(lastX,lastY);
+//         ctx.translate(pt.x,pt.y);
+//         var factor = Math.pow(scaleFactor,clicks);
+//         ctx.scale(factor,factor);
+//         ctx.translate(-pt.x,-pt.y);
+//         redraw();
+//     }
+
+//     var handleScroll = function(evt){
+//         var delta = evt.wheelDelta ? evt.wheelDelta/40 : evt.detail ? -evt.detail : 0;
+//         if (delta) zoom(delta);
+//         return evt.preventDefault() && false;
+//     };
+  
+//     canvas.addEventListener('DOMMouseScroll',handleScroll,false);
+//     canvas.addEventListener('mousewheel',handleScroll,false);
+// };
+
+
+
+   const zoomElement = document.querySelector(".imgsks");
+//let zoom = 1;
+const ZOOM_SPEED = 0.1;
+
+document.addEventListener("wheel", function(e) {  
+    
+    if(e.deltaY > 0){    
+        if (zoomElement.style.transform >= `scale(5)`) {
+            console.log("now scroll down");
+            return false;
+        }
+        zoomElement.style.transform = `scale(${zoom += ZOOM_SPEED})`;  
+
+    }else{    
+        if (zoomElement.style.transform == `scale(1)`) {
+            // console.log("minus");
+            return false;
+        }
+        zoomElement.style.transform = `scale(${zoom -= ZOOM_SPEED})`;  }
 
     var scaleFactor = 1.1;
 
-    var zoom = function(clicks){
-        var pt = ctx.transformedPoint(lastX,lastY);
-        ctx.translate(pt.x,pt.y);
-        var factor = Math.pow(scaleFactor,clicks);
-        ctx.scale(factor,factor);
-        ctx.translate(-pt.x,-pt.y);
-        redraw();
-    }
-
-    var handleScroll = function(evt){
-        var delta = evt.wheelDelta ? evt.wheelDelta/40 : evt.detail ? -evt.detail : 0;
-        if (delta) zoom(delta);
+    
+    var handleScroll = function(e){
+        var delta = e.wheelDelta ? e.wheelDelta/40 : e.detail ? -e.detail : 0;
+        if (delta) zoomElement(delta);
         return evt.preventDefault() && false;
     };
   
     canvas.addEventListener('DOMMouseScroll',handleScroll,false);
     canvas.addEventListener('mousewheel',handleScroll,false);
-};
 
-gkhead.src = 'https://unsplash.it/1200';
+
+
+
+
+
+
+});
+
+
+
+
+
+
+gkhead.src = 'https://dev.metarix.network/img/Box_map2.jpg';
 
 // Adds ctx.getTransform() - returns an SVGMatrix
 // Adds ctx.transformedPoint(x,y) - returns an SVGPoint
@@ -414,3 +486,9 @@ function trackTransforms(ctx){
         return pt.matrixTransform(xform.inverse());
     }
 }
+
+
+
+
+
+

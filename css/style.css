@@ -38,7 +38,7 @@ ul li {
 /*--------------------------------------------------------------
   # Preloader
   --------------------------------------------------------------*/
-
+/* 
 #preloader {
     position: fixed;
     top: 0;
@@ -57,7 +57,7 @@ ul li {
     left: calc(50% - 30px);
     border: 6px solid #37517e;
     border-top-color: #fff;
-    border-bottom-color: #fff;
+    border-bottom-color: #893fee;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -81,8 +81,9 @@ ul li {
     100% {
         transform: rotate(360deg);
     }
-}
+} */
 
+  
 
 /*--------------------------------------------------------------
   # Back to top button
@@ -128,7 +129,7 @@ ul li {
     transition: all 0.5s;
     z-index: 997;
     padding: 15px 0;
-    background: #000;
+    background: #0000000f;
 }
 
 #header.header-scrolled,
@@ -316,11 +317,7 @@ ul li {
     z-index: 999;
 }
 
-/*.navbar-mobile .mobile-nav-toggle {
-    position: absolute;
-    top: 34px;
-    right: 89px;
-}*/
+
 .navbar-mobile ul {
     display: block;
     position: fixed;
@@ -413,8 +410,8 @@ ul li {
     position: absolute;
     color: #000;
     top: 35%;
-    width: 40%;
-    right: 210px;
+    width: 43%;
+    right: 48px;
 }
 .lft_text_white{
     color: #fff;
@@ -427,12 +424,12 @@ ul li {
     padding-top: 10px;
 }
 .right_text{
-    color: #000;
+    color: #fff;
     font-size: 40px;
     font-weight: bold;
 }
 .right_para{
-    color: #000;
+    color: #fff;
     font-size: 18px;
     padding-top: 10px;
     
@@ -528,12 +525,19 @@ ul li {
 
 /* ArtiFacts */
 
+.metarix_artifix{
+    padding: 50px 0px 0px 0px;
+}
+
 #Products {
-    padding: 50px 0px;
+    overflow: hidden;
 }
 
 .heading {
     text-align: center;
+}
+.update_text{
+    padding-bottom: 40px 0px;
 }
 
 .heading_text {
@@ -552,13 +556,6 @@ ul li {
     width: 30px;
 }
 
-/* .heading_bold {
-    background: -webkit-linear-gradient(#bf2d8a ,#124dbd );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
-    text-transform: uppercase;
-} */
 
 .products_items_data_left {
     position: absolute;
@@ -657,6 +654,7 @@ ul li {
 .card_data {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 75px 0px 50px 0px;
 }
 
 .box-img {
@@ -714,11 +712,7 @@ ul li {
     animation-delay: 0.8s;
 }
 
-/* .b_down {
-    border-width: 0px 0px 1px 0px ;
-    border-style: solid;
-    border-image: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%) 1;
-} */
+
 
 .b_down, .left_border {
     border-width: 0px 1px 1px 0px; 
@@ -812,16 +806,7 @@ ul li {
     right: -70px;
     background-size: 100% 100%;
 }
-/*.card.roadmap-card::after{
-    content: " ";
-    position: absolute;
-    top: 50%;
-    height: 2px;
-    width: 30px;
-    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);
-    right: -31px;
-    z-index: -1;
-}*/
+
 .card.roadmap-card:nth-child(3)::after {
    content: '';
     background: url(../img/arrow.png) no-repeat center center/cover;
@@ -968,6 +953,10 @@ ul li {
     max-width: 16.6%;
     width: 16.6%;
 }
+.partner_img{
+    width: 170px;
+
+}
 
 .partners-data {
     padding: 50px 0px;
@@ -1093,13 +1082,6 @@ li.ftlightpaper a:hover {
     padding: 170px 0px;
 }
 
-
-/* #contct_header{
-  width: 100%;
-  height: 108px;
-  min-height: 11vh;
-  background-color: #020305;
-} */
 
 .section-title {
     text-align: center;
@@ -1271,7 +1253,7 @@ li.ftlightpaper a:hover {
 
 .contact .php-email-form button[type=submit] {
     border: 0;
-    padding: 12px 34px;
+    padding: 12px 6px;
     color: #fff;
     transition: 0.4s;
     background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%); 
@@ -1339,6 +1321,11 @@ li.ftlightpaper a:hover {
     padding: 50px;
 }
 
+img.cont_img {
+    width: 400px;
+    height: 400px;
+    opacity: 0.3;
+}
 
 /*comming soon pages  */
 
@@ -1502,11 +1489,9 @@ li.ftlightpaper a:hover {
 }
 
 .checkpoints {
-/*    background: url(../img/staking/staking_bg_2.png);*/
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    /* background-size: 100% 100%; */
 }
 
 .check-points {
@@ -1517,7 +1502,7 @@ li.ftlightpaper a:hover {
     background-image: url(../img/staking/plus_icon.png);
     background-position: left;
     background-repeat: no-repeat;
-    padding-left: 35px;
+    padding-left: 45px;
     background-size: 24px;
     font-size: 21px;
 }
@@ -1527,7 +1512,7 @@ li.ftlightpaper a:hover {
 }
 
 .checkpoints-para {
-    padding-left: 35px;
+    padding-left: 45px;
     font-size: 17px;
 }
 
@@ -1557,7 +1542,6 @@ li.ftlightpaper a:hover {
 /* metarix Sdk page  */
 
 #metarix_sdk {
-    /*background-image: url(../img/metarixsdk/metarix_bg.png);*/
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
@@ -1579,6 +1563,9 @@ li.ftlightpaper a:hover {
     left: 0;
     margin: 0 auto;
     right: 0;
+}
+.sdk_main_para {
+    padding-top: 15px;
 }
 
 
@@ -1606,10 +1593,12 @@ li.ftlightpaper a:hover {
 
 .buttons_sdk_items {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
-    padding-top: 150px;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 90px;
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 400px;
 }
 .buttons_sdk_items .border_radi_us {
     background: #080808;
@@ -1657,10 +1646,7 @@ li.ftlightpaper a:hover {
     background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%);
 }
 
-/* .button_sdk_img {
-    position: relative;
-    top: -80px;
-} */
+
 
 .sdk_data {
     padding: 20px 0;
@@ -1675,23 +1661,20 @@ li.ftlightpaper a:hover {
 /* sdk_Features  */
 
 #sdk_features {
-   /* background-image: url(../img/metarixsdk/feature_bg.png);*/
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-.sdk_features_data {
-    padding: 100px 0px;
-}
+
 
 .features-box {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 45px;
-    padding: 60px 0px 70px 0px;
+    padding: 60px 0px 150px 0px;
 }
 
 
@@ -1713,7 +1696,7 @@ li.ftlightpaper a:hover {
 
 .features_img:hover {
     position: relative;
-    transform: scale(1.2) rotate(10deg);
+    transform: scale(1.2) rotate(0deg);
 }
 
 .zoom-text {
@@ -1741,7 +1724,6 @@ li.ftlightpaper a:hover {
 /* community sdk  */
 
 .community_sdk {
-/*    background-image: url(../img/metarixsdk/community_bg.png);*/
     background: #060404;
     width: 100%;
     height: 100%;
@@ -1770,41 +1752,67 @@ li.ftlightpaper a:hover {
     padding: 20px 0px 0px 0px;
 }
 
-.community_btn {
-    padding: 5px 70px 5px 70px;
-    border-radius: 50px;
-    color: #fff;
-    transition: 0.4s;
-    animation-delay: 0.8s;
-    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%); 
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.community_btn:hover {
-    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%); 
-    color: #fff;
-}
 
 .community_para {
     padding-top: 15px;
     font-size: 20px;
 }
 
+.commuinty_button form {
+    display: flex;
+}
+
+.commuinty_button form .form-control {
+    background: #eff1f4;
+    border: none;
+    border-radius: 3px 0px 0px 3px ;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 9px;
+    height: 49px;
+    margin-right: 10px;
+    min-width: 250px
+}
+
+.commuinty_button form .btn {
+    padding: 16px 32px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    text-shadow: none;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.4px;
+    line-height: 1
+}
+
+.commuinty_button form .btn:hover {
+    background: linear-gradient(to right, #124dbd 0%,#bf2d8a 100%); 
+    color: #fff;
+}
+
+.commuinty_button form .btn:active {
+    transform: translateY(1px)
+}
+
+.commuinty_button form .btn-primary {
+    outline: none !important;
+    color: #fff;
+    transition: 0.4s;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
+    border-radius: 0px 3px 3px 0px;
+    height: 50px;
+    border-radius: 0px 3px 3px 0px;
+}
 
 /* Blockchain page started  */
 
 #blockchain_main {
-    /* background-image: url(../img/metarix_blockchain/blockchain_main_bg.png);
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%; */
     background-color: #b8c0ec;
     padding-top: 70px;
-}
-p.bc_para {
-    color: #fff;
 }
 
 .blockchain_main_data {
@@ -1845,19 +1853,21 @@ p.bc_para {
     padding-top: 20px;
     font-size: 20px;
     line-height: 30px;
+    color: #000;
 }
 
 
 /* our_sirvices  */
 
 #our_services {
- /*   background-color: #0a1019;*/
     color: #FFF;
     padding: 70px 0px 150px 0px;
 }
 
 .block_para {
     color: #FFF;
+    width: 50%;
+    margin: 20px auto;
 }
 
 .services_item_1,
@@ -1920,7 +1930,9 @@ p.bc_para {
 .services_img {
     padding: 30px 0px;
 }
-
+.box_para p {
+    min-height: 80px;
+}
 
 /* bitcoin  */
 
@@ -1959,7 +1971,6 @@ p.bc_para {
 /* deposit   */
 
 .deposits {
-  /*  background: #0a1019;*/
     color: #fff;
     padding: 50px 0px;
 }
@@ -1977,7 +1988,7 @@ p.bc_para {
 .deposit_items {
     display: flex;
     padding-top: 30px;
-    gap: 100px;
+    gap: 15px;
 }
 
 .deposits_img {
@@ -2134,11 +2145,6 @@ p.bc_para {
                                        /* Metarix Market place Page  */
 
 #market_place {
-    /* background-image: url(../img/marketplace/nft-main_bg.jpg);
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%; */
     background: linear-gradient(to right,  #b4d0f0 0%,#b9d3f1 100%);
     margin-top: 90px;
 }
@@ -2164,7 +2170,7 @@ p.bc_para {
     color: #000;
 }
 .nft_right_img {
-    padding: 90px 0px;
+    padding: 60px 0px;
     text-align: center;
 }
 .nft_dog_img{
@@ -2190,6 +2196,79 @@ a.nft_btn:hover{
     border-radius: 20px;
     font-weight: bold;
 }
+
+
+/* nft slider  */
+
+
+ /* slider_pruduct started   */
+
+ @-webkit-keyframes scroll {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(calc(-250px * 7));
+              transform: translateX(calc(-250px * 7));
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    100% {
+      -webkit-transform: translateX(calc(-250px * 7));
+              transform: translateX(calc(-250px * 7));
+    }
+  }
+  .slider {
+    background: pr;
+    height: 80px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 80px 0;
+  }
+  .slider::before, .slider::after {
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+  }
+  .slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+            transform: rotateZ(180deg);
+  }
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  .slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+            animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+  }
+  .slider .slide {
+    height: 100px;
+    width: 250px;
+  }
+.slide_img{
+    width: 100%;
+    height: auto;
+    padding-top: 6px;
+}
+
+
+
+
 
 /* top collections over  */
 .top_collections_over{
@@ -2629,7 +2708,6 @@ a.nft_btn:hover{
     color: #fff !important;
     background-color: #0a1019 !important;
     border-radius: 10px !important;
-    /* border: 1px solid #848484 !important; */
 }
 .accordion-body {
    border: 1px solid #848484 !important;
@@ -2637,7 +2715,6 @@ a.nft_btn:hover{
 }
 .accordion-button:focus {
     z-index: 3;
-    /* border-color: transparent !important; */
     outline: 0;
     box-shadow: none !important;
 }
@@ -2879,7 +2956,6 @@ a.nft_btn:hover{
     transition: 0.4s;
     animation-delay: 0.8s;
     background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%); 
-    /* background: linear-gradient(to bottom, #19192a 0%,#000000 100%) !important; */
 }
 
 #pills-home-tab .active {
@@ -3026,28 +3102,28 @@ a.nft_btn:hover{
 .map a:hover {
     opacity: 0.5;
 }
-
-/* .box {
-    display: inline-block;
-    background: linear-gradient(25deg, #F13F79, #FFC778); 
-    color: white;
-    font-size: 25px;
-    padding: 40px;
-    width: 300px;
-    height: 300px;
-} */
+.zoom_feature a {
+    margin-bottom: 20px;
+    display: block;
+}
+.zoom_feature {
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    position: absolute;
+    top: inherit;
+    z-index: 1;
+}
   
 .map_btn {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background: #000;
     border: 1px solid #000;
-    border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     color: #fff;
-    padding: 5px;
-    position: fixed;
+    padding: 8px;
     text-align: center;
     -ms-user-select: none;
     -moz-user-select: -moz-none;
@@ -3061,16 +3137,15 @@ a.nft_btn:hover{
     background: #fff;
     color: #000;
 }
-  
-/*.zoom{
-    bottom: 190px;
-}*/
-  
-.zoom-out {
-    bottom: 120px;
+img.imgsks.map.target {
+    width: 100%;
+    padding-top: 100px ;
 }
-.zoom-init {
-    bottom: 50px;
+  
+  
+.zoom_feature{
+    bottom: 0;
+    left: 0;
 }
 .map_data{
     overflow: hidden;
@@ -3083,8 +3158,10 @@ a.nft_btn:hover{
 canvas { 
     display:block;
     margin:1em auto;
-    background:#fff; 
-    border:1px solid #ccc;
+    background: transparent; 
+    border: none;
+    width: 100%;
+ 
 }
 
 
@@ -3108,21 +3185,7 @@ canvas {
     padding-top: 12px;
     padding-bottom: 12px;
 }
-/*.navbar.navbar-mobile .mobile-nav-toggle {
-    display: block;
-    float: right;
-    margin-top: 26px;
-    margin-right: 116px;
-}*/
-/*.navbar.navbar-mobile {
-    position: fixed;
-    display: block;
-    flex-wrap: wrap;
-    align-items: center;  
-       justify-content: flex-end;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}*/
+
     .nav-link {
         padding: 0px;
     }
@@ -3392,9 +3455,7 @@ canvas {
 .roadmap-row {
     padding: 55px 15px 0;
 }
-/*.card.roadmap-card:last-child::after {
- display: none;
-}*/
+
 .card.roadmap-card::after {
     width: 38px;
     right: -47px;

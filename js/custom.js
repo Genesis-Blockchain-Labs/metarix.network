@@ -3,3 +3,5 @@ $(document).ready(function(){
 		window.location.href="https://dev.metarix.network"+$(this).attr("href");
 	});
 })
+
+

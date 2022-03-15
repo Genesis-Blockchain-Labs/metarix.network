@@ -8,7 +8,7 @@
          <div class="row">
              <div class="col-md-6 left_blockchain">
                  <div class="blockchain_head">
-                    <h1 class="heading_text " >Layer To Scalable Solution On The top Of Ethereum For Gaming NFT And Metaverse </h1>
+                    <h1 class="heading_text " >Layer 2 Scalable Solution on top Of Ethereum Blockchain for Gaming, NFT and Metaverse </h1>
                     <p class="bc_para">Metarix will be a layer 2 solution built on top of the Ethereum blockchain. We believe layer 2 is the future of blockchain technology and can help accelerate the mass adoption of cryptocurrencies. Layer 2 solutions are helpful both in terms of scaling and fee structure.</p>
                  </div>  
              </div>
@@ -26,7 +26,7 @@
    <div class="container our_services_data">
         <div class="heading">
               <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> Blockchain  SERVICES <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
-              <p class="block_para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut laboure et dolore magna aliqua."</p>
+              <p class="block_para">"Blockchain services can help you build components like 3D virtual spaces, NFT marketplaces, art galleries, social networks, decentralized platforms, and much more."</p>
         </div>
      <div class="row">
        <div class="services_item_1">
@@ -135,17 +135,17 @@
 
           <div class="col-md-8">
             <div class="deposits_data">
-              <h2 class="heading_text">Deposit and earn</h2>
-              <p class="deposits_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Enim ad minim veniam, quis nostrud.</p>
+              <h2 class="heading_text">Stake and Earn</h2>
+              <p class="deposits_para">Stake your Metarix token and earn APR.</p>
               <div class="deposit_items">
                   <div class="crypto">
-                    <h2> <span class="blockchain_heading">16.5%</span> </h2>
-                    <p class="deposits_para">P.A. on Cryptos</p>
+                    <h2> <span class="blockchain_heading">20% - 100%</span> </h2>
+                    <!-- <p class="deposits_para">Metarix Token</p> -->
                   </div>
 
                   <div class="crypto">
-                    <h2> <span class="blockchain_heading">24%</span> </h2>
-                    <p class="deposits_para">P.A. on Stablecoins</p>
+                    <h2> <span class="blockchain_heading">variable APR </span> </h2>
+                    <!-- <p class="deposits_para">Earn APR </p> -->
                   </div>
               </div>
             </div>

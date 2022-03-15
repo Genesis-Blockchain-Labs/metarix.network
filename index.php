@@ -4,103 +4,147 @@
 
 
   <!-- ======= Hero Section ======= -->
-  <!-- <section id="hero" class=" d-flex align-items-center">
-<div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active">
-        <div class="view">
-          <video class="video-fluid" autoplay loop muted>
-            <source src="https://mdbootstrap.com/img/video/Lines.mp4" type="video/mp4" />
-          </video>
-          <div class="mask rgba-indigo-light"></div>
+  <section id="hero" class=" d-flex align-items-center">
+    <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+        <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+            <video class="video-fluid" autoplay loop muted>
+                <source src="img/videos/Metarix_Video.mp4" type="video/mp4" />
+            </video>
+            <div class="mask rgba-indigo-light"></div>
+            </div>
         </div>
-  
-        <div class="carousel-caption">
-          <div class="animated fadeInDown">
-            <h1 class="hero_head_text">Lorem lpsum is Simply dummy text of the <span class="banner_head">printing.</span></h1>
-          </div>
         </div>
+    </div>
+  </section>
+
+
+  <!-- artificial -->
+  <section class="metarix_artifix">
+      <div class="container" >
+         <div class="heading update_text">
+            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> METARIX ARTIFACTS <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+            <!-- <p class="heading_para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut laboure et dolore magna aliqua."</p> -->
+        </div> 
+        <div class="row">
+            <div class="col-md-12 card_data">
+                <div class="box-container ">
+                    <div class="box-img">
+                        <img src="img/science.png" alt="">
+                    </div>
+                    <div class="box-head">
+                        <h3>Bitcoin Business City</h3>
+                        <p>Business is prime for all of us. Introducing, Bitcoin Business City in Metarix. A place where the world’s biggest companies will open their virtual headquarters.</p>
+                    </div>
+                </div>
+                <div class="box-container ">
+                    <div class="box-img">
+                        <img src="img/spaceexplo.png" alt="">
+                    </div>
+                    <div class="box-head">
+                        <h3>Opensea Art and Museum Center</h3>
+                        <p>Are you an aesthete? Do you love art and artists? Opensea art and museum center has a range of art NFTs that you can buy and put on your walls over digital screens. </p>
+                    </div>
+                </div>
+                <div class="box-container ">
+                    <div class="box-img">
+                        <img src="img/blockchain.png" alt="">
+                    </div>
+                    <div class="box-head">
+                        <h3>Shiba Shopping District</h3>
+                        <p> A shopping venue to cater to everyone’s needs. Shiba shopping district includes shopping malls, watch stores, apparel boutiques, and many other stores all in a digital lifestyle world. </p>
+                    </div>
+                </div>
+                <div class="box-container ">
+                    <div class="box-img">
+                        <img src="img/Startupvalley.png" alt="">
+                    </div>
+                    <div class="box-head">
+                        <h3>Sol Fashion District</h3>
+                        <p> For all the fashionistas out there, virtual fashion is here now. Take part in virtual fashion shows</p>
+                    </div>
+                </div>
+                <div class="box-container ">
+                    <div class="box-img">
+                        <img src="img/LIVEMUSIC.png" alt="">
+                    </div>
+                    <div class="box-head">
+                        <h3>Metarix Game Plaza</h3>
+                        <p> Playing slot machines is one of the most famous games played in casinos around the world. </p>
+                    </div>
+                </div>
+                <div class="box-container">
+                    <div class="box-img">
+                        <img src="img/ARTS.png" alt="">
+                    </div>
+                    <div class="box-head">
+                        <h3>Ripple Party City</h3>
+                        <p> Party 24*7 into the virtual world of Ripple Party City. The place hosts top DJ artists from around the world. With Metarix, club-hopping is as easy as a click of a button.</p>
+                    </div>
+                </div>
+                <div class="box-container ">
+                    <div class="box-img">
+                        <img src="img/LIVEMUSIC.png" alt="">
+                    </div>
+                    <div class="box-head">
+                        <h3>Cosmos Casino</h3>
+                        <p>You don’t need to visit Vegas now. Metarix brings the best of Vegas, Macau, and Marina Bay into one single virtual world. Play your favourite games like poker, blackjack, roulette, and others by sitting at your home and betting on cryptocurrencies.  </p>
+                    </div>
+                </div>
+                <div class="box-container">
+                    <div class="box-img">
+                        <img src="img/ARTS.png" alt="">
+                    </div>
+                    <div class="box-head">
+                        <h3>Gala Game Zone</h3>
+                        <p> We all love games. With time, games have changed a lot and today, everyone is stuck to their screen playing action, arcade, or racing games.</p>
+                    </div>
+                </div>
+                 <div class="box-container ">
+                    <div class="box-img">
+                        <img src="img/Startupvalley.png" alt="">
+                    </div>
+                    <div class="box-head">
+                        <h3>Doge Park</h3>
+                        <p> A park dedicated to dogs worldwide including the famous Shiba Inu from Japan. Doge Park is a place where people can buy and sell 3D NFTs of different dogs and also socialize with other d=fellow dog lovers across the globe. </p>
+                    </div>
+                </div>
+            </div>
+        </div>      
       </div>
-    </div>
-  </div>
-  
-  </section> -->
-
-<section class="main_slider">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <video class="video-fluid" autoplay loop muted>
-                    <source src="img/main_slider/Gif_1.mp4" type="video/mp4" />
-                </video>
-                <div class="main_left_text">
-                    <h2 class="lft_text_white">Lorem ipsum is placeholder </h2>
-                    <p class="lft_para_white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <video class="video-fluid" autoplay loop muted>
-                    <source src="img/main_slider/Gif_2.mp4" type="video/mp4" />
-                </video>
-                <div class="main_right_text">
-                    <h2 class="right_text">Lorem ipsum is placeholder </h2>
-                    <p class="right_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <video class="video-fluid" autoplay loop muted>
-                    <source src="img/main_slider/Gif_3.mp4" type="video/mp4" />
-                </video>
-                <div class="main_left_text">
-                    <h2 class="lft_text_white">Lorem ipsum is placeholder </h2>
-                    <p class="lft_para_white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <video class="video-fluid" autoplay loop muted>
-                    <source src="img/main_slider/Gif_4.mp4" type="video/mp4" />
-                </video>
-                <div class="main_right_text">
-                    <h2 class="right_text">Lorem ipsum is placeholder </h2>
-                    <p class="right_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <video class="video-fluid" autoplay loop muted>
-                    <source src="img/main_slider/Gif_5.mp4" type="video/mp4" />
-                </video>
-                <div class="main_left_text">
-                    <h2 class="right_text">Lorem ipsum is placeholder </h2>
-                    <p class="right_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-</section>
-
+  </section>
 
 
   <!-- ALL ARTIFACTS  -->
   <section class="all_products" id="Products">
     <div class="container-fluid p-0">
-        <div class="heading">
-            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> ALL ARTIFACTS <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
-            <p class="heading_para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut laboure et dolore magna aliqua."</p>
-          </div> 
-        <div class="row m-0">
-           
+          <div class="row">
+                <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                    <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="view">
+                                <video class="video-fluid" autoplay loop muted>
+                                    <source src="img/videos/Banner_gif_3.mp4" type="video/mp4" />
+                                </video>
+                                <div class="mask rgba-indigo-light">
+                                    <div class="main_right_text">
+                                        <h2 class="right_text">Ethereum, Binance, and Bored Ape Islands </h2>
+                                        <p class="right_para">Looking for premium property in the Metarix world? Look no further. Metarix has Ethereum, Binance, and Bored Ape Islands within the platform.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+          </div>
+        <!-- <div class="row m-0">
             <div class="col-md-12 p-0 product_data_2">
               <div class="product_shadow">
                 <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
@@ -196,114 +240,12 @@
                   </div>
               </div>
             </div>
+        </div> -->
 
-            <!-- <div class="col-md-12 p-0 product_data_2">
-              <div class="product_shadow">
-                <div id="video-carousel-example2" class="carousel slide carousel-fade" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#video-carousel-example2" data-slide-to="0" class="active"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                      <div class="carousel-item active">
-                        <div class="view">
-                          <video class="video-fluid videos_shadow" autoplay loop muted >
-                            <source src="img/videos/mixkit-dj-turntable-830.mp4" type="video/mp4" />
-                          </video>
-                          <div class="mask rgba-indigo-light"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="products_items_data_right">
-                      <div class="product_text_data ">
-                          <div class="all_prodct-img videos_img ">
-                            <img src="img/LIVEMUSIC.png" alt="">
-                        </div>
-                        <div class="product-head">
-                            <h3>Live Music</h3>
-                            <p>Party land or tomorrow land 30 to 40(dj list) its in virtual world)</p>
-                        </div>
-                    </div>
-                  </div>
-              </div>
-            </div>  -->
-
-        </div>
     </div>
   </section>
-
 <!-- videos section ended  -->
-  <section>
-      <div class="container" >
-        <div class="row">
-            <div class="col-md-12 card_data">
-                <!-- <div class="box-container b_down left_border"> -->
-                <div class="box-container ">
-                    <div class="box-img">
-                        <img src="img/science.png" alt="">
-                    </div>
-                    <div class="box-head">
-                        <h3>Gala Game Zone</h3>
-                        <p>We all love games. With time, games have changed a lot and today, everyone is stuck to their screen playing action, arcade, or racing games.</p>
-                    </div>
-                </div>
-                <!-- <div class="box-container b_down left_border"> -->
-                <div class="box-container ">
-                    <div class="box-img">
-                        <img src="img/spaceexplo.png" alt="">
-                    </div>
-                    <div class="box-head">
-                        <h3>Cosmos Casino</h3>
-                        <p>You don’t need to visit Vegas now. Metarix brings the best of Vegas, Macau, and Marina Bay into one single virtual world. </p>
-                    </div>
-                </div>
-                <!-- <div class="box-container b_down "> -->
-                <div class="box-container ">
-                    <div class="box-img">
-                        <img src="img/blockchain.png" alt="">
-                    </div>
-                    <div class="box-head">
-                        <h3>Ripple Party City</h3>
-                        <p> Party 24*7 into the virtual world of Ripple Party City. The place hosts top DJ artists from around the world.</p>
-                    </div>
-                </div>
-                <!-- <div class="box-container left_border"> -->
-                <div class="box-container ">
-                    <div class="box-img">
-                        <img src="img/Startupvalley.png" alt="">
-                    </div>
-                    <div class="box-head">
-                        <h3>Sol Fashion District</h3>
-                        <p> For all the fashionistas out there, virtual fashion is here now. Take part in virtual fashion shows</p>
-                    </div>
-                </div>
-                <!-- <div class="box-container left_border"> -->
-                <div class="box-container ">
-                    <div class="box-img">
-                        <img src="img/LIVEMUSIC.png" alt="">
-                    </div>
-                    <div class="box-head">
-                        <h3>Metarix Game Plaza</h3>
-                        <p> Playing slot machines is one of the most famous games played in casinos around the world. </p>
-                    </div>
-                </div>
-                <div class="box-container">
-                    <div class="box-img">
-                        <img src="img/ARTS.png" alt="">
-                    </div>
-                    <div class="box-head">
-                        <h3>Ethereum, Binance, and Bored Ape Islands</h3>
-                        <p> Looking for premium property in the Metarix world? Look no further. Metarix has Ethereum, Binance, and Bored Ape Islands within the platform</p>
-                    </div>
-                </div>
-            </div>
-            <!-- <div class="button">
-              <a class="button_btn" href="#">View All</a>
-            </div> -->
-        </div>  
-          
-      </div>
-  </section>
+
 
   <!-- token sale  -->
 
@@ -386,10 +328,6 @@
                             <h4 class="sale_text">Token <SPan class="sale_bold"> Name</SPan></h4>
                             <H3>Metarix</H3>
                         </div>
-                        <!-- <div class="token-sale-items">
-                            <h4 class="sale_text">Founders and<SPan class="sale_bold"> Stakeholders</SPan></h4>
-                            <H3>5%</H3>
-                        </div> -->
                         <div class="token-sale-items">
                             <h4 class="sale_text"><SPan class="sale_bold"> Symbol</SPan></h4>
                             <H3>MTRX</H3>
@@ -789,31 +727,21 @@
         </div>
     </section>
 
-
-    <!-- our partner   -->
-    <!-- <section class="our_partners" id="Partners">
+     <!-- our partner   -->
+    <section class="our_partners" id="Partners">
         <div class="container" >
             <div class="heading">
                 <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> OUR PARTNERS <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
               </div>
             <div class="row">
                     <div class="partners-data">
-                        <ul class="partner-list flex-wrap">
-                            <li class="partner-logo"><img src="img/partners/a-xs.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="img/partners/b-xs.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="img/partners/c-xs.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="img/partners/d-xs.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="img/partners/e-xs.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="img/partners/f-xs.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="img/partners/a-sm.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="img/partners/b-sm.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="img/partners/c-sm.png" alt="partner"></li>
-                            <li class="partner-logo"><img src="img/partners/d-sm.png" alt="partner"></li>
-                        </ul>
+                         <img class="partner_img" src="img/partners/Genesis_update_logo.png" alt="Vector.svg">
+                         <img class="partner_img" src="img/partners/logo-geller.png" alt="UnrealEngine_logo.svg">
                     </div>
             </div>
         </div>
-    </section> -->
+    </section>
+
 
 
     <!-- powered by   -->
@@ -826,7 +754,7 @@
                 <!-- <div class="col-md-12"> -->
                     <div class="partners-data">
                          <img src="https://everdome-static.s3.eu-north-1.amazonaws.com/Vector_23ae3b3aba.svg" alt="Vector.svg">
-                         <img src="https://everdome-static.s3.eu-north-1.amazonaws.com/Unreal_Engine_logo_5bbe8c7a8d.svg" alt="UnrealEngine_logo.svg">
+                         <img class="partner_img" src="img/partners/Unity_Technologies_logo.png" alt="UnrealEngine_logo.svg">
                     </div>
                 <!-- </div> -->
             </div>
