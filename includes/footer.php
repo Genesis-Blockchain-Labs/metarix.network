@@ -43,7 +43,7 @@
 
   <footer class="footer_ended">
     <div class="footer_ended">
-      <h5 class="footer-ended_text">@Copyright Metarix 2021</h5>
+      <h5 class="footer-ended_text">@Copyright Metarix 2022</h5>
     </div>
   </footer>
 <!-- footer ended  -->

@@ -35,6 +35,9 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet" />
 
 
+<!-- animation bounce  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 
 
 
@@ -52,18 +55,24 @@
     
 
       <nav id="navbar" class="navbar">
+        
         <ul>
-            <li class="nav-link scrollto active dropdown"> <a href="#"> <span>Products</span> <i class="fa fa-chevron-down"></i></a>
-                <ul>
-                    <li><a href="market_place.php" >NFT MarketPlace</a></li>
-                   
-                    <li><a href="metarix_sdk.php" >Metarix SDK</a></li>
-                   
-                    <li><a href="metarix_blockchain.php" >Metarix Blockchain</a></li>
-                    <li><a href="virtual_store.php" >Virtual Map</a></li>
-                  
-                </ul>
-            </li>
+          <li>
+            <div class="dropdown ">
+                  <button class="btn btn-secondary dropdown-toggle dropbtn" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="market_place.php">NFT MarketPlace</a></li>
+                    <li><a class="dropdown-item" href="metarix_sdk.php">Metarix SDK</a></li>
+                    <li><a class="dropdown-item" href="metarix_blockchain.php">Metarix Blockchain</a></li>
+                    <li><a class="dropdown-item" href="virtual_store.php">Virtual Map</a></li>
+                  </ul>
+            </div>
+          </li>
+            <!-- <li class="nav-link scrollto active dropdown">  <a href="javascript:void();"> <span></span> <i class="fa fa-chevron-down"></i></a>
+                
+            </li> -->
           <li><a class="nav-link scrollto" href="#Token">Token Sale</a></li>
           <li><a class="nav-link scrollto" href="#Roadmap">Roadmap</a></li>
           <li><a class="nav-link scrollto" href="#Teams">Team</a></li>
@@ -79,5 +88,17 @@
 
     </div>
   </header><!-- End Header -->
+
   <!-- <div id="preloader"></div> -->
 
+        <div id="loader" >
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="lading"></div>
+        </div>

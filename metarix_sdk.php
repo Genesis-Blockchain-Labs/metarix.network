@@ -139,7 +139,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <img class="community_img" src="img/metarixsdk/community.png" alt="">
+                <img class="community_img animated undefined" src="img/metarixsdk/community.png" alt="">
             </div>
             <div class="col-md-8">
                 <div class="community_items">

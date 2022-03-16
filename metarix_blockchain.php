@@ -114,7 +114,7 @@
           </div>
         </div>
         <div class="col-md-6 text-end">
-          <img class="bitcoin_img" src="img/metarix_blockchain/bitcoin.png" alt="">
+          <img class="bitcoin_img animated undefined" src="img/metarix_blockchain/bitcoin.png" alt="">
         </div>
 
       </div>
@@ -130,7 +130,7 @@
 
        <div class="row deposit_data_1">
           <div class="col-md-4">
-           <img class="deposits_img" src="img/metarix_blockchain/deposit.png" alt="">
+           <img class="deposits_img animated undefined" src="img/metarix_blockchain/deposit.png" alt="">
           </div>
 
           <div class="col-md-8">
@@ -160,7 +160,7 @@
               </div>
           </div>
           <div class="col-md-4">
-            <img class="deposits_img" src="img/metarix_blockchain/liqudity.png" alt="">
+            <img class="deposits_img animated undefined" src="img/metarix_blockchain/liqudity.png" alt="">
           </div>
        </div>
      </div>

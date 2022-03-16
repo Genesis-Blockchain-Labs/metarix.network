@@ -17,7 +17,7 @@ unset($_SESSION['message']);
 
         <div class="heading">
           <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> CONTACT <span class="heading_bold">US </span><img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
-          <p class="heading_para">"Get in touch with us today!"</p>
+          <p class=" contactus_para">"Get in touch with us today!"</p>
         </div>
 
         <div class="row">
@@ -85,6 +85,24 @@ unset($_SESSION['message']);
 
         </div>
 
+        <div class="row">
+
+        <div class="info">
+              <div class="email">
+                <i class="fa fa-envelope"></i>
+                <h4>Email:</h4>
+                <p>support@metarix.network</p>
+              </div>
+
+        </div>
+
+
+             
+
+
+        </div>
+
       </div>
     </section><!-- End Contact Section -->
+
 <?php include("includes/footer.php"); ?>

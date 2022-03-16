@@ -9,6 +9,7 @@ body {
     font-family: "Jost", sans-serif;
     color: #fff;
     background: #080808;
+
 }
 
 a {
@@ -38,51 +39,148 @@ ul li {
 /*--------------------------------------------------------------
   # Preloader
   --------------------------------------------------------------*/
-/* 
-#preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+
+  #loader {
     bottom: 0;
-    z-index: 9999;
-    overflow: hidden;
-    background: #020305;
+    height: 175px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 175px;
 }
 
-#preloader:before {
+#loader {
+    bottom: 0;
+    height: 175px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 175px;
+}
+
+#loader .dot {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 90px;
+}
+
+#loader .dot::before {
+    border-radius: 100%;
     content: "";
-    position: fixed;
-    top: calc(50% - 30px);
-    left: calc(50% - 30px);
-    border: 6px solid #37517e;
-    border-top-color: #fff;
-    border-bottom-color: #893fee;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    -webkit-animation: animate-preloader 1s linear infinite;
-    animation: animate-preloader 1s linear infinite;
+    height: 90px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scale(0);
+    width: 87.5px;
 }
 
-@-webkit-keyframes animate-preloader {
-    0% {
-        transform: rotate(0deg);
-    }
+#loader .dot:nth-child(7n+1) {
+    transform: rotate(45deg);
+}
+
+#loader .dot:nth-child(7n+1)::before {
+    animation: 2s linear 0.3s normal none infinite running load;
+    background: #EE82EE none repeat scroll 0 0;
+}
+
+#loader .dot:nth-child(7n+2) {
+    transform: rotate(90deg);
+}
+
+#loader .dot:nth-child(7n+2)::before {
+    animation: 2s linear 0.3s normal none infinite running load;
+    background: #DA70D6 none repeat scroll 0 0;
+}
+
+#loader .dot:nth-child(7n+3) {
+    transform: rotate(135deg);
+}
+
+#loader .dot:nth-child(7n+3)::before {
+    animation: 2s linear 0.4s normal none infinite running load;
+    background: #FF00FF none repeat scroll 0 0;
+}
+
+#loader .dot:nth-child(7n+4) {
+    transform: rotate(180deg);
+}
+
+#loader .dot:nth-child(7n+4)::before {
+    animation: 2s linear 0.5s normal none infinite running load;
+    background: #BA55D3 none repeat scroll 0 0;
+}
+
+#loader .dot:nth-child(7n+5) {
+    transform: rotate(225deg);
+}
+
+#loader .dot:nth-child(7n+5)::before {
+    animation: 2s linear 0.6s normal none infinite running load;
+    background: #9400D3 none repeat scroll 0 0;
+}
+
+#loader .dot:nth-child(7n+6) {
+    transform: rotate(270deg);
+}
+
+#loader .dot:nth-child(7n+6)::before {
+    animation: 2s linear 0.7s normal none infinite running load;
+    background: #9932CC none repeat scroll 0 0;
+}
+
+#loader .dot:nth-child(7n+7) {
+    transform: rotate(315deg);
+}
+
+#loader .dot:nth-child(7n+7)::before {
+    animation: 2s linear 0.8s normal none infinite running load;
+    background: #8B008B none repeat scroll 0 0;
+}
+
+#loader .dot:nth-child(7n+8) {
+    transform: rotate(360deg);
+}
+
+#loader .dot:nth-child(7n+8)::before {
+    animation: 2s linear 0.9s normal none infinite running load;
+    background: #800080 none repeat scroll 0 0;
+}
+
+#loader .lading {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    bottom: -40px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 180px;
+}
+
+@keyframes load {
     100% {
-        transform: rotate(360deg);
+        opacity: 0;
+        transform: scale(1);
     }
 }
 
-@keyframes animate-preloader {
-    0% {
-        transform: rotate(0deg);
-    }
+@keyframes load {
     100% {
-        transform: rotate(360deg);
+        opacity: 0;
+        transform: scale(1);
     }
-} */
-
+}
   
 
 /*--------------------------------------------------------------
@@ -237,6 +335,28 @@ ul li {
     font-weight: 500;
     color: #fff;
     background-color: #000;
+}
+
+.dropbtn{
+    color: #fff !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+.dropbtn:hover{
+    color: #bf2d8a !important;
+    background-color: transparent !important;
+    border: none !important;
+
+}
+.dropbtn .btn-check:focus+.btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem transparent !important;
+}
+.dropbtn .btn-check:focus+.btn-secondary, .btn-secondary:focus {
+    color: #fff;
+    background-color: #5c636a;
+    border-color: #565e64;
+    box-shadow: transparent !important;
 }
 
 .navbar .dropdown ul a i {
@@ -954,8 +1074,8 @@ ul li {
     width: 16.6%;
 }
 .partner_img{
-    width: 170px;
-
+    width: auto;
+    max-height: 50px;
 }
 
 .partners-data {
@@ -1088,12 +1208,14 @@ li.ftlightpaper a:hover {
 }
 
 .contact .info {
-    border-width: 2px 0px 2px 0px;
+    /* border-width: 2px 0px 2px 0px;
     border-style: solid;
-    border-image: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%) 1;
+    border-image: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%) 1; */
     padding: 30px 0px;
     width: 100%;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
 }
 
 .contact .info i {
@@ -1111,18 +1233,21 @@ li.ftlightpaper a:hover {
 }
 
 .contact .info h4 {
-    padding: 0 0 0 60px;
+    padding: 0 0 0 20px;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 5px;
     color: #ffffff;
 }
-
+.email {
+    display: flex;
+    align-items: baseline;
+}
 .contact .info p {
-    padding: 0 0 10px 60px;
+    padding: 0 0 10px 15px;
     margin-bottom: 20px;
-    font-size: 14px;
-    color: #b3b3b3;
+    font-size: 20px;
+    color: #e9e7e7;
 }
 
 .contact .info .email p {
@@ -1163,9 +1288,7 @@ li.ftlightpaper a:hover {
 .contact .php-email-form {
     width: 100%;
     border-width: 2px 0px 2px 0px;
-    border-style: solid;
-    border-image: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%) 1;
-    padding: 30px 0;
+    padding: 70px 0;
 }
 
 .contact .php-email-form .form-group {
@@ -1253,11 +1376,11 @@ li.ftlightpaper a:hover {
 
 .contact .php-email-form button[type=submit] {
     border: 0;
-    padding: 12px 6px;
     color: #fff;
     transition: 0.4s;
     background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%); 
     border-radius: 50px;
+    padding: 10px 35px;
 }
 
 .contact .php-email-form button[type=submit]:hover {
@@ -1292,9 +1415,8 @@ li.ftlightpaper a:hover {
     background: transparent;
     color: #fff;
     padding: 18px;
-    border-width: 1px;
-    border-style: solid;
-    border-image: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%) 1;
+    border: 1px solid #bf2d8a;
+    border-radius: 8px !important;
 }
 
 .form-button {
@@ -1325,6 +1447,19 @@ img.cont_img {
     width: 400px;
     height: 400px;
     opacity: 0.3;
+    position: relative;
+    top: 15%;
+}
+
+.contactus_para{
+    background: -webkit-linear-gradient(right, #0756d2 0%, #c72c8a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 23px;
+    width: 25%;
+    margin: 0 auto;
+
 }
 
 /*comming soon pages  */
@@ -1598,7 +1733,7 @@ img.cont_img {
     text-align: center;
     width: 100%;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 700px;
 }
 .buttons_sdk_items .border_radi_us {
     background: #080808;
@@ -1763,16 +1898,16 @@ img.cont_img {
 }
 
 .commuinty_button form .form-control {
-    background: #eff1f4;
-    border: none;
-    border-radius: 3px 0px 0px 3px ;
+    background: transparent;
+    border: 1px solid #bf2d8a;
+    border-radius: 10px 0px 0px 10px ;
     box-shadow: none;
     outline: none;
     color: inherit;
     text-indent: 9px;
-    height: 49px;
+    height: 50px;
     margin-right: 10px;
-    min-width: 250px
+    min-width: 380px
 }
 
 .commuinty_button form .btn {
@@ -1803,9 +1938,9 @@ img.cont_img {
     color: #fff;
     transition: 0.4s;
     background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
-    border-radius: 0px 3px 3px 0px;
     height: 50px;
-    border-radius: 0px 3px 3px 0px;
+    border-radius: 0px 10px 10px 0px;
+    width: 210px;
 }
 
 /* Blockchain page started  */
@@ -2225,8 +2360,7 @@ a.nft_btn:hover{
     }
   }
   .slider {
-    background: pr;
-    height: 80px;
+    height: 300px;
     margin: auto;
     overflow: hidden;
     position: relative;
@@ -2244,7 +2378,7 @@ a.nft_btn:hover{
     right: 0;
     top: 0;
     -webkit-transform: rotateZ(180deg);
-            transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
   }
   .slider::before {
     left: 0;
@@ -2261,11 +2395,33 @@ a.nft_btn:hover{
     width: 250px;
   }
 .slide_img{
-    width: 100%;
-    height: auto;
+    width: 150px;
+    height: 150px;
     padding-top: 6px;
 }
-
+.slide_text {
+    text-align: center;
+}
+.sliders_texed{
+    background: -webkit-linear-gradient(right, #0756d2 0%, #c72c8a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 30px;
+    position: relative;
+}
+.sliders_texed::after{
+    position: absolute;
+    left: 0;
+    content: '';
+    height: 2px;
+    width: 55%;
+    background: linear-gradient(to right, #bf2d8a 0%,#124dbd 100%);
+    right: 0;
+    bottom: -5px;
+    margin: 0 auto;
+}
 
 
 
@@ -3068,6 +3224,9 @@ a.nft_btn:hover{
 
 .community_img {
     width: 100%;
+}
+.animated {
+    animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }
 
 

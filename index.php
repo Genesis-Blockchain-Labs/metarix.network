@@ -336,7 +336,7 @@
                      </div>
                 </div>
               <div class="col-xl-6 right_side_sale_data">
-                <img class="token_sale_img" src="img/token_sale.png" alt="">
+                <img class="token_sale_img animated undefined" src="img/token_sale.png" alt="">
               </div>
           </div>
       </div>
@@ -354,17 +354,19 @@
         <div class="row roadmap-row full-vw">
             <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q1 - 2021 </h2>
+                    <h2>Q1 - 2022</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Ideation and Strategy</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for partnerships</p>
-                </div>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Conference</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>NFT marketplace launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Decentralized Exchange launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Play to earn game v1 launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual smartwatch launch </p>
+                </div>    
             </div>
             <div class="card roadmap-card border_radi_us">
                 <div class="card-title">
-                    <h2>Q2- 2022</h2>
+                    <h2>Q2 - 2022</h2>
                 </div>
                 <div class="card-head">
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Token development, auditing, and deployment </p>
@@ -374,7 +376,19 @@
             </div>
             <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q3 2022 </h2>
+                    <h2>Q3 - 2022 </h2>
+                </div>
+                <div class="card-head">
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse alpha launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contract solutions for digital marketing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK v1 launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Multi-language support </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contracts for Game Developers with easy to deploy solutions </p>
+                </div>   
+            </div>
+               <div class="card roadmap-card  border_radi_us">
+                <div class="card-title">
+                    <h2>Q6 - 2023</h2>
                 </div>
                 <div class="card-head">
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Token listing</p>
@@ -383,33 +397,19 @@
                     <p class="roadmap_text"><i class="fa fa-circle"></i>IDO Launch</p>
                 </div>
             </div>
-               <div class="card roadmap-card  border_radi_us">
+            <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q6 2022</h2>
+                    <h2>Q5 - 2023</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse alpha launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contract solutions for digital marketing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK v1 launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Multi-language support </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contracts for Game Developers with easy to deploy solutions </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Ideation and Strategy</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for partnerships</p>
                 </div>
             </div>
             <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q5 2022</h2>
-                </div>
-                <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Conference</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>NFT marketplace launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Decentralized Exchange launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Play to earn game v1 launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual smartwatch launch </p>
-                </div>
-            </div>
-            <div class="card roadmap-card  border_radi_us">
-                <div class="card-title">
-                    <h2>Q4 2022</h2>
+                    <h2>Q4 - 2022</h2>
                 </div>
                 <div class="card-head">
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Centralized exchange listing</p>
@@ -427,17 +427,19 @@
          <div class="row roadmap-row ">
             <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q1 - 2021 </h2>
+                    <h2>Q1 - 2022 </h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Ideation and Strategy</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for partnerships</p>
-                </div>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Conference</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>NFT marketplace launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Decentralized Exchange launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Play to earn game v1 launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual smartwatch launch </p>
+                </div>  
             </div>
             <div class="card roadmap-card border_radi_us">
                 <div class="card-title">
-                    <h2>Q2- 2022</h2>
+                    <h2>Q2 - 2022</h2>
                 </div>
                 <div class="card-head">
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Token development, auditing, and deployment </p>
@@ -447,18 +449,19 @@
             </div>
             <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q3 2022 </h2>
+                    <h2>Q3 - 2022 </h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token listing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Marketing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>ICO Launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>IDO Launch</p>
-                </div>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse alpha launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contract solutions for digital marketing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK v1 launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Multi-language support </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contracts for Game Developers with easy to deploy solutions </p>
+                </div>   
             </div>
             <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q4 2022</h2>
+                    <h2>Q4 - 2022</h2>
                 </div>
                 <div class="card-head">
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Centralized exchange listing</p>
@@ -473,26 +476,23 @@
             </div> 
             <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q5 2022</h2>
+                    <h2>Q5 - 2023</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Conference</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>NFT marketplace launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Decentralized Exchange launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Play to earn game v1 launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual smartwatch launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Ideation and Strategy</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for partnerships</p>
                 </div>
             </div>
                <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q6 2022</h2>
+                    <h2>Q6 - 2023</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse alpha launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contract solutions for digital marketing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK v1 launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Multi-language support </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contracts for Game Developers with easy to deploy solutions </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token listing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Marketing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>ICO Launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>IDO Launch</p>
                 </div>
             </div>
             </div>
@@ -510,18 +510,20 @@
           </div>
         <div class="row roadmap-row">
             <div class="card roadmap-card  border_radi_us">
-                <div class="card-title">
-                    <h2>Q1 - 2021 </h2>
+                 <div class="card-title">
+                    <h2>Q1 - 2022 </h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Ideation and Strategy</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for partnerships</p>
-                </div>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Conference</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>NFT marketplace launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Decentralized Exchange launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Play to earn game v1 launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual smartwatch launch </p>
+                </div>  
             </div>
             <div class="card roadmap-card border_radi_us drop-crd">
                 <div class="card-title">
-                    <h2>Q2- 2022</h2>
+                    <h2>Q2 - 2022</h2>
                 </div>
                 <div class="card-head">
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Token development, auditing, and deployment </p>
@@ -532,8 +534,8 @@
           </div>
           <div class="row roadmap-row ">
           	 <div class="card roadmap-card  border_radi_us left-arw">
-                <div class="card-title">
-                    <h2>Q4 2022</h2>
+               <div class="card-title">
+                    <h2>Q4 - 2022</h2>
                 </div>
                 <div class="card-head">
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Centralized exchange listing</p>
@@ -548,34 +550,7 @@
             </div>
             <div class="card roadmap-card  border_radi_us reverce-rw">
                 <div class="card-title">
-                    <h2>Q3 2022 </h2>
-                </div>
-                <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token listing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Marketing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>ICO Launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>IDO Launch</p>
-                </div>
-            </div>
-           
-           </div>
-           <div class="row roadmap-row">
-            <div class="card roadmap-card  border_radi_us">
-                <div class="card-title">
-                    <h2>Q5 2022</h2>
-                </div>
-                <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Conference</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>NFT marketplace launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Decentralized Exchange launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Play to earn game v1 launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual smartwatch launch </p>
-                </div>
-            </div>
-
-            <div class="card roadmap-card  border_radi_us last-crd">
-                <div class="card-title">
-                    <h2>Q6 2022</h2>
+                    <h2>Q3 - 2022 </h2>
                 </div>
                 <div class="card-head">
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse alpha launch</p>
@@ -583,6 +558,31 @@
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK v1 launch </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Multi-language support </p>
                     <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contracts for Game Developers with easy to deploy solutions </p>
+                </div>   
+            </div>
+           
+           </div>
+           <div class="row roadmap-row">
+            <div class="card roadmap-card  border_radi_us">
+                <div class="card-title">
+                    <h2>Q5 - 2023</h2>
+                </div>
+                <div class="card-head">
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Ideation and Strategy</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for partnerships</p>
+                </div>
+            </div>
+
+            <div class="card roadmap-card  border_radi_us last-crd">
+            <div class="card-title">
+                    <h2>Q6 - 2023</h2>
+                </div>
+                <div class="card-head">
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token listing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Marketing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>ICO Launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>IDO Launch</p>
                 </div>
             </div>
 
@@ -737,6 +737,7 @@
                     <div class="partners-data">
                          <img class="partner_img" src="img/partners/Genesis_update_logo.png" alt="Vector.svg">
                          <img class="partner_img" src="img/partners/logo-geller.png" alt="UnrealEngine_logo.svg">
+                         <img class="partner_img" src="img/partners/konma.png" alt="UnrealEngine_logo.svg">
                     </div>
             </div>
         </div>
