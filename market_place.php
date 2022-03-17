@@ -31,7 +31,7 @@
         <!-- slider_parudt started  -->
         <div class="slider">
             <div class="slide_text">
-                <h1 class="sliders_texed">Our Characters</h1>
+                <h1 class="sliders_texed">Metarix Avathars</h1>
             </div>
             <div class="slide-track">
                 <div class="slide">

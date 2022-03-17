@@ -159,12 +159,12 @@
      */
     
     
-    // let preloader = select('#preloader');
-    // if (preloader) {
-    //   window.addEventListener('load', () => {
-    //     preloader.remove()
-    //   });
-    // }
+    let preloader = select('#loader');
+    if (preloader) {
+      window.addEventListener('load', () => {
+        preloader.remove()
+      });
+    }
   
     /**
      * Initiate  glightbox 
@@ -262,7 +262,7 @@
   
 
 
-	$(function () {
+  $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
@@ -271,7 +271,22 @@
 // virtual store page 
   
   var zoom = 1;
-		
+    
+  $('.zoom').on('click', function(){
+    zoom += 0.1;
+    $('.target').css('transform', 'scale(' + zoom + ')');
+  });
+  $('.zoom-init').on('click', function(){
+    zoom = 1;
+    $('.target').css('transform', 'scale(' + zoom + ')');
+  });
+  $('.zoom-out').on('click', function(){
+    zoom -= 0.1;
+    $('.target').css('transform', 'scale(' + zoom + ')');
+  });
+
+    var zoom = 1;
+    
   $('.zoom').on('click', function(){
     zoom += 0.1;
     $('.target').css('transform', 'scale(' + zoom + ')');
@@ -287,208 +302,52 @@
 
 
 
+ var scale = 1,
+        panning = false,
+        pointX = 0,
+        pointY = 0,
+        start = { x: 0, y: 0 },
+        zoom_data = document.getElementById("imageView");
 
-//   // canvas page 
-  
-//   function hasTouch() {
-//     return 'ontouchstart' in document.documentElement;
-// }	
+      function setTransform() {
+        zoom_data.style.transform = "translate(" + pointX + "px, " + pointY + "px) scale(" + scale + ")";
+      }
 
-// var canvas = document.getElementsByClassName('imgsks')[0];
-// canvas.width = 1320;
-// canvas.height = 1000;
+      zoom_data.onmousedown = function (e) {
+        e.preventDefault();
+        start = { x: e.clientX - pointX, y: e.clientY - pointY };
+        panning = true;
+      }
 
-// var gkhead = new Image;
-// var event_start = hasTouch() ? 'touchstart' : 'mousedown',
-//     event_move = hasTouch() ? 'touchmove' : 'mousemove',
-//     event_end = hasTouch() ? 'touchend' : 'mouseup';
+      zoom_data.onmouseup = function (e) {
+        panning = false;
+      }
 
-// window.onload = function(){		
-  
-//       var ctx = canvas.getContext('2d');
-//       trackTransforms(ctx);
-    
-//   function redraw(){
-
-//         // Clear the entire canvas
-//         var p1 = ctx.transformedPoint(0,0);
-//         var p2 = ctx.transformedPoint(canvas.width,canvas.height);
-//         ctx.clearRect(p1.x,p1.y,p2.x-p1.x,p2.y-p1.y);
-
-//         ctx.save();
-//         ctx.setTransform(1,0,0,1,0,0);
-//         ctx.clearRect(0,0,canvas.width,canvas.height);
-//         ctx.restore();
-
-//         ctx.drawImage(gkhead,0,0);
-
-//       }
-//       redraw();
-
-//     var lastX=canvas.width/2, lastY=canvas.height/2;
-
-//     var dragStart,dragged;
-
-//     canvas.addEventListener(event_start,function(evt){
-//         document.body.style.mozUserSelect = document.body.style.webkitUserSelect = document.body.style.userSelect = 'none';
-//         lastX = evt.offsetX || (evt.pageX - canvas.offsetLeft);
-//         lastY = evt.offsetY || (evt.pageY - canvas.offsetTop);
-//         dragStart = ctx.transformedPoint(lastX,lastY);
-//         dragged = false;
-//     },false);
-
-//     canvas.addEventListener(event_move,function(evt){
-//         lastX = evt.offsetX || (evt.pageX - canvas.offsetLeft);
-//         lastY = evt.offsetY || (evt.pageY - canvas.offsetTop);
-//         dragged = true;
-//         if (dragStart){
-//           var pt = ctx.transformedPoint(lastX,lastY);
-//           ctx.translate(pt.x-dragStart.x,pt.y-dragStart.y);
-//           redraw();
-//               }
-//     },false);
-
-//     canvas.addEventListener(event_end,function(evt){
-//         dragStart = null;
-//         if (!dragged) zoom(evt.shiftKey ? -1 : 1 );
-//     },false);
-
-//     var scaleFactor = 1.1;
-
-//     var zoom = function(clicks){
-//         var pt = ctx.transformedPoint(lastX,lastY);
-//         ctx.translate(pt.x,pt.y);
-//         var factor = Math.pow(scaleFactor,clicks);
-//         ctx.scale(factor,factor);
-//         ctx.translate(-pt.x,-pt.y);
-//         redraw();
-//     }
-
-//     var handleScroll = function(evt){
-//         var delta = evt.wheelDelta ? evt.wheelDelta/40 : evt.detail ? -evt.detail : 0;
-//         if (delta) zoom(delta);
-//         return evt.preventDefault() && false;
-//     };
-  
-//     canvas.addEventListener('DOMMouseScroll',handleScroll,false);
-//     canvas.addEventListener('mousewheel',handleScroll,false);
-// };
-
-
-
-   const zoomElement = document.querySelector(".imgsks");
-   
-const ZOOM_SPEED = 0.1;
-
-document.addEventListener("wheel", function(e) {  
-    
-    if(e.deltaY > 0){    
-        if (zoomElement.style.transform >= `scale(5)`) {
-            console.log("now scroll down");
-            return false;
+      zoom_data.onmousemove = function (e) {
+        e.preventDefault();
+        if (!panning) {
+          return;
         }
-        zoomElement.style.transform = `scale(${zoom += ZOOM_SPEED})`;  
+        pointX = (e.clientX - start.x);
+        pointY = (e.clientY - start.y);
+        setTransform();
+      }
 
-    }else{    
-        if (zoomElement.style.transform == `scale(1)`) {
-            // console.log("minus");
-            return false;
-        }
-        zoomElement.style.transform = `scale(${zoom -= ZOOM_SPEED})`;  }
+      zoom_data.onwheel = function (e) {
+        e.preventDefault();
+        var xs = (e.clientX - pointX) / scale,
+          ys = (e.clientY - pointY) / scale,
+          delta = (e.wheelDelta ? e.wheelDelta : -e.deltaY);
+        (delta > 0) ? (scale *= 1.2) : (scale /= 1.2);
+        pointX = e.clientX - xs * scale;
+        pointY = e.clientY - ys * scale;
 
-    var scaleFactor = 1.1;
-
+        setTransform();
+      }
     
-    var handleScroll = function(e){
-        var delta = e.wheelDelta ? e.wheelDelta/40 : e.detail ? -e.detail : 0;
-        if (delta) zoomElement(delta);
-        return evt.preventDefault() && false;
-    };
-  
-    zoomElement.addEventListener('DOMMouseScroll',handleScroll,false);
-    zoomElement.addEventListener('mousewheel',handleScroll,false);
-
-
-
-
-
-
-
-});
-
-
-
-
-
-
-gkhead.src = 'https://dev.metarix.network/img/Box_map2.jpg';
-
-// Adds ctx.getTransform() - returns an SVGMatrix
-// Adds ctx.transformedPoint(x,y) - returns an SVGPoint
-function trackTransforms(ctx){
-    var svg = document.createElementNS("http://www.w3.org/2000/svg",'svg');
-    var xform = svg.createSVGMatrix();
-    ctx.getTransform = function(){ return xform; };
-
-    var savedTransforms = [];
-    var save = ctx.save;
-    ctx.save = function(){
-        savedTransforms.push(xform.translate(0,0));
-        return save.call(ctx);
-    };
-  
-    var restore = ctx.restore;
-    ctx.restore = function(){
-      xform = savedTransforms.pop();
-      return restore.call(ctx);
-        };
-
-    var scale = ctx.scale;
-    ctx.scale = function(sx,sy){
-      xform = xform.scaleNonUniform(sx,sy);
-      return scale.call(ctx,sx,sy);
-        };
-  
-    var rotate = ctx.rotate;
-    ctx.rotate = function(radians){
-        xform = xform.rotate(radians*180/Math.PI);
-        return rotate.call(ctx,radians);
-    };
-  
-    var translate = ctx.translate;
-    ctx.translate = function(dx,dy){
-        xform = xform.translate(dx,dy);
-        return translate.call(ctx,dx,dy);
-    };
-  
-    var transform = ctx.transform;
-    ctx.transform = function(a,b,c,d,e,f){
-        var m2 = svg.createSVGMatrix();
-        m2.a=a; m2.b=b; m2.c=c; m2.d=d; m2.e=e; m2.f=f;
-        xform = xform.multiply(m2);
-        return transform.call(ctx,a,b,c,d,e,f);
-    };
-  
-    var setTransform = ctx.setTransform;
-    ctx.setTransform = function(a,b,c,d,e,f){
-        xform.a = a;
-        xform.b = b;
-        xform.c = c;
-        xform.d = d;
-        xform.e = e;
-        xform.f = f;
-        return setTransform.call(ctx,a,b,c,d,e,f);
-    };
-  
-    var pt  = svg.createSVGPoint();
-    ctx.transformedPoint = function(x,y){
-        pt.x=x; pt.y=y;
-        return pt.matrixTransform(xform.inverse());
-    }
-}
-
-
-
-
-
-
+    $(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+  $("#imageView").css({
+    width: (100 + scroll/5) + "%"
+  })
+})

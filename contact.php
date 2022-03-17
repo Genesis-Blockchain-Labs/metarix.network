@@ -91,7 +91,13 @@ unset($_SESSION['message']);
               <div class="email">
                 <i class="fa fa-envelope"></i>
                 <h4>Email:</h4>
-                <p>support@metarix.network</p>
+                <a href="support@metarix.network">support@metarix.network</a>
+              </div>
+
+              <div class="email">
+                <i class="fa fa-envelope"></i>
+                <h4>Partner Email:</h4>
+                <a href="partner@metarix.network">partner@metarix.network</a>
               </div>
 
         </div>

@@ -110,7 +110,7 @@
                     </div>
                     <div class="box-head">
                         <h3>Doge Park</h3>
-                        <p> A park dedicated to dogs worldwide including the famous Shiba Inu from Japan. Doge Park is a place where people can buy and sell 3D NFTs of different dogs and also socialize with other d=fellow dog lovers across the globe. </p>
+                        <p> A park dedicated to dogs worldwide including the famous Shiba Inu from Japan. Doge Park is a place where people can buy and sell 3D NFTs of different dogs and also socialize with other fellow dog lovers across the globe. </p>
                     </div>
                 </div>
             </div>
@@ -256,11 +256,30 @@
           </div>
           <div class="row token_sale items">
                  <div class="col-xl-6 left_side_sale_data">
+                    <div class="right_sale2">
+                        <div class="token-sale-items">
+                            <h4 class="sale_text">Total <SPan class="sale_bold"> Supply</SPan></h4>
+                            <H3>1.2B</H3>
+                        </div>
+                        <div class="token-sale-items">
+                            <h4 class="sale_text"><SPan class="sale_bold">  Blockchain</SPan></h4>
+                            <H3>Binance smart chain</H3>
+                        </div>
+                        <div class="token-sale-items">
+                            <h4 class="sale_text">Token <SPan class="sale_bold"> Name</SPan></h4>
+                            <H3>Metarix</H3>
+                        </div>
+                        <div class="token-sale-items">
+                            <h4 class="sale_text"><SPan class="sale_bold"> Symbol</SPan></h4>
+                            <H3>MTRX</H3>
+                        </div>
+                        
+                     </div>
 
                     <div class="left_sale">
                         <div class="token-sale-items">
-                            <h4 class="sale_text"><SPan class="sale_bold"> Staking</SPan></h4>
-                            <H3>6%</H3>
+                            <h4 class="sale_text">Staking<SPan class="sale_bold"> Rewards</SPan></h4>
+                            <H3>8%</H3>
                         </div>
                         <div class="token-sale-items">
                             <h4 class="sale_text">Play To<SPan class="sale_bold"> Earn</SPan></h4>
@@ -299,7 +318,7 @@
                         </div>
                         <div class="token-sale-items">
                             <h4 class="sale_text">Founders and<SPan class="sale_bold"> Stakeholders</SPan></h4>
-                            <H3>5%</H3>
+                            <H3>10%</H3>
                         </div>
                         <div class="token-sale-items">
                             <h4 class="sale_text"><SPan class="sale_bold"> Launchpad</SPan></h4>
@@ -313,26 +332,6 @@
                             <h4 class="sale_text"><SPan class="sale_bold">  Reserve</SPan></h4>
                             <H3>10%</H3>
                         </div>
-                     </div>
-
-                    <div class="right_sale2">
-                        <div class="token-sale-items">
-                            <h4 class="sale_text">Total <SPan class="sale_bold"> Supply</SPan></h4>
-                            <H3>1.2B</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text"><SPan class="sale_bold">  Blockchain</SPan></h4>
-                            <H3>Binance smart chain</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text">Token <SPan class="sale_bold"> Name</SPan></h4>
-                            <H3>Metarix</H3>
-                        </div>
-                        <div class="token-sale-items">
-                            <h4 class="sale_text"><SPan class="sale_bold"> Symbol</SPan></h4>
-                            <H3>MTRX</H3>
-                        </div>
-                        
                      </div>
                 </div>
               <div class="col-xl-6 right_side_sale_data">
@@ -357,11 +356,14 @@
                     <h2>Q1 - 2022</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Conference</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>NFT marketplace launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Decentralized Exchange launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Play to earn game v1 launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual smartwatch launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Website devlopment</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token development and deployment</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Smart contract Audit</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>white Paper  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Light Paper </p>
+                     <p class="roadmap_text"><i class="fa fa-circle"></i>Strategic Initial Partnerships</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token Listings </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Marketing </p>
                 </div>    
             </div>
             <div class="card roadmap-card border_radi_us">
@@ -369,9 +371,14 @@
                     <h2>Q2 - 2022</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token development, auditing, and deployment </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Website and whitepaper launchStaking </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Industry partnership </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>ICO Launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Airdrop and Marketing Campaigns </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Private Exchange Token Sale </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for strategic partnerships  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Tier 1 and Tier 2 Exchange Listings  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Staking and rewards  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Blockchain, Dex and MarketPlace Development </p>
                 </div>
             </div>
             <div class="card roadmap-card  border_radi_us">
@@ -379,32 +386,37 @@
                     <h2>Q3 - 2022 </h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse alpha launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contract solutions for digital marketing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK v1 launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Multi-language support </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contracts for Game Developers with easy to deploy solutions </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Layer 2 Metarix Blockchain Deployment</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix MarketPlace Launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Virtual Land PreSale </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Dex Launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Smart Contracts for Gaming and NFT's </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Voting on Metarix Gaming Projects with DAO </p>
                 </div>   
             </div>
                <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q6 - 2023</h2>
+                    <h2>Q2 - 2023</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token listing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Marketing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>ICO Launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>IDO Launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metrix Asset Store for Game Developers</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>TMetarix Digital Marketing Platform Launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Full version launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix tools for Content Creators, Digital Artists  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Game Store Launch  </p>
                 </div>
             </div>
             <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q5 - 2023</h2>
+                    <h2>Q1 - 2023</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Ideation and Strategy</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for partnerships</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK version 1.0 Release</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Devops tools Launch for Developers</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix No code smartcontract solutions for Digital Marketing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Digital Marketing Platform Integration</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Multi-Language Support</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smartcontracts for Game Developers with easy to deploy solutions</p>
                 </div>
             </div>
             <div class="card roadmap-card  border_radi_us">
@@ -412,17 +424,17 @@
                     <h2>Q4 - 2022</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Centralized exchange listing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual Land integration</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Game experience alpha release </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK alpha release </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Launch of Metarix layer-2 blockchain solution </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Strategic partnerships </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Starting staking of MTX token </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>VR experience alpha release </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Tope tier Exchange Listings</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual Land Integrations</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK Alpha Release </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Pre Launch Game Experience Release </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix VR Aplha Game Experience </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Play to Earn Game Version 1.0 Launch(Pre selected Theme Artifact Areas) </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix In Game Virtual smart Launch Development </p>
                 </div>
             </div> 
         </div>
+
         <div class="mbl">
          <div class="row roadmap-row ">
             <div class="card roadmap-card  border_radi_us">
@@ -430,21 +442,29 @@
                     <h2>Q1 - 2022 </h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Conference</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>NFT marketplace launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Decentralized Exchange launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Play to earn game v1 launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual smartwatch launch </p>
-                </div>  
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Website devlopment</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token development and deployment</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Smart contract Audit</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>white Paper  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Light Paper </p>
+                     <p class="roadmap_text"><i class="fa fa-circle"></i>Strategic Initial Partnerships</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token Listings </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Marketing </p>
+                </div>    
             </div>
             <div class="card roadmap-card border_radi_us">
                 <div class="card-title">
                     <h2>Q2 - 2022</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token development, auditing, and deployment </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Website and whitepaper launchStaking </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Industry partnership </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>ICO Launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Airdrop and Marketing Campaigns </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Private Exchange Token Sale </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for strategic partnerships  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Tier 1 and Tier 2 Exchange Listings  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Staking and rewards  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Blockchain, Dex and MarketPlace Development </p>
                 </div>
             </div>
             <div class="card roadmap-card  border_radi_us">
@@ -452,47 +472,51 @@
                     <h2>Q3 - 2022 </h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse alpha launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contract solutions for digital marketing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK v1 launch </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Multi-language support </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smart contracts for Game Developers with easy to deploy solutions </p>
-                </div>   
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Layer 2 Metarix Blockchain Deployment</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix MarketPlace Launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Virtual Land PreSale </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Dex Launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Smart Contracts for Gaming and NFT's </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Enable Voting on Metarix Gaming Projects with DAO </p>
+                </div>    
             </div>
             <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
                     <h2>Q4 - 2022</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Centralized exchange listing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual Land integration</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Game experience alpha release </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK alpha release </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Launch of Metarix layer-2 blockchain solution </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Strategic partnerships </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Starting staking of MTX token </p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>VR experience alpha release </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Tope tier Exchange Listings</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Virtual Land Integrations</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK Alpha Release </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Pre Launch Game Experience Release </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix VR Aplha Game Experience </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Play to Earn Game Version 1.0 Launch(Pre selected Theme Artifact Areas) </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix In Game Virtual smart Launch Development </p>
                 </div>
             </div> 
             <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q5 - 2023</h2>
+                    <h2>Q1 - 2023</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Ideation and Strategy</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Team Building</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Call out for partnerships</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix SDK version 1.0 Release</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Devops tools Launch for Developers</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix No code smartcontract solutions for Digital Marketing</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Digital Marketing Platform Integration</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Multi-Language Support</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>No code smartcontracts for Game Developers with easy to deploy solutions</p>
                 </div>
             </div>
                <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q6 - 2023</h2>
+                    <h2>Q2 - 2023</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token listing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Marketing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>ICO Launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>IDO Launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metrix Asset Store for Game Developers</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>TMetarix Digital Marketing Platform Launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Full version launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix tools for Content Creators, Digital Artists  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Game Store Launch  </p>
                 </div>
             </div>
             </div>
@@ -565,7 +589,7 @@
            <div class="row roadmap-row">
             <div class="card roadmap-card  border_radi_us">
                 <div class="card-title">
-                    <h2>Q5 - 2023</h2>
+                    <h2>Q1 - 2023</h2>
                 </div>
                 <div class="card-head">
                     <p class="roadmap_text"><i class="fa fa-circle"></i>Ideation and Strategy</p>
@@ -576,13 +600,14 @@
 
             <div class="card roadmap-card  border_radi_us last-crd">
             <div class="card-title">
-                    <h2>Q6 - 2023</h2>
+                    <h2>Q2 - 2023</h2>
                 </div>
                 <div class="card-head">
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Token listing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>Marketing</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>ICO Launch</p>
-                    <p class="roadmap_text"><i class="fa fa-circle"></i>IDO Launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metrix Asset Store for Game Developers</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>TMetarix Digital Marketing Platform Launch</p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Metaverse Full version launch </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix tools for Content Creators, Digital Artists  </p>
+                    <p class="roadmap_text"><i class="fa fa-circle"></i>Metarix Game Store Launch  </p>
                 </div>
             </div>
 
@@ -726,6 +751,56 @@
             </div>
         </div>
     </section>
+
+  <!-- our blog    -->
+    <!-- <section class="blog">
+      <div class="container">
+         <div class="heading">
+                <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> OUR BLOGS <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+              </div>
+        <div class="row mt-3">
+       <div class="col-sm-4">
+        <div class="card">
+          <div class="zoom-img">
+          <img class="card-img-top features_img" src="img/blockchain.jpg" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">What is Lorem Ipsum</h5>
+            <span>March 16, 2022 -3 min read</span>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="sdk_btn">Read More</a>
+          </div>
+        </div>
+       </div>
+         <div class="col-sm-4">
+        <div class="card">
+          <div class="zoom-img">
+          <img class="card-img-top features_img" src="img/blockchain2.jpg" alt="Card image cap">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">What is Lorem Ipsum</h5>
+            <span>March 16, 2022 -3 min read</span>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="sdk_btn">Read More</a>
+          </div>
+        </div>
+       </div>
+         <div class="col-sm-4">
+        <div class="card">
+          <div class="zoom-img">
+          <img class="card-img-top features_img" src="img/Blockchain3.jpg" alt="Card image cap">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">What is Lorem Ipsum</h5>
+            <span>March 16, 2022 -3 min read</span>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="sdk_btn">Read More</a>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+    </section> -->
 
      <!-- our partner   -->
     <section class="our_partners" id="Partners">
