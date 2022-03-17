@@ -252,7 +252,7 @@
   <section class="token_sale" id="Token">
       <div class="container token_sale_data" >
         <div class="heading">
-            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> TOKEN  SALE <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
+            <h1 class="heading_text"><img class="heading_logo" src="img/heading_left_logo.png" alt=""> Tokenomics <img class="heading_logo" src="img/heading_right_logo.png" alt=""></h1>
           </div>
           <div class="row token_sale items">
                  <div class="col-xl-6 left_side_sale_data">
@@ -653,36 +653,37 @@
                     <h4 class="oursteams_text">Development Team </h4>
 
                     <div class="team_data_2">
-                        <div class="box team_member">
+                        <!-- <div class="box team_member">
                             <img class="teams_img" src="img/team/Malkeet-Singh.jpg" alt="">
                             <h4 class="teams_text">Malkeet Singh</h4>
                             <p class="teams_para">Blockchain Specialist</p>
-                        </div>
-                        <div class="box team_member">
-                            <img class="teams_img" src="img/team/deepak-1.jpg" alt="">
-                            <h4 class="teams_text">Deepak Penaganti</h4>
-                            <p class="teams_para">Senior Software Engineer</p>
-                        </div>
+                        </div> -->
+                        
                         <div class="box team_member">
                             <img class="teams_img fit_img" src="img/team/neeraj_kumar.jpg" alt="">
                             <h4 class="teams_text">Neeraj Kumar </h4>
                             <p class="teams_para">Sr. Project Manager</p>
                         </div>
                         <div class="box team_member">
-                            <img class="teams_img" src="img/team/yashwanth.jpg" alt="">
-                            <h4 class="teams_text">Yashwanth Kasturi </h4>
-                            <p class="teams_para">Product Lead</p>
+                            <img class="teams_img" src="img/team/deepak-1.jpg" alt="">
+                            <h4 class="teams_text">Deepak Penaganti</h4>
+                            <p class="teams_para">Senior Unity Developer </p>
                         </div>
                         <div class="box team_member">
+                            <img class="teams_img" src="img/team/yashwanth.jpg" alt="">
+                            <h4 class="teams_text">Yashwanth Kasturi </h4>
+                            <p class="teams_para">Senior Unity Developer</p>
+                        </div>
+                        <!-- <div class="box team_member">
                             <img class="teams_img fit_img" src="img/team/hardeep.png" alt="">
                             <h4 class="teams_text">Hardeep Anot</h4>
                             <p class="teams_para">3D Animator</p>
-                        </div>
-                        <div class="box team_member">
+                        </div> -->
+                        <!-- <div class="box team_member">
                             <img class="teams_img" src="img/team/heera.png" alt="">
                             <h4 class="teams_text">Heera</h4>
                             <p class="teams_para">3D Modeler</p>
-                        </div>
+                        </div> -->
                         <div class="box team_member">
                             <img class="teams_img fit_img" src="img/team/karan.png" alt="">
                             <h4 class="teams_text">Karan</h4>
@@ -698,26 +699,26 @@
                             <h4 class="teams_text">Vikas</h4>
                             <p class="teams_para">Rigger</p>
                         </div>
-                        <div class="box team_member">
+                        <!-- <div class="box team_member">
                             <img class="teams_img" src="img/team/saurav.png" alt="">
                             <h4 class="teams_text">Sourav</h4>
                             <p class="teams_para">Graphic Designer</p>
-                        </div>
-                        <div class="box team_member">
+                        </div> -->
+                        <!-- <div class="box team_member">
                             <img class="teams_img fit_img" src="img/team/vanishika.png" alt="">
                             <h4 class="teams_text">Vanishika</h4>
                             <p class="teams_para">Unity Developer</p>
-                        </div>
-                        <div class="box team_member">
+                        </div> -->
+                        <!-- <div class="box team_member">
                             <img class="teams_img" src="img/team/manish.png" alt="">
                             <h4 class="teams_text">Manish</h4>
                             <p class="teams_para">Unity Developer</p>
-                        </div>
-                        <div class="box team_member">
+                        </div> -->
+                        <!-- <div class="box team_member">
                             <img class="teams_img" src="img/team/aditiadhau.png" alt="">
                             <h4 class="teams_text">Aditi Adhau</h4>
                             <p class="teams_para">Character Modelling and Texturing</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 
@@ -740,11 +741,11 @@
                             <h4 class="teams_text">Surbhi Gupta</h4>
                             <p class="teams_para">Social Media Specialist</p>
                         </div>
-                        <div class="box team_member">
+                        <!-- <div class="box team_member">
                             <img class="teams_img" src="img/team/Dimpal.jpg" alt="">
                             <h4 class="teams_text">Dimpal</h4>
                             <p class="teams_para">SEO Expert</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 

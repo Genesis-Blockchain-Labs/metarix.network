@@ -2,6 +2,10 @@
     <!-- ======= Hero Section ======= -->
 
 <section class="map_data">
+
+ 
+
+
 <div class="zoom_feature">
 	<a class="map_btn zoom"><i class="fa fa-search-plus"></i></a>
 	<a class="map_btn zoom-out"><i class="fa fa-search-minus"></i></a>

@@ -345,9 +345,9 @@
         setTransform();
       }
     
-    $(window).scroll(function() {
-  var scroll = $(window).scrollTop();
-  $("#imageView").css({
-    width: (100 + scroll/5) + "%"
-  })
-})
+//     $(window).scroll(function() {
+//   var scroll = $(window).scrollTop();
+//   $("#imageView").css({
+//     width: (100 + scroll/5) + "%"
+//   })
+// })
