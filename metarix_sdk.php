@@ -1,3 +1,9 @@
+<?php 
+session_start();
+$message = $_SESSION['message'];
+unset($_SESSION['message']);
+?>
+
 <?php include("includes/header.php"); ?>
   <!-- ======= Hero Section ======= -->
   <section id="contct_header" class="d-flex align-items-center">
@@ -145,10 +151,16 @@
                 <div class="community_items">
                     <h2 class="heading_text">JOIN OUR COMMUNITY</h2>
                     <p class="community_para">"Metarix is a globally operational Metaverse platform to revolutionize the virtual world and provide an interesting and satisfying experience to a huge number of people. Our major purpose as a Metaverse platform is to deliver secure and sustainable solutions to all crypto and NFT fans, artists, and other diverse users. It will be a virtual environment with a wide range of entertainment opportunities, including gaming, art, science, music, culture, fashion, and shopping."</p>
+
                     <div class="commuinty_button">
-                        <form class="form-inline" method="post">
+                        <form action="form/subscribe.php" class="form-inline" method="post">
+                 <?php if(isset($message)){ ?>
+                <div class="alert alert-success" role="alert">
+                    <?php echo $message; ?>
+                </div>
+              <?php } ?>
                             <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
-                            <div class="form-group"><button class="btn btn-primary" type="button">Subscribe </button></div>
+                            <div class="form-group"><button class="btn btn-primary" type="submit">Subscribe </button></div>
                         </form>
                         <!-- <div id="search">
                             <div> <input type="email" class="py-2 pl-2" placeholder="Email Address"> <button class="text-white py-2 px-3">Subscribe <span class="fa fa-long-arrow-right"></span></button> </div>

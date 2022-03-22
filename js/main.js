@@ -285,21 +285,6 @@
     $('.target').css('transform', 'scale(' + zoom + ')');
   });
 
-    var zoom = 1;
-    
-  $('.zoom').on('click', function(){
-    zoom += 0.1;
-    $('.target').css('transform', 'scale(' + zoom + ')');
-  });
-  $('.zoom-init').on('click', function(){
-    zoom = 1;
-    $('.target').css('transform', 'scale(' + zoom + ')');
-  });
-  $('.zoom-out').on('click', function(){
-    zoom -= 0.1;
-    $('.target').css('transform', 'scale(' + zoom + ')');
-  });
-
 
 
  var scale = 1,
@@ -344,10 +329,13 @@
 
         setTransform();
       }
-    
-//     $(window).scroll(function() {
-//   var scroll = $(window).scrollTop();
-//   $("#imageView").css({
-//     width: (100 + scroll/5) + "%"
-//   })
-// })
+
+
+  
+    $("#data").scroll(function() {
+  var scroll = $("#data").scrollTop();
+  $("#imageView").css({
+     width: (100 + scroll/5) + "%"
+  })
+})
+

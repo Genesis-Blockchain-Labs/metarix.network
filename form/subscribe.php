@@ -6,10 +6,10 @@ $mail = new PHPMailer();
 $emailTO = $emailBCC =  $emailCC = array(); $formEmail = '';
 
 ### Enter Your Sitename 
-$sitename = 'Your Site Name';
+$sitename = 'Metarix';
 
 ### Enter your email addresses: @required
-$emailTO[] = array( 'email' => 'email@yoursite.com', 'name' => 'Your Name' ); 
+$emailTO[] = array( 'email' => 'admin@genesisblockchainlabs.com', 'name' => 'admin' ); 
 
 ### Enable bellow parameters & update your BCC email if require.
 //$emailBCC[] = array( 'email' => 'email@yoursite.com', 'name' => 'Your Name' );
@@ -74,6 +74,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST') {
 			### Include Form Fields into Body Message
 			$bodymsg .= isset($cf_email) ? "Subscribe Email: $cf_email<br><br>" : '';
 			$bodymsg .= $_SERVER['HTTP_REFERER'] ? '<br>---<br><br>This email was sent from [ICO]: ' . $_SERVER['HTTP_REFERER'] : '';
+			 
 			
 			// Mailing
 			$mail->MsgHTML( $bodymsg );
@@ -81,6 +82,9 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST') {
 
 			if( $is_emailed === true ) {
 				$response = array ('result' => "success", 'message' => $msg_success);
+				$_SESSION['message'] = "Thank for Subscribe with us!";
+	             header("location:/contact.php");
+
 			} else {
 				$response = array ('result' => "error", 'message' => $mail->ErrorInfo);
 			}
